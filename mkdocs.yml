@@ -1,0 +1,11 @@
+site_name: NEWAGE Quality System Documentation
+nav:
+    - Home: index.md
+    - About: about.md
+    - License: license.md
+    - Accreditation: accred.md
+    - Newest Release: release.md
+    - Last Release: last.md
+    - References: reference.md
+    - QAM: QAM.md
+theme: readthedocs
