@@ -1,19 +1,10 @@
 ---
-documentclass: report
 title: Quality System Manual
-author: NEWAGE Laboratories
-geometry: margin=2cm
-header-includes: |
-    \usepackage{fancyhdr}
-    \pagestyle{fancy}
-    \fancyhead[C]{NAL Quality System Manual}
-    \fancyhead[R]{NEWAGE Labs}
-    \fancyfoot[R]{Revision: 17.d.3}
-    \fancyfoot[L]{Draft Revised: February 8th, 2020}
+summary: The root document for the NAL Quality Management System
+edit_by: Paul VanderWeele
+edit_date: 2020-12-29
+authorized_by: Scott Wall
 ---
-
-\newpage
-
 ## Table of Contents
 
  0. [**Introduction**](#introduction)  
@@ -26,16 +17,16 @@ header-includes: |
 
  4. [**General Requirements**](#general-requirements)  
   [4.1 **Impartiality**](#impartiality)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.1 Laboratory Impartiality](#laboratory-impartiality)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.2 Management Impartiality](#management-impartiality)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.3 Impartiality to Pressure](#impartiality-to-pressure)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.4 Risk Identification](#risk-identification)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.5 Risk Followup Procedure](#risk-followup-procedure)  
+  [4.1.1 Laboratory Impartiality](#laboratory-impartiality)  
+  [4.1.2 Management Impartiality](#management-impartiality)  
+  [4.1.3 Impartiality to Pressure](#impartiality-to-pressure)  
+  [4.1.4 Risk Identification](#risk-identification)  
+  [4.1.5 Risk Followup Procedure](#risk-followup-procedure)  
   [4.2 **Confidentiality**](#confidentiality)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.1 Confidentiality of Information](#confidentiality-of-information)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.2 Release of Information](#release-of-information)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.3 Sourcing of Information](#sourcing-of-information)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.4 Personnel Confidentiality](#personnel-confidentiality)  
+  [4.2.1 Confidentiality of Information](#confidentiality-of-information)  
+  [4.2.2 Release of Information](#release-of-information)  
+  [4.2.3 Sourcing of Information](#sourcing-of-information)  
+  [4.2.4 Personnel Confidentiality](#personnel-confidentiality)  
 
  5. [**Structural Requirements**](#structural-requirements)  
   [5.1 **Legal Entity**](#legal-entity)  
@@ -49,166 +40,166 @@ header-includes: |
 6. [**Resource Requirements**](#resource-requirements)  
   [6.1 **General**](#general)  
   [6.2 **Personnel**](#personnel)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.2.1 **Personnel**](#personnel-2)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.2.2 **Competence Requirements**](#competence-requirements)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.2.3 **Personnel Competence**](#personnel-competence)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.2.4 **Communication of Duties, Responsibilities, and Authorities**](#communication-of-duties-responsibilities-and-authorities)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.2.5 **Personnel Procedures**](#personnel-procedures)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.2.6 **Personnel Authorization**](#personnel-authorization)  
+  [6.2.1 **Personnel**](#personnel-2)  
+  [6.2.2 **Competence Requirements**](#competence-requirements)  
+  [6.2.3 **Personnel Competence**](#personnel-competence)  
+  [6.2.4 **Communication of Duties, Responsibilities, and Authorities**](#communication-of-duties-responsibilities-and-authorities)  
+  [6.2.5 **Personnel Procedures**](#personnel-procedures)  
+  [6.2.6 **Personnel Authorization**](#personnel-authorization)  
   [6.3 **Facilities and Environmental Conditions**](#facilities-and-environmental-conditions)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.3.1 **Suitability of Facilities and Environmental Conditions**](#suitability-of-facilities-and-environmental-conditions)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.3.2 **Documentation of Requirements for Facilities and Environmental Conditions**](#documentation-of-requirements-for-facilities-and-environmental-conditions)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.3.3 **Monitoring, Controlling, and Recording Environmental Conditions**](#monitoring-controlling-and-recording-environmental-conditions)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.3.4 **Measures to Control Facilities**](#measures-to-control-facilities)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.3.5 **Work Performed Outside the Laboratory's Permanent Control**](#work-performed-outside-the-laboratorys-permanent-control)  
+  [6.3.1 **Suitability of Facilities and Environmental Conditions**](#suitability-of-facilities-and-environmental-conditions)  
+  [6.3.2 **Documentation of Requirements for Facilities and Environmental Conditions**](#documentation-of-requirements-for-facilities-and-environmental-conditions)  
+  [6.3.3 **Monitoring, Controlling, and Recording Environmental Conditions**](#monitoring-controlling-and-recording-environmental-conditions)  
+  [6.3.4 **Measures to Control Facilities**](#measures-to-control-facilities)  
+  [6.3.5 **Work Performed Outside the Laboratory's Permanent Control**](#work-performed-outside-the-laboratorys-permanent-control)  
   [6.4 **Equipment**](#equipment)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.1 **Access to Laboratory Equipment**](#access-to-laboratory-equipment)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.2 **Equipment Outside the Laboratory's Permanent Control**](#equipment-outside-the-laboratorys-permanent-control)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.3 **Procedure for Handling, Transport, Storage, Use, and Planned Maintenance of Equipment**](#procedure-for-handling-trandsport-storage-use-and-planned-maintenance-of-equipment)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.4 **Verification of Equipment Prior to Use After Purchase or Maintenance**](#verification-of-equipment-prior-to-use-after-purchase-or-maintenance)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.5 **Equipment Accuracy/Uncertainty**](#equipment-accuracyuncertainty)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.6 **Equipment Calibration**](#equipment-calibration)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.7 **Calibration Program**](#calibration-program)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.8 **Calibration Status**](#calibration-status)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.9 **Out of Service**](#out-of-service)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.10 **Calibration Confirmation**](#calibration-confirmation)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.11 **Correction Factors**](#correction-factors)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.12 **Safeguards**](#safeguards)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.13 **Equipment Records**](#equipment-records)  
+  [6.4.1 **Access to Laboratory Equipment**](#access-to-laboratory-equipment)  
+  [6.4.2 **Equipment Outside the Laboratory's Permanent Control**](#equipment-outside-the-laboratorys-permanent-control)  
+  [6.4.3 **Procedure for Handling, Transport, Storage, Use, and Planned Maintenance of Equipment**](#procedure-for-handling-trandsport-storage-use-and-planned-maintenance-of-equipment)  
+  [6.4.4 **Verification of Equipment Prior to Use After Purchase or Maintenance**](#verification-of-equipment-prior-to-use-after-purchase-or-maintenance)  
+  [6.4.5 **Equipment Accuracy/Uncertainty**](#equipment-accuracyuncertainty)  
+  [6.4.6 **Equipment Calibration**](#equipment-calibration)  
+  [6.4.7 **Calibration Program**](#calibration-program)  
+  [6.4.8 **Calibration Status**](#calibration-status)  
+  [6.4.9 **Out of Service**](#out-of-service)  
+  [6.4.10 **Calibration Confirmation**](#calibration-confirmation)  
+  [6.4.11 **Correction Factors**](#correction-factors)  
+  [6.4.12 **Safeguards**](#safeguards)  
+  [6.4.13 **Equipment Records**](#equipment-records)  
   [6.5 **Metrological Traceability**](#metrological-traceability)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.5.1 **Establishing and Maintaining Metrological Traceability**](#establishing-and-maintaining-metrological-traceability)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.5.2 **Ensuring Measurement Results are Traceable**](#ensuring-measurement-results-are-traceable)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.5.3 **Non-traceability of Reference Standards to SI Units**](#nontraceability-of-reference-standards-to-si-units)  
+  [6.5.1 **Establishing and Maintaining Metrological Traceability**](#establishing-and-maintaining-metrological-traceability)  
+  [6.5.2 **Ensuring Measurement Results are Traceable**](#ensuring-measurement-results-are-traceable)  
+  [6.5.3 **Non-traceability of Reference Standards to SI Units**](#nontraceability-of-reference-standards-to-si-units)  
   [6.6 **Externally Provided Products and Services**](#externally-provided-products-and-services)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.6.1 **Suitability of Externally Provided Products and Services**](#suitability-of-externally-provided-products-and-services)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.6.2 **Purchasing Services and Supplies**](#purchasing-services-and-supplies)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.6.3 **Communicating Requirements to External Providers**](#communicating-requirements-to-external-providers)  
+  [6.6.1 **Suitability of Externally Provided Products and Services**](#suitability-of-externally-provided-products-and-services)  
+  [6.6.2 **Purchasing Services and Supplies**](#purchasing-services-and-supplies)  
+  [6.6.3 **Communicating Requirements to External Providers**](#communicating-requirements-to-external-providers)  
 
 7. [**Process Requirements**](#process-requirements)  
   [7.1 **Review of Requests, Tenders, and Contracts**](#review-of-requests-tenders-and-contracts)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.1 **Procedure**](#procedure)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.2 **Method Requested is Inappropriate or Out of Date**](#method-requested-is-inappropriate-or-out-of-date)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.3 **Statements of Conformity**](#statements-of-conformity)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.4 **Differences and Deviations**](#differences-and-deviations)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.5 **Communicating with the Customer**](#communicating-with-the-customer)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.6 **Amendments to Contracts**](#amendments-to-contracts)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.7 **Customer Service**](#customer-service)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.8 **Records of Review**](#records-of-review)  
+  [7.1.1 **Procedure**](#procedure)  
+  [7.1.2 **Method Requested is Inappropriate or Out of Date**](#method-requested-is-inappropriate-or-out-of-date)  
+  [7.1.3 **Statements of Conformity**](#statements-of-conformity)  
+  [7.1.4 **Differences and Deviations**](#differences-and-deviations)  
+  [7.1.5 **Communicating with the Customer**](#communicating-with-the-customer)  
+  [7.1.6 **Amendments to Contracts**](#amendments-to-contracts)  
+  [7.1.7 **Customer Service**](#customer-service)  
+  [7.1.8 **Records of Review**](#records-of-review)  
   [7.2 **Selection, Verification, and Validation of Methods**](#selection-verification-and-validation-of-methods)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.2.1 Selection and Verification of Methods](#selection-and-verification-of-methods)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.2.1.1*](#section-54)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.2.1.2*](#section-55)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.2.1.3*](#section-56)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.2.1.4*](#section-57)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.2.1.5*](#section-58)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.2.1.6*](#section-59)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.2.1.7*](#section-60)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.2.2 Validation of Methods](#validation-of-methods)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.2.2.1*](#section-61)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.2.2.2*](#section-62)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.2.2.3*](#section-63)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.2.2.4*](#section-64)  
+  [7.2.1 Selection and Verification of Methods](#selection-and-verification-of-methods)  
+  [*7.2.1.1*](#section-54)  
+  [*7.2.1.2*](#section-55)  
+  [*7.2.1.3*](#section-56)  
+  [*7.2.1.4*](#section-57)  
+  [*7.2.1.5*](#section-58)  
+  [*7.2.1.6*](#section-59)  
+  [*7.2.1.7*](#section-60)  
+  [7.2.2 Validation of Methods](#validation-of-methods)  
+  [*7.2.2.1*](#section-61)  
+  [*7.2.2.2*](#section-62)  
+  [*7.2.2.3*](#section-63)  
+  [*7.2.2.4*](#section-64)  
   [7.3 **Sampling**](#sampling)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.3.1](#section-65)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.3.2](#section-66)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.3.3](#section-67)  
+  [7.3.1](#section-65)  
+  [7.3.2](#section-66)  
+  [7.3.3](#section-67)  
   [7.4 **Handling of Test or Calibration Items**](#handling-of-test-or-calibration-items)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.4.1](#section-68)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.4.2](#section-69)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.4.3](#section-70)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.4.4](#section-71)  
+  [7.4.1](#section-68)  
+  [7.4.2](#section-69)  
+  [7.4.3](#section-70)  
+  [7.4.4](#section-71)  
   [7.5 **Technical Records**](#technical-records)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.5.1](#section-72)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.5.2](#section-73)  
+  [7.5.1](#section-72)  
+  [7.5.2](#section-73)  
   [7.6 **Evaluation of Measurement Uncertainty**](#evaluation-of-measurement-uncertainty)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.6.1 **Uncertainty Components**](#uncertainty-components)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.6.2 **Procedure for Calibration Activities**](#procedure-for-calibration-activities)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.6.3 **Procedure for Testing Activities**](#procedure-for-testing-activities)  
+  [7.6.1 **Uncertainty Components**](#uncertainty-components)  
+  [7.6.2 **Procedure for Calibration Activities**](#procedure-for-calibration-activities)  
+  [7.6.3 **Procedure for Testing Activities**](#procedure-for-testing-activities)  
   [7.7 **Ensuring the Validity of Results**](#ensuring-the-validity-of-results)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.7.1 **Quality Control Procedures**](#quality-control-procedures)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.7.2 **Proficiency Testing**](#proficiency-testing)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.7.3 **Defined Criteria**](#defined-criteria)  
+  [7.7.1 **Quality Control Procedures**](#quality-control-procedures)  
+  [7.7.2 **Proficiency Testing**](#proficiency-testing)  
+  [7.7.3 **Defined Criteria**](#defined-criteria)  
   [7.8 **Reporting of Results**](#reporting-of-results)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.8.1 General](#general-1)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.1.1*](#section-80)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.1.2*](#section-81)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.1.3*](#section-82)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.8.2 Common Requirements for Reports (Test, Calibration, or Sampling)](#common-requirements-for-reports-test-calibration-or-sampling)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.2.1*](#section-83)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.2.2*](#section-84)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.8.3 Specific Requirements for Test Reports](#specific-requirements-for-test-reports)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.3.1*](#section-85)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.3.2*](#section-86)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.8.4 Specific Requirements for Calibration Certificates](#specific-requirements-for-calibration-certificates)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.4.1*](#section-87)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.4.2*](#section-88)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.4.3*](#section-89)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.8.5 Reporting Sampling - Specific Requirements](#reporting-sampling-specific-requirements)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.8.6 Reporting Statements of Conformity](#reporting-statements-of-conformity)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.6.1*](#section-90)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.6.2*](#section-91)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.8.7 Reporting Opinions and Interpretations](#reporting-opinions-and-interpretations)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.7.1*](#section-92)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.7.2*](#section-93)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.7.3*](#section-94)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.8.8 Amendments to Reports](#amendments-to-reports)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.8.1*](#section-95)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.8.2*](#section-96)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[*7.8.8.3*](#section-97)  
+  [7.8.1 General](#general-1)  
+  [*7.8.1.1*](#section-80)  
+  [*7.8.1.2*](#section-81)  
+  [*7.8.1.3*](#section-82)  
+  [7.8.2 Common Requirements for Reports (Test, Calibration, or Sampling)](#common-requirements-for-reports-test-calibration-or-sampling)  
+  [*7.8.2.1*](#section-83)  
+  [*7.8.2.2*](#section-84)  
+  [7.8.3 Specific Requirements for Test Reports](#specific-requirements-for-test-reports)  
+  [*7.8.3.1*](#section-85)  
+  [*7.8.3.2*](#section-86)  
+  [7.8.4 Specific Requirements for Calibration Certificates](#specific-requirements-for-calibration-certificates)  
+  [*7.8.4.1*](#section-87)  
+  [*7.8.4.2*](#section-88)  
+  [*7.8.4.3*](#section-89)  
+  [7.8.5 Reporting Sampling - Specific Requirements](#reporting-sampling-specific-requirements)  
+  [7.8.6 Reporting Statements of Conformity](#reporting-statements-of-conformity)  
+  [*7.8.6.1*](#section-90)  
+  [*7.8.6.2*](#section-91)  
+  [7.8.7 Reporting Opinions and Interpretations](#reporting-opinions-and-interpretations)  
+  [*7.8.7.1*](#section-92)  
+  [*7.8.7.2*](#section-93)  
+  [*7.8.7.3*](#section-94)  
+  [7.8.8 Amendments to Reports](#amendments-to-reports)  
+  [*7.8.8.1*](#section-95)  
+  [*7.8.8.2*](#section-96)  
+  [*7.8.8.3*](#section-97)  
   [7.9 **Complaints**](#complaints)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.9.1](#section-98)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.9.2](#section-99)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.9.3](#section-100)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.9.4](#section-101)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.9.5](#section-102)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.9.6](#section-103)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.9.7](#section-104)  
+  [7.9.1](#section-98)  
+  [7.9.2](#section-99)  
+  [7.9.3](#section-100)  
+  [7.9.4](#section-101)  
+  [7.9.5](#section-102)  
+  [7.9.6](#section-103)  
+  [7.9.7](#section-104)  
   [7.10 **Nonconforming Work**](#nonconforming-work)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.10.1](#section-105)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.10.2](#section-106)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.10.3](#section-107)  
+  [7.10.1](#section-105)  
+  [7.10.2](#section-106)  
+  [7.10.3](#section-107)  
   [7.11 **Control of Data and Information Management**](#control-of-data-and-information-management)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.11.1](#section-108)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.11.2](#section-109)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.11.3](#section-110)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.11.4](#section-111)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.11.5](#section-112)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.11.6](#section-113)
+  [7.11.1](#section-108)  
+  [7.11.2](#section-109)  
+  [7.11.3](#section-110)  
+  [7.11.4](#section-111)  
+  [7.11.5](#section-112)  
+  [7.11.6](#section-113)
 
 8. [**Management System Requirements**](#management-system-requirements)  
   [8.1 **Complaints**](#complaints-1)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.1.1 General](#general-2)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.1.2 Option A](#option-a)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.1.3 Option B](#option-b)  
+  [8.1.1 General](#general-2)  
+  [8.1.2 Option A](#option-a)  
+  [8.1.3 Option B](#option-b)  
   [8.2 **Management System Documentation (Option A)**](#management-system-documentation-option-a)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.2.2](#section-114)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.2.3](#section-115)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.2.4](#section-116)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.2.5](#section-117)  
+  [8.2.2](#section-114)  
+  [8.2.3](#section-115)  
+  [8.2.4](#section-116)  
+  [8.2.5](#section-117)  
   [8.3 **Control of Management System Documents**](#control-of-management-system-documents)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.3.1](#section-118)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.3.2](#section-119)  
+  [8.3.1](#section-118)  
+  [8.3.2](#section-119)  
   [8.4 **Control of Records (Option A)**](#control-of-records-option-a)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.4.1](#section-120)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.4.2](#section-121)  
+  [8.4.1](#section-120)  
+  [8.4.2](#section-121)  
   [8.5 **Actions to Address Risks and Opportunities (Option A)**](#actions-to-address-risks-and-opportunities-option-a)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.5.1](#section-122)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.5.2](#section-123)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.5.3](#section-124)  
+  [8.5.1](#section-122)  
+  [8.5.2](#section-123)  
+  [8.5.3](#section-124)  
   [8.6 **Improvement (Option A)**](#improvement-option-a)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.6.1](#section-125)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.6.2](#section-126)  
+  [8.6.1](#section-125)  
+  [8.6.2](#section-126)  
   [8.7 **Corrective Actions (Option A)**](#corrective-actions-option-a)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.7.1](#section-127)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.7.2](#section-128)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.7.3](#section-129)  
+  [8.7.1](#section-127)  
+  [8.7.2](#section-128)  
+  [8.7.3](#section-129)  
   [8.8 **Internal Audits (Option A)**](#internal-audits-option-a)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.8.1](#section-130)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.8.2](#section-131)  
+  [8.8.1](#section-130)  
+  [8.8.2](#section-131)  
   [8.9 **Management Reviews (Option A)**](#management-reviews-option-a)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.9.1](#section-132)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.9.2](#section-133)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.9.3](#section-134)  
+  [8.9.1](#section-132)  
+  [8.9.2](#section-133)  
+  [8.9.3](#section-134)  
 
 \newpage
 
@@ -252,7 +243,7 @@ This Quality System Manual facilitates:
 * Recognition of technical competence for standardized methods, non-routine methods, and laboratory-developed methods we perform
 * Inspection and product certification capabilities and/or services we provide
 * Total quality for our administrative and technical systems
-* Audits by clients, regulatory authorities and accreditation bodies
+* Audits by clients, regulatory authorities, and accreditation bodies
 * Meeting the requirements of ISO/IEC 17025:2017, AOAC International Guidelines for Laboratories Performing Microbiological and Chemical Analysis of Food and Pharmaceuticals – Revision March 2010, and NELAC: 2009 and ISO 9001
 * Client satisfaction
 
@@ -279,9 +270,9 @@ The [Quality Management Team](#quality-management-team) maintains a distribution
 
 ###### Controlled Copies ######
 
-> Official controlled copy can be found on our Github Repository at: <https://github.com/NEWAGE-Labs/Quality-System>
-> Only the master branch and clones are considered controlled.
-> All printed copies are uncontrolled.  
+> Official controlled copy can be found on our local Quality System Git Repository.
+> Only the origin master branch and fetching clones are considered controlled.
+> All printed copies are uncontrolled.
 
 ###### Revision History ######
 
@@ -478,15 +469,21 @@ HPLC.
 ##### Practical Quantification Limit (PQL) #####
 >The lowest level that can be reliably achieved within specified limits of precision and accuracy during routine laboratory operating conditions.
 
+##### Reference Material #####
+>A reference material is a homogeneous and well characterized substance used for standardization of equipment used in the testing process. Reference materials are traceable to national or international standard reference materials (SRMs), such as National Institute of Standards and Technology (NIST), or certified reference materials (CRMs) from competent suppliers of reference materials.
+
 ##### Quality Management System #####
->The collective quality management system of the laboratory including documents, procedures, and LIMS components used for the implementation of an ISO/IEC 17025 and NELAC accredited system.
+>The collection of parts of the laboratory including, but not limited to, this manual, documents, records, procedures, and all LIMS components used for the implementation of a system compliant with ISO/IEC 17025, NELAC, and our company mission.
 
 ##### Quality Management Team #####
->The group of laboratory management responsible for oversight and implementation of this Quality System Manual and the quality management system. This group consists of the:  
+>The group of laboratory management responsible for oversight and implementation of the Quality Management System. This group consists of the:  
 > * President  
 > * VP Laboratory Operations  
 > * Executive Assistant  
 > * IT Director  
+
+##### Quality System Procedures #####
+>The collection of documented procedures required for accurate and complete implementation of the Quality Management System. These procedures are maintained and reviewed for accuracy and completeness. Procedures found to be inaccurate or incomplete must be addressed with an immediate corrective action.
 
 ##### Quality System Records #####
 >The collection of paper documents, electronic files, raw data, and data structures that record laboratory operations. These records are maintained and reviewed for accuracy and completeness. Records found to be inaccurate or incomplete must be addressed with an immediate corrective action.
@@ -537,7 +534,7 @@ HPLC.
 >A portion taken from a sample. A laboratory sample may be a sub-sample of a gross sample; similarly, test portion may be a sub-sample of a laboratory sample.
 
 ##### Surrogate #####
->Compounds that are added to every blank, sample, laboratory control spike, laboratory control spike duplicate, matrix spike, and matrix spike duplicate. They are used to evaluate analytical efficiency by measuring recovery. Surrogates include brominated, flouorinated or isotopically labeled compounds that are not expected to be detected in environmental samples.
+>Compounds that are added to every blank, sample, laboratory control spike, laboratory control spike duplicate, matrix spike, and matrix spike duplicate. They are used to evaluate analytical efficiency by measuring recovery. Surrogates include brominated, fluorinated, or isotopically labeled compounds that are not expected to be detected in environmental samples.
 
 ##### Target Compounds #####
 >Specific compounds that are to be quantified in a sample. Target compound lists are based upon client needs and scope of work.
@@ -563,9 +560,11 @@ Laboratory activities shall be undertaken impartially and are structured and man
 
 #### 4.1.2 Management Impartiality ####
 
-The laboratory's [quality management team](#quality-management-team) shall be committed to impartiality. They are responsible for designing the [quality management system](#quality-management-system) to effectively ensure impartiality of laboratory activity by all management and personnel. Laboratory management is responsible for the communication and training of employees on impartially including the policy, details, and consequences. Employees will be made aware of the need for impartiality, and any conflicts of interest or concerns shall be brought to the attention of the employee’s direct supervisor immediately.
+The laboratory's [quality management team](#quality-management-team) shall be committed to impartiality. They are responsible for designing the [quality management system](#quality-management-system) to effectively ensure impartiality of laboratory activity by all management, personnel, and external providers. Laboratory management is responsible for the communication and training of employees on impartially including the policy, details, and consequences. Employees will be made aware of the need for impartiality, and any conflicts of interest or concerns shall be brought to the attention of the employee’s direct supervisor immediately.
 
-*See Records: QSL-4.1*
+*Related documents:*
+*QSP - Conflict of Interest, Impartiality, and Confidentiality*
+*QSL 4.x - Log of Employees whom have signed QSP - Conflict of Interest, Impartiality, and Confidentiality*
 
 #### 4.1.3 Impartiality to Pressure ####
 
@@ -616,7 +615,9 @@ Information about the customer obtained from sources other than the customer (e.
 
 Personnel, including any contractors, samplers, distributors, other employees of external bodies, or individuals acting on the laboratory's behalf, shall keep confidential all information obtained or created during the performance of laboratory activities, except as required by law.
 
-*See Document: Employee Confidentiality Statement*
+*Related documents:*
+*QSP 4.x - Conflict of Interest, Impartiality, and Confidentiality*
+*QSL 4.x - Log of Employees whom have signed QSP 4.x*
 
 ## 5 Structural Requirements ##
 
@@ -626,12 +627,12 @@ New Age/Landmark, Inc. (**DBA** *NEW AGE Laboratories*)
 160 Veterans Blvd.  
 South Haven, MI 49090  
 <https://www.newagelaboratories.com>  
-(888) 215-6788  
 (269) 637-5664
+(888) 215-6788  
 
 ### 5.2 Management Responsible for Laboratory ###
 
-The [quality management team](#quality-management-team) has overall responsibility for the laboratory, with the lab's [President](#management-structure) as the chair of the team.
+The [Quality Management Team](#quality-management-team) has overall responsibility for the laboratory, with the lab's [President](#management-structure) as the chair of the team.
 
 Additional details about the responsibilities of management are outline in their role descriptions. See [**Section 5.5 - Laboratory Organizational Structure and Procedures**](#laboratory-organizational-structure-and-procedures).
 
@@ -648,7 +649,7 @@ The laboratory work units of New Age/Landmark (NAL) have been organized to satis
     * Agronomy Testing
 * Microbiology
 
-The [**quality management system**](#quality-management-system) covers activities in all of NAL’s laboratory’s including:
+The [**Quality Management System**](#quality-management-system) covers activities in all of NAL’s laboratory’s including:
 
 * Corporate Headquarters, 160 Veterans Blvd., South Haven, MI
 * Mobile Laboratory units
@@ -671,17 +672,15 @@ The laboratory’s scope of tests is listed in the corporate offices at 160 Vete
 
 ### 5.4 Laboratory Requirements ###
 
-The laboratory, including all permanent, temporary, mobile, and client locations, performs chemical and microbiological testing services to meet, at minimum, the requirements of this document, ISO/IEC 17025, NELAC 2009, and our clients.
+The laboratory, including all permanent, temporary, mobile, and client locations, performs chemical and microbiological testing services to meet, at minimum, the requirements of this document, ISO/IEC 17025-2017, NELAC 2009, and our clients.
 
-\newpage
 ### 5.5 Laboratory Organizational Structure and Procedures ###
 
 ##### (a) #####
 
 The organization and management structure of the laboratory, and the relationships between management, technical operations, support services, and the quality management system is defined through the aid of an organizational chart. The quality management team keeps the most current organizational chart on file. An organizational chart is available with this manual as a reference record and is considered the official record on the date it is marked.
 
-<!--![organization chart](ORGCHART072020a.jpg)-->
-\newpage
+![organization chart](ORGCHART072020a.jpg)
 
 ##### (b) #####
 ###### President/CEO ######
@@ -795,19 +794,19 @@ Additional details regarding the documentation used to fulfil the manual can be 
 
 ### 5.6 Personnel Responsibility and Authority ###
 
-Authorities and responsibilities of personnel are outlined in their job role description. Additional authority or responsibility necessary to laboratory functions outside the defined role may be given verbally for specific laboratory needs.  See [**Section 5.5 *Employee Structure* part (b)**](#b) for a list of defined authorities and responsibilities for each employee role.
+Authorities and responsibilities of personnel are outlined in their job role description. Additional authority or responsibility necessary to laboratory functions outside the defined role may be given verbally for specific laboratory needs. See [**Section 5.5 *Employee Structure* part (b)**](#b) for a list of defined authorities and responsibilities for each employee role.
 
 ### 5.7 Communication and Integrity of the Management System ###
 
 ##### (a) #####
 
-The quality management team will meet *at least twice annually* to discuss the effectiveness of the management system, meeting customer needs, and complying with external authorities.
+The Quality Management Team will meet *at least twice annually* to discuss the effectiveness of the management system, meeting customer needs, and complying with external authorities.
 
 ##### (b) #####
 
-The quality management team will ensure that the integrity of the quality management system is maintained when changes to the system happen. Any departures from the quality management system will be documented, and action will be taken to correct and prevent it from happening again.
+The Quality Management Team will ensure that the integrity of the quality management system is maintained when changes to the system happen. Major changes, such as transitions between accreditation standards, may be documented in a consolidated way. When a consolidated form of documentation is used, all changes made between quality systems revisions must be available for retrieval for the minimum retention period of records, and all laboratory activities still must operate according to the quality system in place during the date and time of the operation.
 
-Additional details regarding the actions taken and documentation generated in response to quality management system departures can be found in [**Section 8.7 *Corrective Actions***](#corrective-actions)
+Any departures from the quality management system will be documented, and action will be taken to correct and prevent it from happening again. Additional details regarding the actions taken and documentation generated in response to Quality Management System departures can be found in [**Section 8.7 *Corrective Actions***](#corrective-actions)
 
 ## 6 Resource Requirements ##
 
@@ -818,42 +817,43 @@ The laboratory has available the personnel, facilities, equipment, systems, and 
 * Quality System Procedure - Personnel
 * Quality System Procedure - Facilities and Environmental Conditions
 * Quality System Procedure - Equipment
-* Quality System Procedure - Methods, Method Verification, and Method Validation
+* Quality System Procedure - Measurement Uncertainty
 * Quality System Procedure - Metrological Traceability
+* Quality System Procedure - LIMS
 * Quality System Procedure - Purchasing and Receipt
+* Quality System Procedure - Document Control and Management
+* Quality System Procedure - Methods
+* Quality System Procedure - Contract Review
+* Quality System Procedure - Sampling
 
 ### 6.2 Personnel ###
 
 #### 6.2.1 Personnel ####
 
-The quality management team ensures the competency, impartiality, and compliance of all specific equipment operators, managers, those performing tests and/or calibrations, those evaluating results, taking samples, and signing test reports. Appropriate supervision is provided for employees undergoing training. Personnel performing specific tasks are qualified on the basis of appropriate education, training, experience and/or demonstrated skills, as required.
+The quality management team ensures the competency, impartiality, and compliance of all specific equipment operators, managers, those performing tests and/or calibrations, those evaluating results, taking samples, and signing test reports. Appropriate supervision is provided for employees undergoing training. Internal personnel performing specific tasks, are qualified on the basis of appropriate education, training, experience and/or demonstrated skills, as required. External personnel are considered qualified based on the specifics of the task and the evaluation of their laboratory services.
 
 #### 6.2.2 Competence Requirements ####
 
-The competence requirement for each laboratory function is detailed in the referenced document:
-
-*Quality System Document - Task Competency Chart*
-
-<!-- Need Requirements-Tree -->
+The competence requirement for each laboratory function is detailed in the *Quality System Document - Task Competencies*
 
 #### 6.2.3 Personnel Competence ####
 
-The quality management team authorizes specific personnel to perform particular types of sampling, test and/or calibrations, to issue test reports, to give opinions and interpretations, and to operate particular types of equipment. Records of the training, skills, and experience of all technical personnel and contracted personnel are maintained.
+The Quality Management Team authorizes specific personnel to perform particular types of sampling, test and/or calibrations, to issue test reports, to give opinions and interpretations, and to operate particular types of equipment. Records of the training, skills, and experience of all technical personnel and contracted personnel are maintained. Additional information about the procedures and records relating to personnel competence can be found in the *Quality System Procedure - Personnel*.
 
 #### 6.2.4 Communication of Duties, Responsibilities, and Authorities ####
 
-The quality management team communicates duties, responsibilities, and authorities to laboratory personnel. This is done through the use of job descriptions, but is also extended by quality system training and specific tasks assigned by management.
+The Quality Management Team communicates duties, responsibilities, and authorities to laboratory personnel. This is done through the use of job descriptions, but is also extended by quality system training and specific tasks assigned by management.
 
 #### 6.2.5 Personnel Procedures ####
 
-Procedures for personnel can be found in the referenced document *Quality System Procedure - Personnel*. This document includes the procedures and record maintenance of:
+Procedures for personnel can be found in the *Quality System Procedure - Personnel*. This document includes the procedures and recording steps for:
 
--determining competence requirements
--selecting personnel
--training personnel
--supervision of personnel
--authorization of personnel
--monitoring competence of personnel
+- Determining competence requirements
+- Selecting personnel
+- Training personnel
+- Supervision of personnel
+- Authorization of personnel
+- Monitoring competence of personnel
 
 #### 6.2.6 Personnel Authorization ####
 
@@ -861,72 +861,61 @@ Procedures for personnel can be found in the referenced document *Quality System
 The President and VP of Laboratory Operations are authorized to develop, modify, verify, and validate methods.
 
 ###### (b) ######
-The President, VP of Laboratory Operations, Technicians, and Scientists have authority to analyze results, including statements of conformity, opinions, or interpretations.
+The President, VP of Laboratory Operations, IT Director, Technicians, and Scientists have authority to analyze results, including statements of conformity, opinions, or interpretations.
 
 ###### (c) ######
-The President, VP of Laboratory Operations, IT Director, Head of Human Resources, Technicians, and Scientists have authority to report, review, and authorize results.
+The President, VP of Laboratory Operations, IT Director, Head of Human Resources, Technicians, and Scientists have authority to review, authorize, and report results.
 
 ### 6.3 Facilities and Environmental Conditions ###
 
 #### 6.3.1 Suitability of Facilities and Environmental Conditions ####
 
-Laboratory facilities are appropriate to attain correct performance of tests and/or
-calibrations. This may include, but not limited to, energy sources, lighting, heating,
-ventilation and any other environmental conditions.
+Laboratory facilities are appropriate to attain correct performance of tests, calibrations, and other procedures. This includes at minimum the energy sources, lighting, heating, and ventilation, but can include any environmental conditions.
 
 #### 6.3.2 Documentation of Requirements for Facilities and Environmental Conditions ####
 
-The technical requirements for accommodation and environmental conditions that
-can affect the results of tests and calibrations are documented in the referenced document:  
-
-*Quality System Procedure - Facilities and Environmental Conditions*  
-
-<!-- Do we want to just write the procedure here? -->
+The requirements to accommodate environmental conditions that are suitable for tests, calibrations, and other procedures are documented in the *Quality System Procedure - Facilities and Environmental Conditions*.
 
 #### 6.3.3 Monitoring, Controlling, and Recording Environmental Conditions ####
 
 Critical environmental conditions are monitored, controlled, and recorded as required by
 the relevant specifications, methods, and procedures or where they may influence the
-quality of the results. Due attention is paid, for example, to biological sterility, dust, air
+quality of the results. Due attention is paid to biological sterility, dust, air
 quality, humidity, electrical supply, and temperature, as appropriate to the technical
 activities concerned. Tests and calibrations are stopped when the environmental conditions
 jeopardize the results of the tests and/or calibrations.
 
 #### 6.3.4 Measures to Control Facilities ####
 
-The measures and procedures used to monitor, control, and record environmental conditions are outlined in the referenced document:  
-
-*Quality System Procedure - Facilities and Environmental Conditions*  
-
-<!-- Do we want to just write the procedure here? -->
+The measures used to implement, monitor, control, and record environmental conditions are outlined in the *Quality System Procedure - Facilities and Environmental Conditions*  
 
 #### 6.3.5 Work Performed Outside the Laboratory's Permanent Control ####
 
-Particular care is taken when sampling, tests, or calibrations are undertaken at sites other than a permanent laboratory facility.
+Particular care is taken when tests, sampling, calibrations, or other procedures are undertaken at sites other than those listed in **Section 5.3 - Scope of Accredited Laboratory Activities**.
 
 ### 6.4 Equipment ###
 
 #### 6.4.1 Access to Laboratory Equipment ####
 
-The laboratory is furnished with all items for sampling, measurement and test equipment required for the correct performance of the tests and/or calibrations (including sampling, preparation of test and/or calibration items, processing and analysis of test and/or calibration data).
+The laboratory is furnished with all required items necessary for the correct performance of testing; sampling; calibrations; measurements; preparation of test, calibration, or sampling items; and processing of test, calibration, and sampling data. This includes any measuring instruments, software, standards, certified reference materials, reference data, reagents, consumables, or other apparatuses required by an activity.
 
 #### 6.4.2 Equipment Outside the Laboratory's Permanent Control ####
 
-When equipment is used outside the laboratory’s permanent control, it ensures that the requirements of this Quality Manual are met.
+When equipment is used outside the laboratory’s permanent control, it ensures that the requirements of the Quality Management System are met.
 
 #### 6.4.3 Procedure for Handling, Transport, Storage, Use, and Planned Maintenance of Equipment ####
 
-The referenced document *Quality System Procedure - Equipment* is utilized as an established plan for safe handling, transport, storage, use and maintenance (including calibration) of measuring equipment, and appropriate use of correction factors to ensure proper functioning and in order to prevent contamination or deterioration.
+The referenced document *Quality System Procedure - Equipment* is utilized as an established plan for equipment to ensure proper functioning and to prevent contamination or deterioration. It includes procedures for the appropriate use of correction factors and the safe handling, transport, storage, use, and maintenance (including calibration) of measuring equipment.
 
 #### 6.4.4 Verification of Equipment Prior to Use After Purchase or Maintenance ####
 
-The equipment performance is verified, and verification records are maintained. Equipment is to meet the laboratory's testing parameters and conform to standard specifications before being placed or returned into service.
+Before being place or return into service, equipment is verified to conform to the laboratory's testing parameters and standard specifications. Records of verification are maintained.
 
 #### 6.4.5 Equipment Accuracy/Uncertainty ####
 
 Equipment and its software used for testing are to achieve the accuracy expected, measurement uncertainty required, and comply with specifications of the testing concerned.
 
-<!-- Measurement uncertainty contributions are addressed in the referenced document *Quality System Procedure - Measurement Uncertainty* -->
+Measurement uncertainty contributions are addressed in the referenced document *Quality System Procedure - Measurement Uncertainty*
 
 #### 6.4.6 Equipment Calibration ####
 
@@ -940,50 +929,49 @@ The equipment calibration program is defined in referenced documents *Quality Sy
 
 #### 6.4.8 Calibration Status ####
 
-Equipment under the control of the laboratory and requiring calibration, or having a defined period of validity, is labeled or coded to indicate the calibration status or period of validity. Alternatively, equipment calibration status may be identified in an associated record to indicate the status of calibration.
+Equipment under the control of the laboratory and requiring calibration, or having a defined period of validity, is labeled or coded to indicate the calibration status or period of validity. Alternatively, equipment calibration status may be identified in an associated record (such as an electronic record within the LIMS) to indicate the status of calibration.
 
 ![Calibration Tag](calibration_tag.png)
 
-Measuring equipment that has failed calibration or is deemed out of service is labeled with one of the following labels:
+Measuring equipment that has failed calibration or is deemed out of service is labeled with one of the following labels, or an appropriate electronic indicator:
 
 ![Calibration Void](calibration_void.png)   ![Calibration Out of Service](calibration_out_of_service.png)  
 
-A piece of equipment that is not calibrated or checked is labeled with the following label:
+A piece of equipment that is not calibrated or checked is labeled with the following label or a suitable electronic alternative:
 
 ![Calibration For Reference Only](calibration_for_reference_only.png)  
 
-Calibration labels have a write-on surface and a pressure sensitive adhesive. The areas that are filled out include the person who performed the calibration, the date it was performed, the date it is due for re-calibration, and the equipment’s identification number.
+Calibration labels have a write-on surface and a pressure sensitive adhesive. The areas that are filled out include the person who performed the calibration, the date it was performed, the date it is due for re-calibration, and the equipment’s identification number. Electronic records are maintained by authorized  personnel, and available to everyone performing tasks involving the equipment.
 
 #### 6.4.9 Out of Service ####
 
-Equipment that has either been subjected to overloading or mishandling, or gives suspect results, or has been shown to be defective or outside specified limits, is taken out of service, clearly marked, and appropriately stored until it has been repaired and shown by calibration or test to perform correctly.
+Equipment that has been subjected to overloading or mishandling, gives suspect results, or has been shown to be defective or outside specified limits is taken out of service, clearly marked, and appropriately stored until it has been repaired and shown by calibration or test to perform correctly.
 
-The laboratory examines the effect of the defect or departure from specified limits on previous test and/or calibrations and institutes the “Control of Nonconforming Work” procedure as outlined in [**Section 7.10 - Nonconforming Work.**](#nonconforming_work)
+The laboratory examines the effect of the defect or departure from specified limits on previous tests, sampling, or calibrations, and consequently institutes the “Control of Nonconforming Work” procedure as outlined in [**Section 7.10 - Nonconforming Work.**](#nonconforming_work).
 
 #### 6.4.10 Calibration Confirmation ####
 
-When intermediate checks are needed to maintain confidence in the calibration status of equipment, these checks are carried out periodically according to defined procedure. The procedures to periodically check each piece of equipment are outlined along with their calibration procedure.
+When intermediate checks are needed to maintain confidence in the calibration status of equipment, these checks are carried out periodically according to procedures in the *Quality System Procedure - Equipment*.
 
 #### 6.4.11 Correction Factors ####
 
-Where calibrations give rise to a set of correction factors, these factors are updated and implemented to meet specified requirements.
+Where calibrations or reference material data include reference values or correction factors, these are implemented in accordance with specified requirements. Additional details on the updating and implementation of correction factors can be found in the *Quality System Procedure - Equipment*.
 
 #### 6.4.12 Safeguards ####
 
-Test and calibration equipment, including both hardware and software, are safeguarded from adjustments that would invalidate the test or calibration results. Safeguards are provided by controlling access to laboratory equipment, and using password protected software in a controlled network.
+Test and calibration equipment, including both hardware and software, are safeguarded from adjustments that would invalidate the test or calibration results. Safeguards are provided by controlling access to laboratory equipment, and using password protected software in a controlled network. Additional information on the controlled network can be found in the *Quality System Procedure - LIMS*.
 
 #### 6.4.13 Equipment Records ####
 
 Records shall be retained for equipment which can influence laboratory activities. The records include the following:
 
 * Identity of the item of equipment (including software and firmware).  
-* Manufacturer’s name, type identification, and serial number or other unique
-identification.  
+* Manufacturer’s name, type identification, serial number, or other unique identifier.  
 * Evidence that equipment complies with the specified requirements (see [**Section 6.4.4 *Verification of Equipment Prior to Use After Purchase or Maintenance***. ](#verification_of_equipment_prior_to_use_after_purchase_or_maintenance))
 * Current location  
 * Calibration dates, results of calibration, adjustments, acceptance criteria, and the due date of the next calibration (or calibration interval).  
 * Documentation of reference materials, results, acceptance criteria, relevant dates, and the period of validity.  
-* The maintenance plan and maintenance carried out to date, where relevant to the performance of the equipment.  
+* The maintenance plan and maintenance carried out to date where relevant to the performance of the equipment.  
 * Details of any damage, malfunction, modification, or repair of the equipment.  
 
 ### 6.5 Metrological Traceability ####
@@ -992,75 +980,59 @@ identification.
 
 The program for calibration of equipment demands that calibrations and measurements made by the laboratory are traceable to the International System of Units.
 
-Calibration laboratories providing services to the laboratory are to provide evidence of measurement traceability of its own measurement standards and measuring instrument to the SI. This is done by means of an unbroken chain of calibration or comparisons linking them to primary standards of the SI units of measurement. Such primary standards are those used by national measurement standards.  
+Calibration laboratories providing services to the laboratory are to provide evidence of measurement traceability of their own measurement standards and measuring instrument to the SI. This is done by means of an unbroken chain of calibration or comparisons linking them to primary standards of the SI units of measurement. Such primary standards are those used by national measurement standards.  
 
-Calibration certificates issued by calibration laboratories are to include the measurement results, including the measurement uncertainty and a statement of conformance with an identified metrological specification.
+Calibration certificates issued by calibration laboratories are to include the measurement results, including the measurement uncertainty and a statement of conformance with an identified metrological specification. Additional information on how measurement uncertainty is determined from each contributing measurement can be found in the *Quality System Procedure - Measurement Uncertainty*.
 
 #### 6.5.2 Ensuring Measurement Results are Traceable ####
 
-###### (a) ######
+Information about traceability to the International System of Units (SI) can be found in the *Quality System Procedure - Metrological Traceability*.
 
-Calibration laboratories providing services to the laboratory are to provide documentation demonstrating measurement capability and competence to perform the calibration services requested by the laboratory.
+<!--###### (a) ######
+
+Calibration laboratories providing services to the laboratory are to provide documentation demonstrating measurement capability and competence to perform the calibration services requested by the laboratory. ISO 17025:2017 accredited laboratories are assumed to be competent.
 
 ###### (b) ######
 
-A reference material is a homogeneous and well characterized substance used for standardization of equipment used in the testing process. Reference materials are traceable to national or international standard reference materials (SRMs), such as National Institute of Standards and Technology (NIST), or certified reference materials (CRMs) from competent suppliers of reference materials.
-
-The measurement integrity of internal reference materials generated by the laboratory is evaluated against either standard reference materials or certified reference materials from an independent source when it is technically and economically possible.
+The measurement integrity of internal reference materials generated by the laboratory is evaluated against either standard reference materials or certified reference materials from an independent source when it is technically and economically possible. If an internal reference material is not used, a certified reference material from a competent producer with stated metrological traceability to the SI is used. ISO 17034 accredited producers are assumed to be competent.
 
 ###### (c) ######
 
-The measurement traceability to SI units may be achieved by measurements related to national measurement standards. National measurement standards may be used as primary standards that are primary realizations of the SI units or agreed representations of SI units. National measurement standards based on fundamental physical constants, or standards calibrated by another national metrological institute may be use as primary standards.
+The measurement traceability to SI units may be achieved by measurements related to national measurement standards. National measurement standards may be used as primary standards that are primary realizations of the SI units or agreed representations of SI units. National measurement standards based on fundamental physical constants, or standards calibrated by another national metrological institute may be use as primary standards.-->
 
 #### 6.5.3 Non-traceability of Reference Standards to SI Units ####
 
-Calibrations that cannot provide strict measurement traceability to SI units are conducted such that the calibration results can provide confidence in the measurements made in the course of the analyses. Traceability alternatives to SI units are described in the referenced document *Quality System Procedure - Metrological Traceability*.
+Calibrations that cannot provide strict measurement traceability to SI units are conducted such that the calibration results can provide confidence in the measurements made in the course of the analyses. Traceability alternatives to SI units are described in the *Quality System Procedure - Metrological Traceability*.
 
 ### 6.6 Externally Provided Products and Services ####
 
 #### 6.6.1 Suitability of Externally Provided Products and Services ####
 
-The laboratory ensures that only suitable externally provided products and services that affect laboratory activities are used when they are intended for incorporation into the laboratory’s activities, provided directly to the customer, or used to support the operation of the laboratory.
+The laboratory ensures that only suitable externally provided products and services that affect laboratory activities are used when they are intended for incorporation into the laboratory’s activities, provided directly to the customer, or used to support the operation of the laboratory. Procedures and additional information on the suitability of external products/services can be found in the *Quality System Procedure - Purchasing and Receipt*.
 
 #### 6.6.2 Purchasing Services and Supplies ####
 
-The laboratory has procedures and retains records for:
+The *Quality System Procedure - Purchasing and Receipt* describes procedures and retention of records for:
 
-###### (a) ######
+**(a)** Defining, reviewing, and approving the lab's requirements for externally provided products and services.
 
-Defining, reviewing, and approving the lab's requirements for externally provided products and services.
+**(b)** Defining the criteria for evaluation, selection, monitoring of performance, and re-evaluation of the external providers
 
-###### (b) ######
+**(c)** Ensuring that externally provided products and services conform to the laboratory's established requirements, or when applicable, to the relevant requirements of this document, before they are used or directly provided to the customer.
 
-Defining the criteria for evaluation, selection, monitoring of performance, and re-evaluation of the external providers
-
-###### (c) ######
-
-Ensuring that externally provided products and services conform to the laboratory's established requirements, or when applicable, to the relevant requirements of this document, before they are used or directly provided to the customer.
-
-###### (d) ######
-
-Taking any actions arising from evaluations, monitoring of performance, and re-evaluations of the external providers.
+**(d)** Taking any actions arising from evaluations, monitoring of performance, and re-evaluations of the external providers.
 
 #### 6.6.3 Communicating Requirements to External Providers ####
 
-The laboratory shall communicate its requirements to external providers for:
+The *Quality System Procedure - Purchasing and Receipt* describes how the laboratory communicates its requirements to external providers for:
 
-###### (a) ######
+**(a)** The products and services to be provided.
 
-The products and services to be provided.
+**(b)** The acceptance criteria.
 
-###### (b) ######
+**(c)** Competence, including any required qualification of personnel.
 
-The acceptance criteria.
-
-###### (c) ######
-
-Competence, including any required qualification of personnel.
-
-###### (d) ######
-
-Activities that the laboratory, or its customer, intends to perform at the external provider's premises.
+**(d)** Activities that the laboratory, or its customer, intends to perform at the external provider's premises.
 
 ## 7 Process Requirements ##
 
@@ -1068,35 +1040,35 @@ process requirements
 
 ### 7.1 Review of Requests, Tenders, and Contracts ###
 
-#### 7.1.1 Procedure ####
+#### 7.1.1 Contract Review Procedures ####
 
-Procedures for the review of requests, tenders, and contracts (including work that is subcontracted) are maintained in the referenced document *Quality System Procedure - Contract Review*.
+Procedures for the review of requests, tenders, and contracts (including work that is subcontracted) are maintained in the *Quality System Procedure - Contract Review*.
 
 #### 7.1.2 Method Requested is Inappropriate or Out of Date ####
 
-The laboratory informs the customer when the method proposed by the customer is considered to be the incorrect choice or the incorrect revision for the intended purpose. This is done as part of contract review addressed in section 7.1.1
+The laboratory informs the customer when the method proposed by the customer is considered to be the incorrect choice or the incorrect revision for the intended purpose. This is done as part of contract review addressed in *Section 7.1.1 - Contract Review Procedures*.
 
 #### 7.1.3 Statements of Conformity ####
 
-When the customer requests a statement of conformity to a specification or standard for the test, the specification or standard and the decision rule are clearly defined in the compliance programs or standard. Otherwise, the laboratory communicates the decision rule selected to the customer and obtains their agreement. See section 7.8.6 Reporting Statements of Conformity
+When the customer requests a statement of conformity to a specification or standard for the test, the specification or standard and the decision rule are clearly defined in the compliance programs or standard. Otherwise, the laboratory communicates the decision rule selected to the customer and obtains their agreement. For more information on statements of conformity, see *Section 7.8.6 - Reporting Statements of Conformity*.
 
 #### 7.1.4 Differences and Deviations ####
 
-Any differences between the request or tender and the contract shall be resolved before laboratory activities commence. Each contract shall be acceptable both to the laboratory and the customer. Deviations requested by the customer shall not impact the integrity of the laboratory or the validity of the results.
+Any differences between the request or tender and the contract shall be resolved before laboratory activities commence. Each contract shall be acceptable both to the laboratory and the customer. Deviations requested by the customer shall not impact the integrity of the laboratory nor the validity of the results.
 
 #### 7.1.5 Communicating with the Customer ####
 
-Customers are informed of deviations from the contract. This is typically communicated to the customer prior to the performing the deviation.
+Customers are informed of deviations from the contract. This is preferably communicated to the customer prior to the performing the deviation.
 
 #### 7.1.6 Amendments to Contracts ####
 
-If a contract needs to be amended after the work has commenced, the same contract review process is repeated and any amendments are communicated to all affected personnel. Procedure details can be found in the referenced document *Quality System Procedure - Contract Review*.
+If a contract needs to be amended after the work has commenced, the contract review process is repeated and any amendments are communicated to all affected personnel. Additional details and procedures can be found in the *Quality System Procedure - Contract Review*.
 
 #### 7.1.7 Customer Service ####
 
-Customer requests are clarified for the customers or their representatives. Furthermore the customer or their representative will be afforded the right to monitor the performance of the laboratory in relation to the work performed, provided that the laboratory ensures confidentiality to other customers.
+Customer requests are clarified for the customers or their representatives. The customer or their representative will be afforded the right to monitor the performance of the laboratory in relation to the work performed, provided that the laboratory ensures confidentiality to other customers.
 
-Service to the customer includes:
+Service to the customer may include:
 
 * Affording the customer or the customer’s representative reasonable access to relevant areas of the laboratory for the witnessing of work performed for the customer; it is understood that such access should not conflict with rules of confidentiality of work for other customers or with safety.
 
@@ -1108,7 +1080,7 @@ Service to the customer includes:
 
 Records of request, tender and contract review, including significant changes, are maintained. Records of pertinent discussions with a customer relating to the customer’s requirements or the work during the period of execution of the contract are also maintained.
 
-For review of routine and other simple tasks, the date and the identification (e.g., initials) of the person in the laboratory responsible for carrying out the contracted work are considered adequate. For repetitive routine tasks, the review need be made only at the initial inquiry stage or on grant of the contract for on-going routine work performed under a general agreement with the customer, provided that the customer’s requirements remain unchanged. For new, complex or advanced testing tasks, a more comprehensive record is maintained.
+For review of routine and other simple tasks, the date and the identification (e.g., initials, electronic signature, or photo) of the person in the laboratory responsible for carrying out the contracted work are considered adequate. For repetitive routine tasks, the review need be made only at the initial inquiry stage or on grant of the contract for on-going routine work performed under a general agreement with the customer, provided that the customer’s requirements remain unchanged. For new, complex or advanced testing tasks, a more comprehensive record is maintained.
 
 ### 7.2 Selection, Verification, and Validation of Methods ###
 
@@ -1122,35 +1094,35 @@ Methods and procedures used for all tests are appropriate as per:
 
 * An estimation of the measurement of uncertainty as well as statistical techniques for analysis of test data where appropriate
 
-###### 7.2.1.2 Method Instructions ######
+###### 7.2.1.2 Method Instructions for Personnel ######
 
-Instructions on the use and operation of all relevant equipment and on the handling and preparation of items for testing are available. All instructions, standards, manuals and reference data relevant to the work of the laboratory are maintained current and readily available to personnel.
+Instructions on the use and operation of all relevant equipment and on the handling and preparation of items for testing are available. All instructions, standards, manuals and reference data relevant to the work of the laboratory are maintained current and readily available to personnel. Information can be found on the laboratory's internal documentation server, or in physical manuals near their relevant equipment in the lab.
 
-###### 7.2.1.3 Use of  ######
+###### 7.2.1.3 Use of Valid Methods ######
 
-The laboratory ensures that the latest edition of a method is used unless it is not appropriate or possible to do so. When necessary, the standard is supplemented with additional details to ensure consistent application.
+The laboratory ensures that the latest edition of a method is used unless it is not appropriate or possible to do so. When necessary, the standard is supplemented with additional details to ensure consistent application. More information on the updating and supplementation of methods can be found in the *Quality System Procedure - Methods*.
 
-###### 7.2.1.4 ######
+###### 7.2.1.4 Unspecified Method ######
 
 Methods that have been published either in international, national, or regional standards, or by reputable technical organizations, or in relevant scientific texts or journals, or as specified by the manufacturer are selected when the customer does not specify the method to be used.
 
-Laboratory-developed methods or methods adopted by the laboratory may also be used if they are appropriate for the intended use and if they are validated. The customer is informed as to the method chosen.
+Laboratory-developed methods or methods adopted by the laboratory may also be used if they are appropriate for the intended use and if they are validated. The customer is informed as to the method chosen. The personnel authorized to develop, verify, and validate methods is specified in *Section 6.2.6 - Personnel Authorization*.
 
-###### 7.2.1.5 ######
+###### 7.2.1.5 Method Verification Records ######
 
-The laboratory confirms that it can properly operate standardized methods before introducing the tests. If the standardized method changes, the confirmation is repeated. Records of the verification are maintained.
+The laboratory confirms that it can properly operate standardized methods before introducing the tests. If the standardized method changes, the confirmation is repeated. Records of the verification are maintained. Additional information on the introduction and verification of methods can be found in the *Quality System Procedure - Methods*.
 
-###### 7.2.1.6 ######
+###### 7.2.1.6 Development and Modification of Methods ######
 
-Introduction of test methods developed internally is a planned activity and is assigned to qualified personnel equipped with adequate resources. Plans are reviewed as development proceeds to ensure customer needs are being met. Modifications to the plan are approved and authorized.
+Introduction of test methods developed internally is a planned activity and is assigned to qualified personnel equipped with adequate resources. Plans are reviewed as development proceeds to ensure customer needs are being met. Modifications to the plan are approved and authorized. The personnel authorized to develop and modify methods is specified in *Section 6.2.6 - Personnel Authorization*. Additional information on the development and modification of internal methods and developments plans can be found in the *Quality System Procedure - Methods*.
 
-###### 7.2.1.7 ######
+###### 7.2.1.7 Deviation from Methods ######
 
-Deviations from test methods are documented, technically justified, authorized, and where circumstances call for it, accepted by the customer.
+Deviations from test methods are documented, technically justified, authorized, and where circumstances call for it, accepted by the customer. Additional information on deviations from methods can be found in the *Quality System Procedure - Methods*.
 
 #### 7.2.2 Validation of Methods ####
 
-###### 7.2.2.1 ######
+###### 7.2.2.1 Method Validation ######
 
 The laboratory validates non-standardized methods, laboratory-designed/developed methods, standardized methods used outside their intended range, and amplifications of standard methods to confirm that the methods are fit for the intended use. The validation is as extensive as is necessary to meet the needs in the given application or field of application (may include procedures for sampling, handling, and transportation).
 
@@ -1162,11 +1134,11 @@ a combination of, the following:
 * Systematic assessment of the factors influencing the result
 * Assessment of the uncertainty of the results based on scientific understanding of the theoretical principles of the method and practical experience.
 
-###### 7.2.2.2 ######
+###### 7.2.2.2 Changes to Validated Methods ######
 
-When changes are made in a validated method, the influence of such changes carried out is documented and if appropriate a new validation is performed.
+Methods are re-validated when changes occur that affect the original validation. Additional information on determining changes to validated methods and re-validating them can be found in the *Quality System Procedure - Methods*.
 
-###### 7.2.2.3 ######
+###### 7.2.2.3 Performance Characteristics of Validated Methods ######
 
 Validation of a method establishes, by systematic laboratory studies, that the performance characteristics of the method meet the specifications related to the intended use of the test results.
 
@@ -1191,17 +1163,17 @@ method
 * quality control incorporating statistics as applicable
 * interpretation of population results as applicable
 
-###### 7.2.2.4 ######
+###### 7.2.2.4 Method Validation Records ######
 
-Records are kept on all validation activities. The records include the validation procedure used; the specification of the requirement; determination of the performance characteristics of the method; results obtained; and a statement on the validity of the method, detailing its fitness for the intended use.
+Records are kept on all validation activities. The records include the validation procedure used; the specification of the requirement; determination of the performance characteristics of the method; results obtained; and a statement on the validity of the method detailing its fitness for the intended use. Additional information about the validation records can be found in the *Quality System Procedure - Methods*.
 
 ### 7.3 Sampling ###
 
-#### 7.3.1 ####
+#### 7.3.1 Sampling Methods ####
 
-The referenced document *Quality System Procedure - Sampling* outlines the sampling plan and procedures for sampling for any laboratory sampling of substances, matrices, materials or products for subsequent testing or calibration. The sampling plan and procedures are available at the location where sampling is performed. Sampling plans are based on appropriate statistical methods whenever reasonable. The sampling process addresses the factors to be controlled to ensure validity of the test and calibration results.
+The referenced document *Quality System Procedure - Sampling* outlines the sampling methods for sampling for any laboratory sampling of substances, matrices, materials or products for subsequent testing or calibration. The sampling plan and procedures are available at the location where sampling is performed. Sampling plans are based on appropriate statistical methods whenever reasonable. The sampling process addresses the factors to be controlled to ensure validity of the test and calibration results.
 
-#### 7.3.2 ####
+#### 7.3.2 Minimum Requirements of Sampling Methods ####
 
 Details on sampling are included in each sampling method. Each sampling method shall describe at minimum:
 
@@ -1211,7 +1183,7 @@ Details on sampling are included in each sampling method. Each sampling method s
 
 Further details may be required after a sample has been received by the laboratory.
 
-#### 7.3.3 ####
+#### 7.3.3 Sampling Records ####
 
 The laboratory retains records of all sampling data that forms part of the testing that is undertaken. These records include, where relevant:
 
@@ -1231,25 +1203,25 @@ The laboratory retains records of all sampling data that forms part of the testi
 
 * Deviations, additions, or exclusions from the sampling method and sampling plan.  
 
-### 7.4 Handling of Test or Calibration Items ###
+### 7.4 Handling of Samples ###
 
-#### 7.4.1 Procedures for Handling ####
+#### 7.4.1 Procedures for Handling Samples ####
 
-The referenced document *Quality System Procedure - Handling* outlines the procedures for the transportation, receipt, handling, protection, storage, retention and/or disposal of test and calibration items, including all provisions necessary to protect the integrity of the test item, and the interests of the laboratory and the customer.
+The *Quality System Procedure - Sample Handling* outlines the procedures for the transportation, receipt, handling, protection, storage, retention and/or disposal of test and calibration items, including all provisions necessary to protect the integrity of the test item, and the interests of the laboratory and the customer. Precautions must be taken to avoid deterioration, contamination, loss or damage to the item during handling, transporting, storing/waiting, and preparation for testing or calibration.
 
-#### 7.4.2 Identification System ####
+#### 7.4.2 Identification System of Samples ####
 
-Test items are systematically identified as they arrive at the laboratory. The identification is retained throughout the life of the item in the laboratory. The system is designed and operated so as to ensure that items cannot be confused physically, or when referred to in records or other documents. The system accommodates a sub-division of groups of items and the transfer of items within and from the laboratory when appropriate.
+Test items are systematically identified as they arrive at the laboratory. The identification is retained throughout the life of the item in the laboratory. The system is designed and operated so as to ensure that items cannot be confused physically, or when referred to in records or other documents. The system accommodates a sub-division of groups of items and the transfer of items within and from the laboratory when appropriate. Additional information about the identification system of test items can be found in the *Quality System Procedure - LIMS*.
 
-#### 7.4.3 Abnormal Conditions ####
+#### 7.4.3 Abnormal Sample Conditions ####
 
 Upon receipt of the test item, any abnormalities or departures from normal or specified conditions, as described in the relevant test or calibration method, are recorded. When there is any doubt as to the suitability of an item for test, or when an item does not conform to the description provided, or the test required is not specified in sufficient detail, the laboratory consults the customer for further instructions before proceeding and keeps a record of the discussion.
 
 When the customer requires the item to be tested or calibrated acknowledging a deviation from specified conditions, the laboratory shall include a disclaimer in the report indicating which results may be affected by the deviation.
 
-#### 7.4.4 Specified Environmental Conditions ####
+#### 7.4.4 Specified Environmental Conditions for Samples ####
 
-When items have to be stored or conditioned under specified environmental conditions, these conditions are maintained, monitored, and recorded. Where a test item is to be held secure (e.g., for reasons of record, safety or value, or to enable complementary test to be performed later), the laboratory has arrangements for storage and security that protect the condition and integrity of the secured item concerned.
+When items have to be stored or conditioned under specified environmental conditions, these conditions are maintained, monitored, and recorded. Where a test item is to be held secure (e.g., for reasons of record, safety or value, or to enable complementary test to be performed later), the laboratory has arrangements for storage and security that protect the condition and integrity of the secured item concerned. Additional information about environmental condition records can be found in the *Quality System Procedure - Sample Handling*.
 
 ### 7.5 Technical Records ###
 
@@ -1265,23 +1237,23 @@ Staff records, equipment calibration, and verification reports are retained in a
 
 #### 7.5.2 Amending Technical Records ####
 
-The laboratory ensures changes to technical records can be tracked to the previous version or to original observations. Both the original and amended data and files are retained, including the date the record was changed, an indication of what was changed and the person responsible for the alteration.
+The laboratory ensures changes to technical records can be tracked to the previous version or to original observations. Both the original and amended data and files are retained, including the date the record was changed, an indication of what was changed and the person responsible for the alteration. Additional information on version changes between records can be found in the *Quality System Procedure - LIMS*.
 
 ### 7.6 Evaluation of Measurement Uncertainty ###
 
 #### 7.6.1 Uncertainty Components ####
 
-When estimating the uncertainty of measurement, all uncertainty components that are of importance in the given situation (including sampling components) are taken into account using accepted methods of analysis.
+When estimating the uncertainty of measurement, all uncertainty components that are of importance in the given situation (including sampling components) are taken into account using accepted methods of analysis. Additional information on the estimation of uncertainty and uncertainty component can be found in the *Quality System Procedure - Measurement Uncertainty*.
 
 #### 7.6.2 Procedure for Calibration Activities ####
 
-When performing calibrations, including that of its own equipment, measurement uncertainty for all calibrations shall be evaluated.
+When performing calibrations, including that of its own equipment, measurement uncertainty for all calibrations shall be evaluated. Additional information on the evaluation of measurement uncertainty for equipment can be found in the *Quality System Procedure - Equipment*.
 
 #### 7.6.3 Procedure for Testing Activities ####
 
 When performing testing, measurement uncertainty shall be evaluated. Where the test method
 precludes rigorous evaluation of measurement uncertainty, an estimation shall be made based on an
-understanding of the theoretical principles or practical experience of the performance of the method.
+understanding of the theoretical principles or practical experience of the performance of the method. Additional information on measurement uncertainty procedures for specific tests can be found from the *Quality System Procedure - Methods*. Additional information on the estimation of measurement uncertainty can be found in the *Quality System Procedure - Measurement Uncertainty*.
 
 ### 7.7 Ensuring the Validity of Results ###
 
@@ -1300,29 +1272,31 @@ secondary reference materials
 * Re-testing of retained items
 * Correlation of results for different characteristics of an item
 
+Additional information on and procedures to monitor the validity of results can be found in the *Quality System Procedure - Internal Audits*.
+
 #### 7.7.2 Proficiency Testing ####
 
-Performance is monitored by comparison with results of other laboratories where available and appropriate through proficiency testing. This monitoring is planned and reviewed.
+Performance is monitored by comparison with results of other laboratories where available and appropriate through proficiency testing. This monitoring is planned and reviewed. Additional information regarding proficiency testing can be found in the *Quality System Document - Proficiency Testing Plan*.
 
 #### 7.7.3 Monitored Data ####
 
-Data from monitoring activities shall be analyzed, and use to control/improve the laboratory's activities. If results of a monitoring analysis are found outside the pre-defined criteria, appropriate action is taken to prevent incorrect results from being reported.
+Data from monitoring activities shall be analyzed, and use to control/improve the laboratory's activities. If results of a monitoring analysis are found outside the pre-defined criteria, appropriate action is taken to prevent incorrect results from being reported. Additional information on the monitoring, control, and correction of data can be found in the *Quality System Document - LIMS*.
 
 ### 7.8 Reporting of Results ###
 
 #### 7.8.1 General Requirements ####
 
-###### 7.8.1.1 ######
+###### 7.8.1.1 Review and Release of Results ######
 
-Results are reviewed and authorized prior to release.
+Results are reviewed and authorized prior to release. The personnel authorized to review and release results are defined in *Section 6.2.6 - Personnel Authorization*.
 
-###### 7.8.1.2 ######
+###### 7.8.1.2 Reporting Results ######
 
-Results are provided accurately, clearly, unambiguously, and objectively, usually in the form of a report. Included is all the information agreed with the customer, necessary for the interpretation of the results, and required by the method used. All issued reports are retained as technical records.
+Results are provided accurately, clearly, unambiguously, and objectively, usually in the form of a report. Included is all the information agreed with the customer, necessary for the interpretation of the results, and required by the method used. All issued reports are retained as technical records. Additional information on the reporting of results can be found in the *Quality System Procedure - Technical Records*. Additional information on customer agreements can be found in the *Quality System Procedure - Contract Review*.
 
-###### 7.8.1.3 ######
+###### 7.8.1.3 Simplified Reporting ######
 
-When agreed with the customer, the results may be reported in a simplified way. Any information listed in 7.8.2 to 7.8.7 that is not reported to the customer is readily available.
+When agreed with the customer, the results may be reported in a simplified way. Any information listed in *Sections 7.8.2 - 7.8.7* that is not reported to the customer is readily available.
 
 #### 7.8.2 Common Requirements for Reports (Test, Calibration, or Sampling)
 
@@ -1350,7 +1324,7 @@ Unless there is a valid reason for not doing so, each report issued shall includ
 
 ###### 7.8.2.2 Report Data Provided by Customer ######
 
-All the information provided in the report is the responsibility of the laboratory, except when information is provided by the customer. Data provided by a customer is clearly identified on reports. In addition, a disclaimer shall be put on the report when the information is supplied by the customer and can affect the validity of results. Where the laboratory has not been responsible for the sampling stage (e.g. the sample has been provided by the customer), it shall state in the report that the results apply to the sample as received.
+All the information provided in the report is the responsibility of the laboratory, except when information is provided by the customer. Data provided by a customer is clearly identified on reports. In addition, a disclaimer shall be put on the report when the information is supplied by the customer and can affect the validity of results. Where the laboratory has not been responsible for the sampling stage (e.g. the sample has been provided by the customer), it shall state in the report that the results apply to the sample as received. Additional information on the use of disclaimers can be found in the *Quality System Procedure - Reports*.
 
 #### 7.8.3 Specific Requirements for Test Reports ####
 
@@ -1370,7 +1344,7 @@ When the laboratory performs the sampling of a test item, the associated test re
 
 #### 7.8.4 Specific Requirements for Calibration Certificates
 
-###### 7.8.4.1 ######
+###### 7.8.4.1 Calibration Certificate Reports ######
 
 The testing laboratory does not issue calibration certificates. However, the laboratory often receives calibration services from a calibration laboratory and needs to be familiar with the information on a calibration certificate.
 
@@ -1383,15 +1357,15 @@ influence on the measurement results.
 * A statement of conformity with requirements or specifications.
 * Opinions and interpretations.
 
-###### 7.8.4.2 ######
+###### 7.8.4.2 Sampling for Calibration Certificates ######
 
-Since we do not issue calibration certificates, we do not perform sampling activity for calibration.
+We do not issue calibration certificates. We do not perform sampling activity for calibrations.
 
-###### 7.8.4.3 ######
+###### 7.8.4.3 Calibration Intervals on Calibration Certificates ######
 
-Since we do not issue calibration certificates, we do not provide recommendation for calibration intervals. Equipment should not be labeled with recommendation from calibration service providers except when authorized.
+We do not issue calibration certificates. We do not provide recommendation for calibration intervals.
 
-#### 7.8.5 Reporting Sampling - Specific Requirements
+#### 7.8.5 Reporting Sampling
 
 When the laboratory is responsible for the sampling of test items, in addition to the requirements listed in [**Section 7.8.2 Common Requirements for Reports (Test, Calibration, or Sampling)**](#common-requirements-for-reports-test-calibration-or-sampling), reports also must include:
 
@@ -1402,99 +1376,126 @@ When the laboratory is responsible for the sampling of test items, in addition t
 * Details of any environmental conditions during sampling that affect the interpretation of the results.
 * Information required to evaluate measurement uncertainty for subsequent testing.
 
+Additional information on sampling can be found in the *Quality System Procedure - Sampling*.
+
 #### 7.8.6 Reporting Statements of Conformity ####
 
 ###### 7.8.6.1 Decision Rule ######
 
-When results are being reported for compliance, a statement of conformity will be required. The decision rule used (False Accept/False Reject and by what margin) will be documented.
+When results are being reported for compliance, a statement of conformity will be required. The Decision Rule used (False Accept/False Reject and Margin) will be documented. More information on decision rule can be found in the *Quality System Procedure - Measurement Uncertainty*.
 
 ###### 7.8.6.2 Statement of Conformity ######
 
-Statements of conformity will
+When issuing reports with a statement of conformity, the report must clearly identify:
+
+* Which results the statement of conformity applies to;
+* Which specifications, standards, or parts thereof are met or not met;
+* The decision rule applied, unless inherent in the requested specification or standard.
+
+Additional information about the reporting of statements of conformity can be found in the *Quality System Procedure - Reports*.
 
 #### 7.8.7 Reporting Opinions and Interpretations ####
 
 ###### 7.8.7.1 Release and Authorization of Opinions and Interpretations ######
 
-Opinions and interpretations are expressed and released only by authorized personnel, and documentation of their expression is kept.
+Opinions and interpretations are expressed and released only by authorized personnel, and documentation of their expression is kept. Additional information about personnel authorized to release opinions and interpretations can be found in *Quality System Procedure - Personnel*.
 
-###### 7.8.7.2 ######
+###### 7.8.7.2 Reporting Opinions and Interpretations ######
 
-Opinions and interpretations expressed in reports are based on the results obtained from the tested items, and are clearly identified as such.
+Opinions and interpretations expressed in reports are based on the results obtained from the tested items, and are clearly identified as such. Additional information on the reporting of opinions and interpretations can be found in *Quality System Procedure - Reports*.
 
-###### 7.8.7.3 ######
+###### 7.8.7.3 Records of Directly Communicating Opinions and Interpretations ######
 
-When opinions and interpretations are directly communicated with a customer via dialogue, a record of the dialogue shall be retained.
+When opinions and interpretations are directly communicated with a customer via dialogue, a record of the dialogue shall be retained. Additional information on the records of direct communication of opinions and interpretations can be found in the *Quality System Procedure - Technical Records*.
 
 #### 7.8.8 Amendments to Reports ####
 
-###### 7.8.8.1 ######
+###### 7.8.8.1 Re-Issuing Reports ######
 
-When an issued report needs to be edited or re-issued, all changes are clearly identified. Where appropriate, the reason for the change is also included in the re-issued report.
+When an issued report needs to be edited or re-issued, all changes are clearly identified. Where appropriate, the reason for the change is also included in the re-issued report. Additional information about the re-issuing of reports can be found in the *Quality System Procedure - Reports*.
 
-###### 7.8.8.2 ######
+###### 7.8.8.2 Amending an Issued Report ######
 
-When an amendment is made to a report (not re-issuing), the amendment is made in the form of *additional* documentation or data transfer. It includes a statement denoting it as a amendment, and uniquely identifies the original report amended.
+When an amendment is made to an issued report, the amendment is made in the form of an *additional* documentation or data transfer. It includes a statement denoting it as a amendment, and uniquely identifies the original report amended. Additional information about the amending of issued reports can be found in the *Quality System Procedure - Reports*.
 
-###### 7.8.8.3 ######
+###### 7.8.8.3 New Reports ######
 
-When issuing a completely new report, this report shall be uniquely identified and contain reference to the original that it replaces.
+When issuing a completely new report, this report shall be uniquely identified and contain reference to the original that it replaces. Additional information about the amending of issued reports can be found in the *Quality System Procedure - Reports*.
 
 ### 7.9 Complaints ###
 
-#### 7.9.1 ####
+#### 7.9.1 Receiving and Evaluating Complaints ####
 
 The referenced document *Quality System Procedure - Complaints* details how to receive, evaluate, and make decisions on complaints.
 
-#### 7.9.2 ####
+#### 7.9.2 Availability of Complaint Process ####
 
-The process for handling complaints is available for any interested party upon request. Upon receipt of a complaint, confirmation is required to determine whether the complaint relates to laboratory activities and responsibilities. If so, the complaint must be handled until a decision is made.
+The process for handling complaints is available for any interested party upon request. Upon receipt of a complaint, confirmation is required to determine whether the complaint relates to laboratory activities and responsibilities. If so, the complaint must be handled until a decision is made. Additional information on the decision making around complaints can be found in the *Quality System Procedure - Management Review*.
 
-#### 7.9.3 ####
+#### 7.9.3 Requirements for Complaint Process ####
 
-The process for handling complaints includes a description of the process for receiving, validating, investigating, and deciding upon action for the complaint. Complaints are tracked and recorded, including actions taken to resolve them. Action must be taken in response to any complaint for to require action.
+The process for handling complaints includes a description of the process for receiving, validating, investigating, and deciding upon action for the complaint. Complaints are tracked and recorded, including actions taken to resolve them. Action must be taken in response to any complaint for to require action. Additional information on complaints and the laboratory's complaint process can be found in the *Quality System Procedure - Complaints*.
 
-#### 7.9.4 ####
+#### 7.9.4 Validating Complaints ####
 
-When receiving a complaint, the laboratory is responsible for gathering and verifying all necessary information to validate the complaint.
+When receiving a complaint, the laboratory is responsible for gathering and verifying all necessary information to validate the complaint. Additional information on receiving, verifying, and validating complaints can be found in the *Quality System Procedure - Complaints*.
 
-#### 7.9.5 ####
+#### 7.9.5 Updates to Complainants ####
 
 Whenever possible, complainants are acknowledged of their complaint, and are provided progress reports and outcomes the received complaint.
 
-#### 7.9.6 ####
+#### 7.9.6 Personnel to Communicate Complaint Outcomes ####
 
 Outcomes that are communicated to complainants are made (or reviewed and approved) by personnel not involved with the activities addressed in the complaint.
 
-#### 7.9.7 ####
+#### 7.9.7 Communication of Complaint Completion ####
 
 Whenever possible, complainants are given a formal notice indicated the end of their complaint being addressed.
 
 ### 7.10 Nonconforming Work ###
 
-#### 7.10.1 ####
+#### 7.10.1 Control of Nonconforming Work ####
 
-The referenced document *Quality System Procedure - Control of Non-Conforming Work* is used to control any aspect of testing, or the results of the work, when it does not conform with the test methods, our own documented procedures, or the agreed requirements of the customer.
+The *Quality System Procedure - Control of Non-Conforming Work* is used to control any aspect of testing, or the results of the work, when it does not conform with the test methods, our own documented procedures, or the agreed requirements of the customer.
 
-#### 7.10.2 ####
+#### 7.10.2 Records of Nonconforming Work ####
 
-The laboratory retains records of all nonconforming work.
+The laboratory retains records of all nonconforming work. Additional information on the records of nonconforming work can be found in the *Quality System Procedure - Control of Nonconforming Work*.
 
-#### 7.10.3 ####
+#### 7.10.3 Corrective Actions for Nonconforming Work ####
+
+If an evaluation of non-conforming work indicates it could recur, or if there is doubt about the conformity of the laboratory's operations with its own management system, the laboratory shall implement corrective action in accordance with *Section 8.7 - Corrective Actions*.
 
 ### 7.11 Control of Data and Information Management ###
 
-#### 7.11.1 ####
+#### 7.11.1 Access to Data and Information ####
 
-#### 7.11.2 ####
+The laboratory has access to the data and information needed to perform laboratory activities. This data is primarily stored on-premise, but is also maintained off-premise in accordance with the *Quality System Procedure - Control of Records*.
 
-#### 7.11.3 ####
+#### 7.11.2 Changes to the LIMS ####
 
-#### 7.11.4 ####
+Changes to the LIMS shall be authorized, documented, and validated before implementation in accordance with the *Quality System Procedure - LIMS*.
 
-#### 7.11.5 ####
+#### 7.11.3 Requirements for the LIMS ####
 
-#### 7.11.6 ####
+The *Quality System Procedure - LIMS* provides details on how the LIMS is ensured to be:
+a) Protected from unauthorized access;
+b) Safeguarded against tampering and loss;
+c) Operated in an environment that complies with specifications;
+d) Maintained in a manner that ensures the integrity of the data and information;
+e) Recording system failures and the appropriate immediate and corrective actions.
+
+#### 7.11.4 Off-Site LIMS Components ####
+
+External and Off-Site components of the LIMS are maintained through providers that comply with the applicable requirements of this document. Details on the use of external and off-site components can be found in the *Quality System Procedure - LIMS*.
+
+#### 7.11.5 Availability of LIMS Documentation ####
+
+Instructions, manuals, and reference material relevant to the LIMS are available through the internal documentation server of the laboratory, a public facing website, and physical manuals.
+
+#### 7.11.6 Data Integrity ####
+
+Calculations and data transfers are check in an appropiate and systematic manner in accordance with the specific programs being used, and in accordance with the *Quality System Procedure - LIMS*.
 
 ## 8 Management System Requirements ##
 
@@ -1502,66 +1503,140 @@ The laboratory retains records of all nonconforming work.
 
 #### 8.1.1 General ####
 
+This manual is the root guide for a complete Quality Management System capable of supporting the consistent achievement of its specified goals.
+
 #### 8.1.2 Option A ####
 
+See *Sections 8.2 - 8.9*
+
 #### 8.1.3 Option B ####
+
+We currently do not currently maintain a separate ISO 9001 accreditation, and therefore do not utilize Option B of the ISO 17025:2017 accreditation.
 
 ### 8.2 Management System Documentation (Option A) ###
 
 #### 8.2.1 Management System Policy ####
 
-#### 8.2.2 ####
+The Quality Management Team ensures the establishment, documentation, and maintenance of the Quality Management System.
 
-#### 8.2.3 ####
+#### 8.2.2 Competence, Impartiality, and Consistency ####
 
-#### 8.2.4 ####
+The Quality Management Team uses the training procedures outlined in *Quality System Procedure - Personnel* ensure competence, impartiality, and consistency.
 
-#### 8.2.5 ####
+#### 8.2.3 Management Commitment to Improvement ####
+
+The Quality Management Team holds regular meetings tracked using meeting notes and an electronic calendaring program. Additional information on quality management team meetings can be found in the *Quality System Procedure - Document Control and Management*.
+
+#### 8.2.4 Referenced Documentation ####
+
+The following documents are maintained by the Quality Management Team, and are the primary references to navigate the remainder of the Quality Management System:
+
+*QSP - Audits*
+*QSP - Complaints*
+*QSP - Conflict of Interest, Impartiality, and Confidentiality*
+*QSP - Contract Review*
+*QSP - Control of Nonconforming Work*
+*QSP - Control of Records*
+*QSP - Document Control and Management*
+*QSP - Equipment*
+*QSP - Facilities and Environmental Conditions*
+*QSP - LIMS*
+*QSP - Management Review*
+*QSP - Measurement Uncertainty*
+*QSP - Methods*
+*QSP - Metrological Traceability*
+*QSP - Personnel*
+*QSP - Purchasing and Receipt*
+*QSP - Reports*
+*QSP - Sample Handling*
+*QSP - Sampling*
+*QSP - Technical Records*
+*QSL - 4.x*
+*QSD - Task Competencies*
+*QSD - Proficiency Testing Plan*
+
+#### 8.2.5 Personnel Access ####
+
+The documentation for the Quality Management System is maintained on an internal documentation server accessible from any work station, or from any personal Wi-Fi device on the internal laboratory network, or via the internet using authorized credentials.
 
 ### 8.3 Control of Management System Documents ###
 
-#### 8.3.1 ####
+#### 8.3.1 Document Control of QMS Documents ####
 
-#### 8.3.2 ####
+All documents relating to the Quality Management System are controlled using Git version control software. More information on Git and version control software can be found in the *Quality System Procedure - LIMS*.
+
+#### 8.3.2 Document Control Criteria ####
+
+All Quality System documents are controlled in a **.md** file format for line-by-line edit history, and are displayed to personnel as a read-only **HTML** format. Details on how documents are controlled for quality is found in the *Quality System Procedure - Document Control and Management*.
 
 ### 8.4 Control of Records (Option A) ###
 
-#### 8.4.1 ####
+#### 8.4.1 Legible Records ####
 
-#### 8.4.2 ####
+Records are established to demonstrate fulfilment of the requirements in this document. All handwritten records are legible. All electronic records are maintained in UTF-8 character encoded format for easy translation by most 32-bit or 64-bit computers.
+
+#### 8.4.2 Document Control of Records ####
+
+Records are identified, stored, protected, backed-up, archived, retained, and disposed of in accordance with the *Quality System Procedure - Control of Records*.
 
 ### 8.5 Actions to Address Risks and Opportunities (Option A) ###
 
-#### 8.5.1 ####
+#### 8.5.1 Risk and Opportunity Consideration ####
 
-#### 8.5.2 ####
+The Quality Management Team discusses and considered risks and opportunities associated with laboratory activities. Additional information about the considerations of risks and opportunities is found in the *Quality System Procedure - Management Review*.
 
-#### 8.5.3 ####
+#### 8.5.2 Risk and Opportunity Plans ####
+
+The Quality Management System plans actions to address risks and opportunities according the the *Quality System Procedure - Management Review*.
+
+#### 8.5.3 Proportional Actions to Risk ####
+
+The Quality Management System determines the proportion of a risk or opportunity, and take appropriate action.
 
 ### 8.6 Improvement (Option A) ###
 
-#### 8.6.1 ####
+#### 8.6.1 Opportunities for improvement ####
 
-#### 8.6.2 ####
+The Quality Management Team identifies and selects opportunities for improvement, and implements actions based on the *Quality System Procedure - Management Review*.
+
+#### 8.6.2 Customer Feedback ####
+
+Customer feedback is always encouraged, both positive and negative. The Quality Management Team analyzes positive feedback for opportunities to improve, and negative feedback is handled in accordance with *Section 7.9 - Complaints*.
 
 ### 8.7 Corrective Actions (Option A) ###
 
-#### 8.7.1 ####
+#### 8.7.1 Nonconformity ####
 
-#### 8.7.2 ####
+When a nonconformity occurs, the laboratory responds in accordance with the *Quality System Procedure - Nonconforming Work*.
 
-#### 8.7.3 ####
+#### 8.7.2 Corrective Actions for Nonconformities ####
+
+Appropriate corrective actions are made in response to a nonconformity. Additional information about corrective actions and nonconforming work can be found in the *Quality System Procedure - Management Review*.
+
+#### 8.7.3 Records of Corrective Actions ####
+
+Records of nonconforming work and corrective actions are maintained in accordance with the *Quality System Procedure - Management Review*.
 
 ### 8.8 Internal Audits (Option A) ###
 
-#### 8.8.1 ####
+#### 8.8.1 Internal Audit Plan ####
 
-#### 8.8.2 ####
+The Quality Management Team conducts internal audits at planned intervals in accordance with the *Quality System Document - Internal Audit Plan*.
+
+#### 8.8.2 Implement and Record Internal Audits ####
+
+Internal audits are defined, implemented, and recorded in accordance with the *Quality System Procedure - Internal Audits*.
 
 ### 8.9 Management Reviews (Option A) ###
 
-#### 8.9.1 ####
+#### 8.9.1 Management Review Plan ####
 
-#### 8.9.2 ####
+The Quality Management Team reviews the management system at planned intervals in accordance with the *Quality System Procedure - Management Review*.
 
-#### 8.9.3 ####
+#### 8.9.2 Management Review Inputs ####
+
+Management Reviews inputs are detailed in the *Quality System Procedure - Management Review*.
+
+#### 8.9.3 Management Review Outputs ####
+
+Management Review outputs are detailed in the *Quality System Procedure - Management Review*.

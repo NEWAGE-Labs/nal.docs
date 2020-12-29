@@ -8,4 +8,7 @@ nav:
     - Last Release: last.md
     - References: reference.md
     - QAM: QAM.md
+    - SOPs:
+        SOP1: SOP1.md
+        SOP2: SOP2.md
 theme: readthedocs
