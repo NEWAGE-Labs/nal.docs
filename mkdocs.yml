@@ -1,14 +1,30 @@
 site_name: NEWAGE Quality System Documentation
 nav:
-    - Home: index.md
-    - About: about.md
+    - Home: NALQMS.md
     - License: license.md
     - Accreditation: accred.md
-    - Newest Release: release.md
-    - Last Release: last.md
-    - References: reference.md
-    - QAM: QAM.md
-    - SOPs:
-        SOP1: SOP1.md
-        SOP2: SOP2.md
+    - Newest Release: Releases.md
+    - Quality System Manual (QSM): QSM.md
+    - Quality System Procedures (QSPs):
+        Audits: Audits.md
+        Complaints: Complaints.md
+        Conflict of Interest, Impartiality, and Confidentiality: Conflict of Interest Impartiality and Confidentiality.md
+        Contract Review: Contract Review.md
+        Control of Nonconforming Work: Control of Nonconforming Work.md
+        Control of Records: Control of Records.md
+        Document Control and Management: Document Control and Management.md
+        Equipment: Equipment.md
+        Facilities and Environmental Conditions: Facilities and Environmental Conditions.md
+        LIMS: LIMS.md
+        Management Review: Management Review.md
+        Measurement Uncertainty: Measurement Uncertainty.md
+        Methods: Methods.md
+        Metrological Traceability: Metrological Traceability.md
+        Personnel: Personnel.md
+        Purchasing and Receipt: Purchasing and Receipt.md
+        Reports: Reports.md
+        Sample Handling: Sample Handling:.md
+        Sampling: Sampling.md
+        Technical Records: Technical Records.md
+    - Standard Operating Procedures (SOPs):
 theme: readthedocs
