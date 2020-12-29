@@ -931,15 +931,15 @@ The equipment calibration program is defined in referenced documents *Quality Sy
 
 Equipment under the control of the laboratory and requiring calibration, or having a defined period of validity, is labeled or coded to indicate the calibration status or period of validity. Alternatively, equipment calibration status may be identified in an associated record (such as an electronic record within the LIMS) to indicate the status of calibration.
 
-![Calibration Tag](calibration_tag.png)
+![Calibration Tag](imgs/calibration_tag.png)
 
 Measuring equipment that has failed calibration or is deemed out of service is labeled with one of the following labels, or an appropriate electronic indicator:
 
-![Calibration Void](calibration_void.png)   ![Calibration Out of Service](calibration_out_of_service.png)  
+![Calibration Void](imgs/calibration_void.png)   ![Calibration Out of Service](imgs/calibration_out_of_service.png)  
 
 A piece of equipment that is not calibrated or checked is labeled with the following label or a suitable electronic alternative:
 
-![Calibration For Reference Only](calibration_for_reference_only.png)  
+![Calibration For Reference Only](imgs/calibration_for_reference_only.png)  
 
 Calibration labels have a write-on surface and a pressure sensitive adhesive. The areas that are filled out include the person who performed the calibration, the date it was performed, the date it is due for re-calibration, and the equipment’s identification number. Electronic records are maintained by authorized  personnel, and available to everyone performing tasks involving the equipment.
 
