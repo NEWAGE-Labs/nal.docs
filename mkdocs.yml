@@ -1,8 +1,6 @@
 site_name: NEWAGE Quality System Documentation
 nav:
     - Home: NALQMS.md
-    - License: license.md
-    - Accreditation: accred.md
     - Newest Release: Releases.md
     - Quality System Manual (QSM): QSM.md
     - Quality System Procedures (QSPs):
@@ -26,4 +24,5 @@ nav:
         Sample Handling: QSPs/Sample Handling.md
         Sampling: QSPs/Sampling.md
         Technical Records: QSPs/Technical Records.md
+    - Archive: archive/index.md
 theme: readthedocs

@@ -678,9 +678,7 @@ The laboratory, including all permanent, temporary, mobile, and client locations
 
 ##### (a) #####
 
-The organization and management structure of the laboratory, and the relationships between management, technical operations, support services, and the quality management system is defined through the aid of an organizational chart. The quality management team keeps the most current organizational chart on file. An organizational chart is available with this manual as a reference record and is considered the official record on the date it is marked.
-
-![organization chart](ORGCHART072020a.jpg)
+The organization and management structure of the laboratory, and the relationships between management, technical operations, support services, and the quality management system is defined through the enforced schema of role groups. Individuals are placed into different role groups, and each group has a different set of roles that define their place within the laboratory organizational structure.
 
 ##### (b) #####
 ###### President/CEO ######
