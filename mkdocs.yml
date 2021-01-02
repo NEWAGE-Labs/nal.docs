@@ -2,7 +2,7 @@ site_name: NEWAGE Quality System Documentation
 nav:
     - Home: NALQMS.md
     - Newest Release: Releases.md
-    - Quality System Manual (QSM): QSM.md
-    - Quality System Procedures (QSPs): QSPs/index.md
+    - Quality System Manual (QSM): current release/QSM.md
+    - Quality System Procedures (QSPs): current release/QSPs/index.md
     - Archive: archive/index.md
 theme: readthedocs

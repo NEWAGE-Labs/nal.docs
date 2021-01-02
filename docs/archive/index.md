@@ -6,5 +6,5 @@ Releases prior to v18 are stored in cold storage, but are available by request w
 
 More information on Git and NAL documentation releases can be found in our current SOPs.
 
-[v17 Quality Manual Draft](v17/qam.md)
-[v18](v18/index.md)
+[v17 Quality Manual Draft](v17/qam.md)  
+[v18](v18/index.md)  
