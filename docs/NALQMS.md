@@ -4,7 +4,7 @@ Welcome to the NAL documentation server!
 
 ## Documents, Procedures, and SOPs
 
-This website contains the documents, procedures, SOPs, and some of the records necessarily to the fulfillment of the Quality Management System. The root of the system begins with the [Quality System Manual](QSM.md).
+This website contains the documents, procedures, SOPs, and some of the records necessarily to the fulfillment of the Quality Management System. The root of the system begins with the [Quality System Manual](current release/QSM.md).
 
 ## Newest and Previous Releases
 
