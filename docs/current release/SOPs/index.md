@@ -4,9 +4,54 @@ Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of
 
 ## Analytes
 
+[Brix](Analytes/Brix.md)
+[Conductivity](Analytes/Conductivity.md)
+[Hg Soil](Analytes/Hg Soil.md)
+[Hg Water](Analytes/Hg Water.md)
+[Horizon Extraction](Analytes/Horizon Extraction.md)
+[Humic-Fulvic](Analytes/Humic-Fulvic.md)
+[Mehlich III](Analytes/Mehlich III.md)
+[pH](Analytes/pH.md)
+[Brix](Analytes/Brix.md)
+[Sap Analysis](Analytes/Sap Analysis.md)
+[Sap Sample Prep](Analytes/Sap Sample Prep.md)
+[Solvita](Analytes/Solvita.md)
+[Total Dissolved Solids (TDS)](Analytes/TDS.md)
+[Total Nitrogen (LECO)](Analytes/Total Nitrogen (LECO).md)
+[Total Suspended Solids (TSS)](Analytes/TSS.md)
+
 ## Instruments
 
+[3M PCR](Instruments/3M PCR.md)
+[Autoclave](Instruments/Autoclave.md)
+[Balance](Instruments/Balance.md)
+[Centrifuge](Instruments/Centrifuge.md)
+[Cold Press](Instruments/Cold Press.md)
+[CVAA (Flameless)](Instruments/CVAA (Flameless).md)
+[Electrometer](Instruments/Electrometer.md)
+[Gallery](Instruments/Gallery.md)
+[GC-ECD](Instruments/GC-ECD.md)
+[GC-FID](Instruments/GC-FID.md)
+[GC-MS](Instruments/GC-MS.md)
+[ICP-OES](Instruments/ICP-OES.md)
+[Incubator](Instruments/Incubator.md)
+[LECO](Instruments/LECO.md)
+[Outtake Hood](Instruments/Outtake Hood.md)
+[Ovens and Environmental Chambers](Instruments/Ovens and Environmental Chambers.md)
+[Pipette](Instruments/Pipette.md)
+[Thermometer](Instruments/Thermometer.md)
+[Weights](Instruments/Weights.md)
+
 ## Labs
+
+[Lab A](Labs/Lab A.md)  
+[Lab B](Labs/Lab B.md)  
+[Mobile Lab 1](Labs/Mobile Lab 1.md)  
+[Mobile Lab 2](Labs/Mobile Lab 2.md)  
+[Mobile Lab 3](Labs/Mobile Lab 3.md)  
+[Mobile Lab 4](Labs/Mobile Lab 4.md)  
+[Mobile Lab 5](Labs/Mobile Lab 5.md)  
+[Mobile Lab 6](Labs/Mobile Lab 6.md)  
 
 ## Methods
 
