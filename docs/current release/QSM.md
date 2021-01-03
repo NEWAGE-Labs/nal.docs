@@ -1508,7 +1508,7 @@ The Quality Management Team ensures the establishment, documentation, and mainte
 
 #### 8.2.2 Competence, Impartiality, and Consistency ####
 
-The Quality Management Team uses the training procedures outlined in [*Quality System Procedure - Personnel*](QSP/Personnel.md) ensure competence, impartiality, and consistency.
+The Quality Management Team uses the training procedures outlined in [*Quality System Procedure - Personnel*](QSPs/Personnel.md) ensure competence, impartiality, and consistency.
 
 #### 8.2.3 Management Commitment to Improvement ####
 
