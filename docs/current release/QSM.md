@@ -1220,7 +1220,7 @@ Observations, data, and calculations are recorded at the time they are made and 
 
 The records of each test contain sufficient information to repeat the test under conditions as close as possible to the original. This information includes environmental conditions that affect the test and factors that affect the measurement results and its associated measurement uncertainty.
 
-Staff records, equipment calibration, and verification reports are retained in accordance with the laboratory’s control of records procedure. These records contain sufficient information to establish an audit trail. Details about maintaining technical records can be found in the referenced document [*Quality System Procedure - Technical Records*](QSPs/Technical-Records.md).
+Staff records, equipment calibration, and verification reports are retained in accordance with the laboratory’s control of records procedure. These records contain sufficient information to establish an audit trail. Details about maintaining technical records can be found in the referenced document [*Quality System Procedure - Technical Records*](QSPs/Technical Records.md).
 
 #### 7.5.2 Amending Technical Records ####
 
