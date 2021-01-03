@@ -10,6 +10,68 @@ Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of
 
 ## Methods
 
+##### (3M PCR)
+
+[AOAC #041701](3M PCR/AOAC #041701.md)  
+[AOAC 990.12](3M PCR/AOAC 990.12.md)  
+[AOAC 991.14](3M PCR/AOAC 991.14.md)  
+[AOAC 997.02](3M PCR/AOAC 997.02.md)  
+[AOAC 2003.07](3M PCR/AOAC 2003.07.md)  
+[AOAC 041101](3M PCR/AOAC 041101.md)  
+
+##### (CVAA -Flameless-)
+
+[EPA 3010](CVAA (Flameless)/EPA 3010.md)  
+[EPA 3031](CVAA (Flameless)/EPA 3031.md)  
+[EPA 3050](CVAA (Flameless)/EPA 3050.md)  
+[EPA 3051A](CVAA (Flameless)/EPA 3051A.md)  
+[EPA 3060A](CVAA (Flameless)/EPA 3060A.md)  
+[EPA 7470](CVAA (Flameless)/EPA 7470.md)  
+[EPA 7471B](CVAA (Flameless)/EPA 7471B.md)  
+[NEWAGE SOP Plant Tissue Acid Digestion - 001](CVAA (Flameless)/NEWAGE SOP Plant Tissue Acid Digestion - 001.md)  
+
+##### (Electrometer)
+
+[SM4500D](Electrometer/SM4500D.md)  
+
+##### (GC-ECD)
+
+[AOAC 974.21](GC-ECD/AOAC 974.21.md)  
+[AOAC 983.21](GC-ECD/AOAC 983.21.md)  
+[AOAC 984.21](GC-ECD/AOAC 984.21.md)  
+[AOAC 990.06](GC-ECD/AOAC 990.06.md)  
+[AOAC 2004.01 QuEChERS.](GC-ECD/AOAC 2004.01 QuEChERS..md)  
+[EPA 3510A](GC-ECD/EPA 3510A.md)  
+[EPA 3535A](GC-ECD/EPA 3535A.md)  
+[EPA 3546](GC-ECD/EPA 3546.md)  
+[EPA 3550](GC-ECD/EPA 3550.md)  
+[EPA 3610](GC-ECD/EPA 3610.md)  
+[EPA 3611](GC-ECD/EPA 3611.md)  
+[EPA 3630](GC-ECD/EPA 3630.md)  
+[EPA 3650](GC-ECD/EPA 3650.md)  
+[EPA 3660](GC-ECD/EPA 3660.md)  
+[EPA 3665](GC-ECD/EPA 3665.md)  
+[EPA 8081B](GC-ECD/EPA 8081B.md)  
+[EPA 8082A](GC-ECD/EPA 8082A.md)  
+
+##### (GC-MS)
+
+[AOAC 2007.01](GC-MS/AOAC 2007.01.md)  
+[EPA 5030B](GC-MS/EPA 5030B.md)  
+[EPA 8260B](GC-MS/EPA 8260B.md)  
+[EPA 8260C](GC-MS/EPA 8260C.md)  
+[EPA 8260D](GC-MS/EPA 8260D.md)  
+[EPA 8270D](GC-MS/EPA 8270D.md)  
+[EPA 8270E](GC-MS/EPA 8270E.md)  
+
+##### (ICP-OES)
+
+[AOAC 990.08](ICP-OES/AOAC 990.08.md)  
+[AOAC 993.14](ICP-OES/AOAC 993.14.md)  
+[AOAC 2012.007](ICP-OES/AOAC 2012.007.md)  
+[EPA 200.5](ICP-OES/.md)  
+[EPA 6010C](ICP-OES/.md)  
+
 ## NALIMS
 
 ##### (AgPro)
