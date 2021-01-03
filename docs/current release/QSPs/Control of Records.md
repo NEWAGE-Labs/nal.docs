@@ -1,5 +1,9 @@
 # Quality System Procedure - Control of Records
 
+>Most recently edited by: *Paul VanderWeele*  
+>Most recent edit date: *Jan 2nd, 2020*  
+>Edits were authorized by:  
+
 ## Purpose
 
 To identify, collect, index, access, file, store, maintain, protect, backup, and dispose quality and technical records. To outline procedures for the protection and backup of data/records held on computers.
