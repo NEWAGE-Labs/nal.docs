@@ -5,8 +5,8 @@ summary: The root document for the NAL Quality Management System
 # NAL Quality System Manual
 
 >Most recently edited by: *Paul VanderWeele*  
->Most recent edit date: *Dec 29, 2020*  
->Edits were authorized by: *Scott Wall*  
+>Most recent edit date: *Jan 2nd, 2020*  
+>Edits were authorized by:  
 
 # Table of Contents
 

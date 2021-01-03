@@ -1,4 +1,4 @@
-# Standard Operating Procedure - Javascript
+# Standard Operating Procedure - Testing
 
 >Most recently edited by: *Paul VanderWeele*  
 >Most recent edit date: *Jan 2nd, 2020*  
