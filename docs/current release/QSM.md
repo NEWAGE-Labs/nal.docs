@@ -43,7 +43,7 @@ summary: The root document for the NAL Quality Management System
 6. [**Resource Requirements**](#6-resource-requirements)  
   [6.1 **General**](#61-general)  
   [6.2 **Personnel**](#62-personnel)  
-  [6.2.1 **Personnel**](#621-personnel-2)  
+  [6.2.1 **Personnel**](#621-personnel)  
   [6.2.2 **Competence Requirements**](#622-competence-requirements)  
   [6.2.3 **Personnel Competence**](#623-personnel-competence)  
   [6.2.4 **Communication of Duties, Responsibilities, and Authorities**](#624-communication-of-duties-responsibilities-and-authorities)  
@@ -58,8 +58,8 @@ summary: The root document for the NAL Quality Management System
   [6.4 **Equipment**](#64-equipment)  
   [6.4.1 **Access to Laboratory Equipment**](#641-access-to-laboratory-equipment)  
   [6.4.2 **Equipment Outside the Laboratory's Permanent Control**](#642-equipment-outside-the-laboratorys-permanent-control)  
-  [6.4.3 **Procedure for Handling, Transport, Storage, Use, and Planned Maintenance of Equipment**](#643-procedure-for-handling-trandsport-storage-use-and-planned-maintenance-of-equipment)  
-  [6.4.4 **Verification of Equipment Prior to Use After Purchase or Maintenance**](#644-verification-of-equipment-prior-to-use-or-reuse)  
+  [6.4.3 **Procedure for Handling, Transport, Storage, Use, and Planned Maintenance of Equipment**](#643-procedure-for-handling-transport-storage-use-and-planned-maintenance-of-equipment)  
+  [6.4.4 **Verification of Equipment Prior to Use or Re-Use**](#644-verification-of-equipment-prior-to-use-or-re-use)  
   [6.4.5 **Equipment Accuracy/Uncertainty**](#645-equipment-accuracyuncertainty)  
   [6.4.6 **Equipment Calibration**](#646-equipment-calibration)  
   [6.4.7 **Calibration Program**](#647-calibration-program)  
@@ -72,7 +72,7 @@ summary: The root document for the NAL Quality Management System
   [6.5 **Metrological Traceability**](#65-metrological-traceability)  
   [6.5.1 **Establishing and Maintaining Metrological Traceability**](#651-establishing-and-maintaining-metrological-traceability)  
   [6.5.2 **Ensuring Measurement Results are Traceable**](#652-ensuring-measurement-results-are-traceable)  
-  [6.5.3 **Non-traceability of Reference Standards to SI Units**](#653-nontraceability-of-reference-standards-to-si-units)  
+  [6.5.3 **Non-traceability of Reference Standards to SI Units**](#653-non-traceability-of-reference-standards-to-si-units)  
   [6.6 **Externally Provided Products and Services**](#66-externally-provided-products-and-services)  
   [6.6.1 **Suitability of Externally Provided Products and Services**](#661-suitability-of-externally-provided-products-and-services)  
   [6.6.2 **Purchasing Services and Supplies**](#662-purchasing-services-and-supplies)  
@@ -80,7 +80,7 @@ summary: The root document for the NAL Quality Management System
 
 7. [**Process Requirements**](#7-process-requirements)  
   [7.1 **Review of Requests, Tenders, and Contracts**](#71-review-of-requests-tenders-and-contracts)  
-  [7.1.1 **Procedure**](#711-procedure)  
+  [7.1.1 **Procedure**](#711-contract-review-procedures)  
   [7.1.2 **Method Requested is Inappropriate or Out of Date**](#712-method-requested-is-inappropriate-or-out-of-date)  
   [7.1.3 **Statements of Conformity**](#713-statements-of-conformity)  
   [7.1.4 **Differences and Deviations**](#714-differences-and-deviations)  
@@ -91,7 +91,7 @@ summary: The root document for the NAL Quality Management System
   [7.2 **Selection, Verification, and Validation of Methods**](#72-selection-verification-and-validation-of-methods)  
   [7.2.1 Selection and Verification of Methods](#721-selection-and-verification-of-methods)  
   [*7.2.1.1 Use of Appropriate Methods*](#7211-use-of-appropriate-methods)  
-  [*7.2.1.2 Method Instructions for Personnel*](#7212method-instructions-for-personnel)  
+  [*7.2.1.2 Method Instructions for Personnel*](#7212-method-instructions-for-personnel)  
   [*7.2.1.3 Use of Valid Methods*](#7213-use-of-valid-methods)  
   [*7.2.1.4 Unspecified Method*](#7214-unspecified-method)  
   [*7.2.1.5 Method Verification Records*](#7215-method-verification-records)  
@@ -106,9 +106,9 @@ summary: The root document for the NAL Quality Management System
   [7.3.1 Sampling Methods](#731-sampling-methods)  
   [7.3.2 Minimum Requirements of Sampling Methods](#732-minimum-requirements-of-sampling-methods)  
   [7.3.3 Sampling Records](#733-sampling-records)  
-  [7.4 **Handling of Test or Calibration Items**](#74-handling-of-test-or-calibration-items)  
+  [7.4 **Handling of Samples**](#74-handling-of-samples)  
   [7.4.1 Procedures for Handling Samples](#741-procedures-for-handling-samples)  
-  [7.4.2 Identification System of Samples](742-#identification-system-of-samples)  
+  [7.4.2 Identification System of Samples](#742-identification-system-of-samples)  
   [7.4.3 Abnormal Sample Conditions](#743-abnormal-sample-conditions)  
   [7.4.4 Specified Environmental Conditions for Samples](#744-specified-environmental-conditions-for-samples)  
   [7.5 **Technical Records**](#75-technical-records)  
@@ -121,7 +121,7 @@ summary: The root document for the NAL Quality Management System
   [7.7 **Ensuring the Validity of Results**](#77-ensuring-the-validity-of-results)  
   [7.7.1 **Quality Control Procedures**](#771-quality-control-procedures)  
   [7.7.2 **Proficiency Testing**](#772-proficiency-testing)  
-  [7.7.3 **Defined Criteria**](#773-defined-criteria)  
+  [7.7.3 **Data Monitoring**](#773-data-monitoring)  
   [7.8 **Reporting of Results**](#78-reporting-of-results)  
   [7.8.1 General Requirements](#781-general-requirements)  
   [*7.8.1.1 Review and Release of Results*](#7811-review-and-release-of-results)  
@@ -137,14 +137,14 @@ summary: The root document for the NAL Quality Management System
   [*7.8.4.1 Calibration Certificate Reports*](#7841-calibration-certificate-reports)  
   [*7.8.4.2 Sampling for Calibration Certificates*](#7842-sampling-for-calibration-certificates)  
   [*7.8.4.3 Calibration Intervals on Calibration Certificates*](#7843-calibration-intervals-on-calibration-certificates)  
-  [7.8.5 Reporting Sampling - Specific Requirements](#785-reporting-sampling-specific-requirements)  
+  [7.8.5 Reporting Sampling](#785-reporting-sampling)  
   [7.8.6 Reporting Statements of Conformity](#786-reporting-statements-of-conformity)  
   [*7.8.6.1 Decision Rule*](#7861-decision-rule)  
   [*7.8.6.2 Statement of Conformity*](#7862-statement-of-conformity)  
   [7.8.7 Reporting Opinions and Interpretations](#787-reporting-opinions-and-interpretations)  
   [*7.8.7.1 Release and Authorization of Opinions and Interpretations*](#7871-release-and-authorization-of-opinions-and-interpretations)  
   [*7.8.7.2 Reporting Opinions and Interpretations*](#7872-reporting-opinions-and-interpretations)  
-  [*7.8.7.3 Records of Directly Communicating Opinions and Interpretations*](#7873-records-of-directly-communiticating-opinions-and-interpretations)  
+  [*7.8.7.3 Records of Directly Communicating Opinions and Interpretations*](#7873-records-of-directly-communicating-opinions-and-interpretations)  
   [7.8.8 Amendments to Reports](#788-amendments-to-reports)  
   [*7.8.8.1 Re-Issuing Reports*](#7881-re-issuing-reports)  
   [*7.8.8.2 Amending an Issued Report*](#7882-amending-an-issued-report)  
@@ -154,9 +154,9 @@ summary: The root document for the NAL Quality Management System
   [7.9.2 Availability of Complaint Process](#792-availability-of-complaint-process)  
   [7.9.3 Requirements for Complaint Process](#793-requirements-for-complaint-process)  
   [7.9.4 Validating Complaints](#794-validating-complaints)  
-  [7.9.5 Updates to Complainants](#795-updates-to-complaints)  
+  [7.9.5 Updates to Complainants](#795-updates-to-complainants)  
   [7.9.6 Personnel to Communicate Complaint Outcomes](#796-personnel-to-communicate-complaint-outcomes)  
-  [7.9.7 Communication of Complaint Completion](#797-Communication-of-complaint-completion)  
+  [7.9.7 Communication of Complaint Completion](#797-communication-of-complaint-completion)  
   [7.10 **Nonconforming Work**](#710-nonconforming-work)  
   [7.10.1 Control of Nonconforming Work](#7101-control-of-nonconforming-work)  
   [7.10.2 Records of Nonconforming Work](#7102-records-of-nonconforming-work)  
@@ -165,7 +165,7 @@ summary: The root document for the NAL Quality Management System
   [7.11.1 Access to Data and Information](#7111-access-to-data-and-information)  
   [7.11.2 Changes to the LIMS](#7112-changes-to-the-lims)  
   [7.11.3 Requirements for the LIMS](#7113-requirements-for-the-lims)  
-  [7.11.4 Off-Site LIMS Components](#7114-offsite-lims-components)  
+  [7.11.4 Off-Site LIMS Components](#7114-off-site-lims-components)  
   [7.11.5 Availability of LIMS Documentation](#7115-availability-of-lims-documentation)  
   [7.11.6 Data Integrity](#7116-data-integrity)
 
@@ -179,7 +179,7 @@ summary: The root document for the NAL Quality Management System
   [8.2.2 Competence, Impartiality, and Consistency](#822-competence-impartiality-and-consistency)  
   [8.2.3 Management Commitment to Improvement](#823-management-commitment-to-improvement)  
   [8.2.4 Referenced Quality Documentation](#824-referenced-quality-documentation)  
-  [8.2.5](#825-personnel-access)  
+  [8.2.5 Personnel Access](#825-personnel-access)  
   [8.3 **Control of Management System Documents (Option A)**](#83-control-of-management-system-documents-option-a)  
   [8.3.1 Document Control of QMS Documents](#831-document-control-of-qms-documents)  
   [8.3.2 Document Control Criteria](#832-document-control-criteria)  
@@ -195,11 +195,11 @@ summary: The root document for the NAL Quality Management System
   [8.6.2 Customer Feedback](#862-customer-feedback)  
   [8.7 **Corrective Actions (Option A)**](#87-corrective-actions-option-a)  
   [8.7.1 Nonconformities](#871-nonconformities)  
-  [8.7.2 Corrective Actions for Nonconformities](#872-corrective-actions-for-nonconformitites)  
+  [8.7.2 Corrective Actions for Nonconformities](#872-corrective-actions-for-nonconformities)  
   [8.7.3 Records of Corrective Actions](#873-records-of-corrective-actions)  
   [8.8 **Internal Audits (Option A)**](#88-internal-audits-option-a)  
   [8.8.1 Internal Audit Plan](#881-internal-audit-plan)  
-  [8.8.2 Implementing and Recording Internal Audits](#882implementing-and-recording-internal-audits)  
+  [8.8.2 Implementing and Recording Internal Audits](#882-implementing-and-recording-internal-audits)  
   [8.9 **Management Reviews (Option A)**](#89-management-reviews-option-a)  
   [8.9.1 Management Review Plan](#891-management-review-plan)  
   [8.9.2 Management Review Inputs](#892-management-review-inputs)  
@@ -1277,7 +1277,7 @@ Additional information on and procedures to monitor the validity of results can 
 
 Performance is monitored by comparison with results of other laboratories where available and appropriate through proficiency testing. This monitoring is planned and reviewed. Additional information regarding proficiency testing can be found in the *Quality System Document - Proficiency Testing Plan*.
 
-#### 7.7.3 Monitored Data ####
+#### 7.7.3 Data Monitoring ####
 
 Data from monitoring activities shall be analyzed, and use to control/improve the laboratory's activities. If results of a monitoring analysis are found outside the pre-defined criteria, appropriate action is taken to prevent incorrect results from being reported. Additional information on the monitoring, control, and correction of data can be found in the *Quality System Document - LIMS*.
 
@@ -1530,35 +1530,35 @@ The Quality Management Team holds regular meetings tracked using meeting notes a
 
 The following documents are maintained by the Quality Management Team, and are the primary references to navigate the remainder of the Quality Management System:
 
-*QSP - Audits*
-*QSP - Complaints*
-*QSP - Conflict of Interest, Impartiality, and Confidentiality*
-*QSP - Contract Review*
-*QSP - Control of Nonconforming Work*
-*QSP - Control of Records*
-*QSP - Document Control and Management*
-*QSP - Equipment*
-*QSP - Facilities and Environmental Conditions*
-*QSP - LIMS*
-*QSP - Management Review*
-*QSP - Measurement Uncertainty*
-*QSP - Methods*
-*QSP - Metrological Traceability*
-*QSP - Personnel*
-*QSP - Purchasing and Receipt*
-*QSP - Reports*
-*QSP - Sample Handling*
-*QSP - Sampling*
-*QSP - Technical Records*
-*QSL - 4.x*
-*QSD - Task Competencies*
-*QSD - Proficiency Testing Plan*
+*QSP - Audits*  
+*QSP - Complaints*  
+*QSP - Conflict of Interest, Impartiality, and Confidentiality*  
+*QSP - Contract Review*  
+*QSP - Control of Nonconforming Work*  
+*QSP - Control of Records*  
+*QSP - Document Control and Management*  
+*QSP - Equipment*  
+*QSP - Facilities and Environmental Conditions*  
+*QSP - LIMS*  
+*QSP - Management Review*  
+*QSP - Measurement Uncertainty*  
+*QSP - Methods*  
+*QSP - Metrological Traceability*  
+*QSP - Personnel*  
+*QSP - Purchasing and Receipt*  
+*QSP - Reports*  
+*QSP - Sample Handling*  
+*QSP - Sampling*  
+*QSP - Technical Records*  
+*QSL - 4.x*  
+*QSD - Task Competencies*  
+*QSD - Proficiency Testing Plan*  
 
 #### 8.2.5 Personnel Access ####
 
 The documentation for the Quality Management System is maintained on an internal documentation server accessible from any work station, or from any personal Wi-Fi device on the internal laboratory network, or via the internet using authorized credentials.
 
-## 8.3 Control of Management System Documents ##
+## 8.3 Control of Management System Documents (Option A) ##
 
 #### 8.3.1 Document Control of QMS Documents ####
 
