@@ -32,7 +32,7 @@ Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of
 [Markdown](Software and Computers/Markdown.md)
 [MkDocs](Software and Computers/MkDocs.md)
 [Mr Developer](Software and Computers/Mr Developer.md)
-[NALLIMS](Software and Computers/NALLIMS.md)
+[NALIMS](Software and Computers/NALIMS.md)
 [Networking](Software and Computers/Networking.md)
 [NGINX](Software and Computers/NGINX.md)
 [Office 365](Software and Computers/Office 365.md)
