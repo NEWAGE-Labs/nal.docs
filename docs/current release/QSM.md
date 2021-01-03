@@ -564,7 +564,7 @@ Laboratory activities shall be undertaken impartially and are structured and man
 The laboratory's [quality management team](#quality-management-team) shall be committed to impartiality. They are responsible for designing the [quality management system](#quality-management-system) to effectively ensure impartiality of laboratory activity by all management, personnel, and external providers. Laboratory management is responsible for the communication and training of employees on impartially including the policy, details, and consequences. Employees will be made aware of the need for impartiality, and any conflicts of interest or concerns shall be brought to the attention of the employee’s direct supervisor immediately.
 
 *Related documents:*
-*QSP - Conflict of Interest, Impartiality, and Confidentiality*
+[*QSP - Conflict of Interest, Impartiality, and Confidentiality*](QSPs/Conflict of Interest Impartiality and Confidentiality.md)
 *QSL 4.x - Log of Employees whom have signed QSP - Conflict of Interest, Impartiality, and Confidentiality*
 
 #### 4.1.3 Impartiality to Pressure ####
@@ -722,7 +722,7 @@ the public
 * Ensures that the operational needs are within budget and advising management of any discrepancies.  
 * Ensures equipment is maintained and calibrated, reporting all deficiencies (e.g.,equipment malfunctions) in the appropriate manner.  
 * Writes and reviews SOPs.  
-* Identifies and records non-conformities with *Corrective Actions*.  
+* Identifies and records non-conformities with [corrective actions](#87-corrective-actions-option-a).  
 * Corrects non-conformities and potential non-conformities.  
 * Improves laboratory activities and quality system on a continuous basis.  
 * Ensure the effectiveness of laboratory activities.
@@ -732,7 +732,7 @@ the public
 * Oversees accounts payable, accounts receivable, purchasing and vendor evaluations.  
 * Oversees standard pricing, customized quotations, and invoicing for tests performed
 * Writes and reviews SOPs.  
-* Identifies and records non-conformities with *Corrective Actions*.  
+* Identifies and records non-conformities with [corrective actions](#87-corrective-actions-option-a).  
 * Corrects non-conformities and potential non-conformities.  
 * Improves laboratory activities and quality system on a continuous basis.  
 * Orientates new human resources personnel.  
@@ -749,7 +749,7 @@ the public
 * Maintains current job descriptions.  
 * performs work functions and keeps records as per approved SOPs and/or laboratory policies.  
 * Writes and reviews SOPs.  
-* Identifies and records non-conformities with *Corrective Action*.  
+* Identifies and records non-conformities with [corrective action](#87-corrective-actions-option-a).  
 * Corrects non-conformities and potential non-conformities.  
 * Improves laboratory activities and quality system on a continuous basis.  
 * Orientates new IT personnel.  
@@ -767,7 +767,7 @@ the public
 * Signs reports when designated with signing authority.  
 * Maintains and calibrates equipment.  
 * Reports deficiencies or malfunction to the supervisor.  
-* Identifies and reports non-conformities with *Corrective Action*.  
+* Identifies and reports non-conformities with [corrective action](#87-corrective-actions-option-a).  
 * Corrects non-conformities and potential non-conformities with Quality Management Team oversight.  
 * Reports need for improvement on laboratory and/or quality activities on a continuous basis.  
 * Receives samples at the Laboratory from customers and samplers.  
@@ -1033,11 +1033,11 @@ Procedures for the review of requests, tenders, and contracts (including work th
 
 #### 7.1.2 Method Requested is Inappropriate or Out of Date ####
 
-The laboratory informs the customer when the method proposed by the customer is considered to be the incorrect choice or the incorrect revision for the intended purpose. This is done as part of contract review addressed in *Section 7.1.1 - Contract Review Procedures*.
+The laboratory informs the customer when the method proposed by the customer is considered to be the incorrect choice or the incorrect revision for the intended purpose. This is done as part of contract review addressed in [*Section 7.1.1 - Contract Review Procedures*](#711-contract-review-procedures).
 
 #### 7.1.3 Statements of Conformity ####
 
-When the customer requests a statement of conformity to a specification or standard for the test, the specification or standard and the decision rule are clearly defined in the compliance programs or standard. Otherwise, the laboratory communicates the decision rule selected to the customer and obtains their agreement. For more information on statements of conformity, see *Section 7.8.6 - Reporting Statements of Conformity*.
+When the customer requests a statement of conformity to a specification or standard for the test, the specification or standard and the decision rule are clearly defined in the compliance programs or standard. Otherwise, the laboratory communicates the decision rule selected to the customer and obtains their agreement. For more information on statements of conformity, see [*Section 7.8.6 - Reporting Statements of Conformity*](786-reporting-statements-of-conformity).
 
 #### 7.1.4 Differences and Deviations ####
 
@@ -1220,7 +1220,7 @@ Observations, data, and calculations are recorded at the time they are made and 
 
 The records of each test contain sufficient information to repeat the test under conditions as close as possible to the original. This information includes environmental conditions that affect the test and factors that affect the measurement results and its associated measurement uncertainty.
 
-Staff records, equipment calibration, and verification reports are retained in accordance with the laboratory’s control of records procedure. These records contain sufficient information to establish an audit trail. Details about maintaining technical records can be found in the referenced document *Quality System Procedure - Technical Records*
+Staff records, equipment calibration, and verification reports are retained in accordance with the laboratory’s control of records procedure. These records contain sufficient information to establish an audit trail. Details about maintaining technical records can be found in the referenced document [*Quality System Procedure - Technical Records*](QSPs/Technical-Records.md).
 
 #### 7.5.2 Amending Technical Records ####
 
@@ -1230,17 +1230,17 @@ The laboratory ensures changes to technical records can be tracked to the previo
 
 #### 7.6.1 Uncertainty Components ####
 
-When estimating the uncertainty of measurement, all uncertainty components that are of importance in the given situation (including sampling components) are taken into account using accepted methods of analysis. Additional information on the estimation of uncertainty and uncertainty component can be found in the *Quality System Procedure - Measurement Uncertainty*.
+When estimating the uncertainty of measurement, all uncertainty components that are of importance in the given situation (including sampling components) are taken into account using accepted methods of analysis. Additional information on the estimation of uncertainty and uncertainty component can be found in the [*Quality System Procedure - Measurement Uncertainty*](QSPs/Measurement Uncertainty.md).
 
 #### 7.6.2 Procedure for Calibration Activities ####
 
-When performing calibrations, including that of its own equipment, measurement uncertainty for all calibrations shall be evaluated. Additional information on the evaluation of measurement uncertainty for equipment can be found in the *Quality System Procedure - Equipment*.
+When performing calibrations, including that of its own equipment, measurement uncertainty for all calibrations shall be evaluated. Additional information on the evaluation of measurement uncertainty for equipment can be found in the [*Quality System Procedure - Equipment*](QSPs/Equipment.md).
 
 #### 7.6.3 Procedure for Testing Activities ####
 
 When performing testing, measurement uncertainty shall be evaluated. Where the test method
 precludes rigorous evaluation of measurement uncertainty, an estimation shall be made based on an
-understanding of the theoretical principles or practical experience of the performance of the method. Additional information on measurement uncertainty procedures for specific tests can be found from the [*Quality System Procedure - Methods*](QSPs/Methods.md). Additional information on the estimation of measurement uncertainty can be found in the *Quality System Procedure - Measurement Uncertainty*.
+understanding of the theoretical principles or practical experience of the performance of the method. Additional information on measurement uncertainty procedures for specific tests can be found from the [*Quality System Procedure - Methods*](QSPs/Methods.md). Additional information on the estimation of measurement uncertainty can be found in the [*Quality System Procedure - Measurement Uncertainty*](QSPs/Measurement Uncertainty.md).
 
 ## 7.7 Ensuring the Validity of Results ##
 
@@ -1259,7 +1259,7 @@ secondary reference materials
 * Re-testing of retained items
 * Correlation of results for different characteristics of an item
 
-Additional information on and procedures to monitor the validity of results can be found in the *Quality System Procedure - Internal Audits*.
+Additional information on and procedures to monitor the validity of results can be found in the [*Quality System Procedure - Audits*](QSPs/Audits.md).
 
 #### 7.7.2 Proficiency Testing ####
 
@@ -1275,11 +1275,11 @@ Data from monitoring activities shall be analyzed, and use to control/improve th
 
 ###### 7.8.1.1 Review and Release of Results ######
 
-Results are reviewed and authorized prior to release. The personnel authorized to review and release results are defined in *Section 6.2.6 - Personnel Authorization*.
+Results are reviewed and authorized prior to release. The personnel authorized to review and release results are defined in [*Section 6.2.6 - Personnel Authorization*](#626-personnel-authorization).
 
 ###### 7.8.1.2 Reporting Results ######
 
-Results are provided accurately, clearly, unambiguously, and objectively, usually in the form of a report. Included is all the information agreed with the customer, necessary for the interpretation of the results, and required by the method used. All issued reports are retained as technical records. Additional information on the reporting of results can be found in the *Quality System Procedure - Technical Records*. Additional information on customer agreements can be found in the [*Quality System Procedure - Contract Review*](QSPs/Contract Review.md).
+Results are provided accurately, clearly, unambiguously, and objectively, usually in the form of a report. Included is all the information agreed with the customer, necessary for the interpretation of the results, and required by the method used. All issued reports are retained as technical records. Additional information on the reporting of results can be found in the [*Quality System Procedure - Technical Records*](QSPs/Technical Records.md). Additional information on customer agreements can be found in the [*Quality System Procedure - Contract Review*](QSPs/Contract Review.md).
 
 ###### 7.8.1.3 Simplified Reporting ######
 
@@ -1311,7 +1311,7 @@ Unless there is a valid reason for not doing so, each report issued shall includ
 
 ###### 7.8.2.2 Report Data Provided by Customer ######
 
-All the information provided in the report is the responsibility of the laboratory, except when information is provided by the customer. Data provided by a customer is clearly identified on reports. In addition, a disclaimer shall be put on the report when the information is supplied by the customer and can affect the validity of results. Where the laboratory has not been responsible for the sampling stage (e.g. the sample has been provided by the customer), it shall state in the report that the results apply to the sample as received. Additional information on the use of disclaimers can be found in the *Quality System Procedure - Reports*.
+All the information provided in the report is the responsibility of the laboratory, except when information is provided by the customer. Data provided by a customer is clearly identified on reports. In addition, a disclaimer shall be put on the report when the information is supplied by the customer and can affect the validity of results. Where the laboratory has not been responsible for the sampling stage (e.g. the sample has been provided by the customer), it shall state in the report that the results apply to the sample as received. Additional information on the use of disclaimers can be found in the [*Quality System Procedure - Reports*](QSPs/Reports.md).
 
 #### 7.8.3 Specific Requirements for Test Reports ####
 
