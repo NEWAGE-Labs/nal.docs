@@ -85,7 +85,7 @@ Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of
 [AOAC 983.21](Methods/GC-ECD/AOAC 983.21.md)  
 [AOAC 984.21](Methods/GC-ECD/AOAC 984.21.md)  
 [AOAC 990.06](Methods/GC-ECD/AOAC 990.06.md)  
-[AOAC 2004.01 QuEChERS.](Methods/GC-ECD/AOAC 2004.01 QuEChERS..md)  
+[AOAC 2004.01 QuEChERS.](Methods/GC-ECD/AOAC 2004.01 QuEChERS.md)  
 [EPA 3510A](Methods/GC-ECD/EPA 3510A.md)  
 [EPA 3535A](Methods/GC-ECD/EPA 3535A.md)  
 [EPA 3546](Methods/GC-ECD/EPA 3546.md)  
@@ -137,7 +137,7 @@ Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of
 
 ## Sampling
 
-[Sap - Alfalfa (PDF)](Sampling/Sap - Alfalfa].pdf)  
+[Sap - Alfalfa (PDF)](Sampling/Sap - Alfalfa.pdf)  
 [Sap - Almond (PDF)](Sampling/Sap - Almond.pdf)  
 [Sap - Blueberry (PDF)](Sampling/Sap - Blueberry.pdf)  
 [Sap - Blackberry (PDF)](Sampling/Sap - Blackberry.pdf)  
