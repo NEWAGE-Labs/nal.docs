@@ -12,11 +12,11 @@ Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of
 
 ## NALIMS
 
-##### AgPro
+##### (AgPro)
 [Clients and Samples](NALIMS/AgPro - Clients and Samples.md)  
 [Results and Reports](NALLIMS/AgPro - Results and Reports.md)  
 
-##### NALIMS
+##### (NALIMS)
 [Application and Database](NALIMS/Application and Database.md)  
 [Client Entry and Modification](NALIMS/Client Entry and Modification.md)  
 [Content Administration](NALIMS/Content Administration.md)  
