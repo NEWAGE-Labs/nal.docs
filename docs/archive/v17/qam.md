@@ -657,15 +657,11 @@ The laboratory’s scope of tests is listed in the corporate offices at 160 Vete
 
 The laboratory, including all permanent, temporary, mobile, and client locations, performs chemical and microbiological testing services to meet, at minimum, the requirements of this document, ISO/IEC 17025, NELAC 2009, and our clients.
 
-\newpage
 ### 5.5 Laboratory Organizational Structure and Procedures ###
 
 ##### (a) #####
 
 The organization and management structure of the laboratory, and the relationships between management, technical operations, support services, and the quality management system is defined through the aid of an organizational chart. The quality management team keeps the most current organizational chart on file. An organizational chart is available with this manual as a reference record and is considered the official record on the date it is marked.
-
-![organization chart](ORGCHART072020a.jpg)
-\newpage
 
 ##### (b) #####
 ###### President/CEO ######
@@ -926,15 +922,15 @@ The equipment calibration program is defined in referenced documents *Quality Sy
 
 Equipment under the control of the laboratory and requiring calibration, or having a defined period of validity, is labeled or coded to indicate the calibration status or period of validity. Alternatively, equipment calibration status may be identified in an associated record to indicate the status of calibration.
 
-![Calibration Tag](calibration_tag.png)
+![Calibration Tag](imgs/calibration_tag.png)
 
 Measuring equipment that has failed calibration or is deemed out of service is labeled with one of the following labels:
 
-![Calibration Void](calibration_void.png)   ![Calibration Out of Service](calibration_out_of_service.png)  
+![Calibration Void](imgs/calibration_void.png)   ![Calibration Out of Service](imgs/calibration_out_of_service.png)  
 
 A piece of equipment that is not calibrated or checked is labeled with the following label:
 
-![Calibration For Reference Only](calibration_for_reference_only.png)  
+![Calibration For Reference Only](imgs/calibration_for_reference_only.png)  
 
 Calibration labels have a write-on surface and a pressure sensitive adhesive. The areas that are filled out include the person who performed the calibration, the date it was performed, the date it is due for re-calibration, and the equipment’s identification number.
 
