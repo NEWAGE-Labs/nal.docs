@@ -16,6 +16,31 @@ Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of
 
 ## Sampling
 
+[Sap-Alfalfa](SAPGUIDE.PDF)
+[Sap-Almond](SAPGUIDE.PDF)
+[Sap-Blueberry](SAPGUIDE.PDF)
+[Sap-Blackberry](SAPGUIDE.PDF)
+[Sap-Brassica](SAPGUIDE.PDF)
+[Sap-Cannabis](SAPGUIDE.PDF)
+[Sap-Citrus](SAPGUIDE.PDF)
+[Sap-Cucurbit](SAPGUIDE.PDF)
+[Sap-General](SAPGUIDE.PDF)
+[Sap-Grapes](SAPGUIDE.PDF)
+[Sap-Olives](SAPGUIDE.PDF)
+[Sap-Pepper](SAPGUIDE.PDF)
+[Sap-Potato](SAPGUIDE.PDF)
+[Sap-Root Crop](SAPGUIDE.PDF)
+[Sap-Soybean](SAPGUIDE.PDF)
+[Sap-Strawberry](SAPGUIDE.PDF)
+[Sap-Sugarcane and Sorghum](SAPGUIDE.PDF)
+[Sap-Tomato](SAPGUIDE.PDF)
+[Sap-Wheat](SAPGUIDE.PDF)
+[Drinking Water](WATERGUIDE.PDF)
+[Irrigation Water](WATERGUIDE.PDF)
+[Waste Water](WATERGUIDE.PDF)
+[Pnuematic Air Sponge](SPONGE.PDF)
+[Environmental Swap Sponge](SPONGE.PDF)
+
 ## Software and Computers
 
 [BASH](Software and Computers/BASH.md)  
