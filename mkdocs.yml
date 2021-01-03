@@ -4,5 +4,6 @@ nav:
     - Newest Release: Releases.md
     - Quality System Manual (QSM): current release/QSM.md
     - Quality System Procedures (QSPs): current release/QSPs/index.md
+    - Standard Operating Procedures (SOPs): current release/SOPs/index.md
     - Archive: archive/index.md
 theme: readthedocs
