@@ -1,6 +1,6 @@
 # NAL Quality System Procedures
 
-Below are the list of NAL Quality System Procedures (QSPs). Old revisions of QSPs can be found in the [NAL Document Archive](../archive/index.md)
+Below are the list of NAL Quality System Procedures (QSPs). Old revisions of QSPs can be found in the [NAL Document Archive](../../archive/index.md)
 
 ##### [Audits](Audits.md)
 ##### [Complaints](Complaints.md)
