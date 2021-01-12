@@ -25,3 +25,7 @@ Windows is a software built by [Microsoft](#microsoft) used to help operate 32-b
 # Current Version
 
 Currently NAL uses Windows 10 for all personnel and instrument [workstations](Workstations.md) except where an older version is required or [Ubuntu](Ubuntu.md) can be used instead. It is also used for the main office domain controller and [file server](Servers.md#file-server).
+
+# Additional Information and Tools
+
+Additional information on Windows, including how to use Powershell, can be found on [Microsoft's website](www.microsoft.com/en-us/windows).
