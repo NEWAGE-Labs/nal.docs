@@ -727,7 +727,7 @@ the public
 * Improves laboratory activities and quality system on a continuous basis.  
 * Ensure the effectiveness of laboratory activities.
 
-###### Human Resources and Accounting ######  
+###### Executive Assistant ######  
 * Ensures that the quality management system is established, implemented, and maintained in accordance with all accreditation and regulatory authorities.  
 * Oversees accounts payable, accounts receivable, purchasing and vendor evaluations.  
 * Oversees standard pricing, customized quotations, and invoicing for tests performed
@@ -851,7 +851,7 @@ The President and VP of Laboratory Operations are authorized to develop, modify,
 The President, VP of Laboratory Operations, IT Director, Technicians, and Scientists have authority to analyze results, including statements of conformity, opinions, or interpretations.
 
 ###### (c) ######
-The President, VP of Laboratory Operations, IT Director, Head of Human Resources, Technicians, and Scientists have authority to review, authorize, and report results.
+The President, VP of Laboratory Operations, IT Director, Executive Assistant, Technicians, and Scientists have authority to review, authorize, and report results.
 
 ## 6.3 Facilities and Environmental Conditions ##
 
