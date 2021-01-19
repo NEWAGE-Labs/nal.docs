@@ -9,7 +9,8 @@
 [Purpose and Scope](#purpose-and-scope)  
 [Terms and Definitions](#terms-and-definitions)  
 [How Git Works](#how-git-works)  
-[Using Git](#using-git)
+[Using Git on BASH](#using-git-on-bash)  
+[Using the Git GUI](#using-the-git-gui)
 
 ## Purpose and Scope
 
@@ -138,7 +139,7 @@ Suppose we add a bunch of new features to a system, and call the release `1.1` a
 
 However, suppose those fixes will take weeks, and the system is completely broken until then. We could also use the `1.1` tag to revert the repository to the older, stable state while we wait for the `1.2` features to be corrected. For project management clarity, this new tag would ideally still be incremented to `1.2.1` or `1.3`, and the original tag `1.2` would be considered a *broken* release.
 
-## Using Git
+## Using Git on BASH
 
 Below are commands used in [BASH](BASH.md) to simplify using Git. The angle brackets < > are used to denote fields that must be replaced with the appropriate info.
 
@@ -206,3 +207,42 @@ To edit the folders and files that Git ignores, modify a `.gitignore` file insid
 #### Git Include
 
 To edit the folders and files that Git includes, modify a `.gitinclude` file inside the [Git Tree](#the-git-tree).
+
+## Using the Git GUI
+
+While Git is best used from a command-line interface like [BASH](BASH.md), a graphical tool does exist for use on [Windows](Windows.md) [Workstations](Workstations.md). To download the tool, navigate to the official [Git Download Website](https://git-scm.com/downloads) and select "*Windows*".
+
+To use the Git GUI, right-click in or on a directory that you would like to manage. Either click `Git GUI Here` to use the GUI, or if using [BASH](BASH.md) select `Git BASH Here` and use the commands listed [above](#using-git-on-bash).
+
+![GUI in Folder](../../imgs/Git/GUI in folder.png)
+
+Once the GUI opens, the page displayed could be one of two things. If the folder that was originally selected is NOT already initialized as a Git Repository, then the following menu will be displayed to prompt the user to open one.
+
+![GUI Landing Page](../../imgs/Git/GUI Landing Page.png)
+
+Once a repository is selected, or if one was selected to begin with, then the contents of the repository will be scanned, and displayed in the following menu format:
+
+![GUI Program](../../imgs/Git/GUI Program.png)
+
+The areas are as follows:
+
+**1 - Current Branch**  
+The current branch of the repository being viewed. Additional branches may exist on your local machine, and it's important that commits are made to the correct branch.
+
+**2 - Unstaged Changes**  
+When any file or folder that is being tracked by Git is changed, the changed object will appear in this area. These changes will NOT be included in a [commit](#commit) until they are staged. To stage a change, either double click it in the Unstaged Changes section, or select '*Stage Changed*' from the controls in the bottom to stage **ALL** changes listed.
+
+**3 - Staged Changes**  
+Listed here are the changes to files and folders that have already been staged. Changes are made on a *bitwise* difference, not an entire file. What this means is that if a staged file is further modified, the newer changes are listed in the **Unstaged Changes** section while the changes selected for staging would remain in the **Staged Changes** section, despite both changes being for the same file.
+
+**4 - Line by Line Edits**  
+This section will only display when selecting a staged or unstaged object. The details of the changes will be listed here, indicated by lines that were added and lines that were removed.
+
+**5 - Simplified Control Panel**  
+While a full range of tools can be found on the toolbar at the top of the window, this section provides the tools typically used for reviewing and committing changes to an active repository.
+
+* Rescan - Refreshes the program with any new changes that may have occurred within the repository.
+* Stage Changes - Stage ALL current Unstaged changes.
+* Sign Off - Signs out of the current Git User.
+* Commit - Commits all staged changes to the current branch of the local repository
+* Push - Pushes the most recent commit of the current branch to a remote repository.

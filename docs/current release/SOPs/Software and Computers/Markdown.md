@@ -36,7 +36,7 @@ Adding Markdown syntax to text is very straight-forward as the formatting is tex
 
 #### From Markdown to HTML.
 
- However, without another program, the text does not actually look formatted. An extension exists for [Atom](Atom.md) that allows it to display formatted Markdown within the editor; however this is primarily useful only for personnel that are *editing* documents. The published and controlled version of the document is rendered using an interpreting program. We use the interpretter [MkDocs](MkDocs.md) to convert the Markdown syntax into [HTML](HTML.md). The formatting web documents are then served on the [NAL Documentation Server's](Servers.md) local IP address.
+ However, without another program, the text does not actually look formatted. An extension exists for [Atom](Atom.md) that allows it to display formatted Markdown within the editor; however this is primarily useful only for personnel that are *editing* documents. The published and controlled version of the document is rendered using an interpreting program. We use the interpretter [MkDocs](MkDocs.md) to convert the Markdown syntax into [HTML](HTML.md). The formatting web documents are then served on the [NAL Documentation Server's](Servers.md) local IP address using [NGINX](#NGINX.md).
 
 #### Version Control
 
