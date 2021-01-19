@@ -28,21 +28,17 @@ A more robust glossary of Git terms can be found on the official [Git Website](h
 
 > A Version Control System is a software system used to track bitwise changes to files, including the ability to reverse and combine changes. Examples include decentralized systems like Git and centralized systems like SVN.
 
-###### Checkout
-
-> A Checkout of a [repository](#repository) links the repository with your file system, and allows modifications to be made. Checkouts are working versions of repositories, and changes made to a checked out repository will take effect immediately.
-
 ###### Fork
 
-> A Fork of a [repository](#repository) is a complete copy with the purpose of modifying the repository differently than the original. Forks are effectively a new project based on a previous project.
+> A Fork of a [repository](#repository) is a complete copy of a particular branch with the purpose of modifying the repository differently than the original. Forks are effectively a new project based on a previous project.
 
 ###### Clone
 
-> A Clone of a [repository](#repository) is a complete copy with the purpose of synchronization. Clones are effectively backups or co-located files of projects.
+> A Clone of a [repository](#repository) is a complete copy of a repository structure with the purpose of updating or experimenting. Clones are effectively backups or co-located files of projects.
 
 ###### Branch
 
-> A Branch of a [repository](#repository) is a distinct copy of changes to repository files. Branches are used to maintained different variants of a repository that exist in every instance of it.
+> A Branch of a [repository](#repository) is a distinct set of changes to repository files. Branches are used to maintained different variants of a repository that exist in every instance of it.
 
 ###### Blob
 
@@ -80,6 +76,10 @@ A more robust glossary of Git terms can be found on the official [Git Website](h
 ###### Pull
 
 > A Pull completes the actions described in a [fetch](#fetch). Pulling will overwrite local [repository](#repository) files with the changes described in the identical fetch process. Pulls are typically done by [remote](#remote) repositories and pull from either other remote repositories, or from an [origin](#origin) repository. Instead of [pushing](#push) a change to an origin repository, a Pull Request is made to ask the origin repository to pull from your local repository. This allows the origin to never be accidentally overwritten.
+
+###### Checkout
+
+> A Checkout updates a local repository with a copy of a branch or tagged commit from a repository. Checkouts are used as the basis for updates and comparisons.
 
 ###### Tag
 
@@ -220,14 +220,14 @@ Once the GUI opens, the page displayed could be one of two things. If the folder
 
 ![GUI Landing Page](../../imgs/Git/GUI Landing Page.png)
 
-Once a repository is selected, or if one was selected to begin with, then the contents of the repository will be scanned, and displayed in the following menu format:
+Once a repository is selected, or if one was selected to begin with, then the contents of the repository will be scanned and displayed in the following menu format:
 
 ![GUI Program](../../imgs/Git/GUI Program.png)
 
 The areas are as follows:
 
 **1 - Current Branch**  
-The current branch of the repository being viewed. Additional branches may exist on your local machine, and it's important that commits are made to the correct branch.
+The current branch of the repository being viewed. Additional branches may exist on your local machine, and it's important that commits are made to the correct branch. To create|checkout branches, use the toolbar menu option Branch -> Create|Checkout.
 
 **2 - Unstaged Changes**  
 When any file or folder that is being tracked by Git is changed, the changed object will appear in this area. These changes will NOT be included in a [commit](#commit) until they are staged. To stage a change, either double click it in the Unstaged Changes section, or select '*Stage Changed*' from the controls in the bottom to stage **ALL** changes listed.
