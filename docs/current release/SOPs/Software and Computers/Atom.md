@@ -1,7 +1,7 @@
-# Standard Operating Procedure - NALLIMS: Development and Addons
+# Standard Operating Procedure - Atom
 
 >Most recently edited by: *Paul VanderWeele*  
->Most recent edit date: *Jan 2nd, 2021*  
+>Most recent edit date: *Jan 19th, 2021*  
 >Edits were authorized by:  
 
 # Purpose and Scope
