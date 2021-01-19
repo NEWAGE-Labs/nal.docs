@@ -112,9 +112,9 @@ As indicated by the directed black lines, every commit can be traced back to a c
 
 #### Primary Branches
 
-A typical Git repository will consist of two primary [branches](#branch). One for production (authorized) releases which is often labeled 'master' because that is the default, and one for development (unauthorized) updates often shorthanded 'develop'.
+A typical Git repository will consist of two primary [branches](#branch). One for production (authorized) releases which is often labeled **master** because that is the default, and one for development (unauthorized) updates often shorthanded **develop**.
 
-![Main Git Branches](../../imgs/Git/git main branches)
+![Main Git Branches](../../imgs/Git/git main branches.png)
 
 Changes are generally not made directly to the production branch as they would take immediate effect without being authorized. Instead, a development branch is spun off of the production branch, and [commits](#commit) are made there first. Once they are verified and validated to be production-ready, the development branch is then merged into the production branch, and a [tag](#tag) is typically created (but not required).
 
@@ -140,7 +140,7 @@ However, suppose those fixes will take weeks, and the system is completely broke
 
 ## Using Git
 
-Below are commands used in [BASH](Bash.md) to simplify using Git. The angle brackets < > are used to denote fields that must be replaced with the appropriate info.
+Below are commands used in [BASH](BASH.md) to simplify using Git. The angle brackets < > are used to denote fields that must be replaced with the appropriate info.
 
 #### Initializing a Repository
 
