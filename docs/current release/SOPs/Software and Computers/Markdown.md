@@ -40,7 +40,7 @@ Adding Markdown syntax to text is very straight-forward as the formatting is tex
 
 #### Version Control
 
-Because Markdown files are [raw text](#raw text), every bit of information can be broken down into rows and columns. We use the version control system [Git](Git.md) to keep track of each change made to Markdown files, including exactly which rows and columns were edited, what they were changed from and to, who changed them, what date/time they changed them, and notes about each change.
+Because Markdown files are [raw text](#raw text), every bit of information can be broken down into rows and columns. We use the version control system [Git](Git.md) to keep track of each change made to Markdown files including exactly which rows and columns were edited, what changes were made, who changed them, what date/time changes were [commited](Git.md/#commit), and notes about each change.
 
 ## Syntax Guide
 
