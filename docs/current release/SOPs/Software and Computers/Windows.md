@@ -4,11 +4,11 @@
 >Most recent edit date: *Jan 12th, 2021*  
 >Edits were authorized by:  
 
-# Purpose and Scope
+## Purpose and Scope
 
 Windows is a software built by [Microsoft](#microsoft) used to help operate 32-bit and 64-bit [computer architectures](#computer-architecture). It is used as the primary [operating system](#operating-system) for the [workstations](Workstations.md) throughout NAL. This documents provides general information about the software, details about the versions we utilize, and instructions to retrieve additional information and tools related to working with it.
 
-# Terms and Definitions
+## Terms and Definitions
 
 ### Computer Architecture
 

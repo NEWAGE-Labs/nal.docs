@@ -4,11 +4,11 @@
 >Most recent edit date: *Jan 2nd, 2021*  
 >Edits were authorized by:  
 
-# Purpose and Scope
+## Purpose and Scope
 
 Bobtemplates is a [Python](Python.md) program and [Plone](Plone.md) add-on that can quickly create folder structures and skeletons for various applications. We use Bobtemplates to assist in [developing Plone Add-Ons](../NALIMS/Development and Addons.md). This procedure outlines how to use Bobtemplates from [BASH](BASH.md) to create additional add-ons similar to our [NALIMS](NALIMS.md) add-ons.
 
-# Terms and Definitions
+## Terms and Definitions
 
 # Usage
 

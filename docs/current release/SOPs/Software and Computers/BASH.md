@@ -4,11 +4,11 @@
 >Most recent edit date: *Jan 2nd, 2021*  
 >Edits were authorized by:  
 
-# Purpose and Scope
+## Purpose and Scope
 
 The Bourne-Again Shell (BASH) is a [TTY](#TTY) software that comes pre-installed on [Ubuntu](Ubuntu.md), and is one of the [CLIs](#cli) used in NAL along with [Powershell](Windows.md#additional-information-and-tools). This procedure outlines basic usage, and references the official documentation page.
 
-# Terms and Definitions
+## Terms and Definitions
 
 ### TTY
 
