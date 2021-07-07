@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../../../img/favicon.ico">
+  <title>Standard Operating Procedure - Git - NEWAGE Quality System Documentation</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../../../css/theme.css" />
+  <link rel="stylesheet" href="../../../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Standard Operating Procedure - Git";
+    var mkdocs_page_input_path = "current release/SOPs/Software and Computers/Git.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../../../.." class="icon icon-home"> NEWAGE Quality System Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../../NALQMS/">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../../Releases/">Newest Release</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../QSM/">Quality System Manual (QSM)</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../QSPs/">Quality System Procedures (QSPs)</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../">Standard Operating Procedures (SOPs)</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../../archive/">Archive</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../../..">NEWAGE Quality System Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Standard Operating Procedure - Git</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="standard-operating-procedure-git">Standard Operating Procedure - Git</h1>
+<blockquote>
+<p>Most recently edited by: <em>Paul VanderWeele</em><br />
+Most recent edit date: <em>Jan 19th, 2021</em><br />
+Edits were authorized by:  </p>
+</blockquote>
+<h2 id="table-of-contents">Table of Contents</h2>
+<p><a href="#purpose-and-scope">Purpose and Scope</a><br />
+<a href="#terms-and-definitions">Terms and Definitions</a><br />
+<a href="#how-git-works">How Git Works</a><br />
+<a href="#using-git-on-bash">Using Git on BASH</a><br />
+<a href="#using-the-git-gui">Using the Git GUI</a></p>
+<h2 id="purpose-and-scope">Purpose and Scope</h2>
+<p>The purpose of this procedure is to explain how to use the <a href="#version-control-system">version control system</a> Git to track changes to controlled documents. It includes both an explanation on how Git functions as a tool at an abstract level, and also how to actually perform operations using the Git toolset. When exploring how Git works, most of the information involved can actually be found in a <code>.git</code> file located within a repository. Almost all of the information is stored as raw-text, and can be interacted with directly. However, there is also a Git software designed to provide easy tools in manipulating the text.</p>
+<h2 id="terms-and-definitions">Terms and Definitions</h2>
+<p>A more robust glossary of Git terms can be found on the official <a href="https://git-scm.com/docs/gitglossary">Git Website</a>. The following is a condensed list meant for quick-reference.</p>
+<h6 id="repository">Repository</h6>
+<blockquote>
+<p>A Repository is a structured set of data typically in a similar folder and file directory format that operating systems use.</p>
+</blockquote>
+<h6 id="version-control-system">Version Control System</h6>
+<blockquote>
+<p>A Version Control System is a software system used to track bitwise changes to files, including the ability to reverse and combine changes. Examples include decentralized systems like Git and centralized systems like SVN.</p>
+</blockquote>
+<h6 id="fork">Fork</h6>
+<blockquote>
+<p>A Fork of a <a href="#repository">repository</a> is a complete copy of a particular branch with the purpose of modifying the repository differently than the original. Forks are effectively a new project based on a previous project.</p>
+</blockquote>
+<h6 id="clone">Clone</h6>
+<blockquote>
+<p>A Clone of a <a href="#repository">repository</a> is a complete copy of a repository structure with the purpose of updating or experimenting. Clones are effectively backups or co-located files of projects.</p>
+</blockquote>
+<h6 id="branch">Branch</h6>
+<blockquote>
+<p>A Branch of a <a href="#repository">repository</a> is a distinct set of changes to repository files. Branches are used to maintained different variants of a repository that exist in every instance of it.</p>
+</blockquote>
+<h6 id="blob">Blob</h6>
+<blockquote>
+<p>A Blob, or 'Binary Large Object' is an object that represents the contents of a file, but without any header information including the file name.</p>
+</blockquote>
+<h6 id="tree">Tree</h6>
+<blockquote>
+<p>A Tree is structure represented in graphical format, but can exist in any logical form. A tree is an undirected graph that contains no cycles.
+Git utilizes its own tree structure, often referred to as the 'Git Tree' to represents one level of <a href="#repository">repository</a> information. It contains information about all the <a href="#blob">blobs</a> within the directory, metadata and file names, and references to other sub-trees. This allows an entire hierarchy of the repository to be constructed with information about every directory being contained within the directory itself.</p>
+</blockquote>
+<h6 id="commit">Commit</h6>
+<blockquote>
+<p>A Commit is an object that represents a set of changes to blobs, and points at one top-level tree that captures the entire <a href="#repository">repository</a> in one snapshot. It includes information about the author, the time of change, and a log message about the changes. Commits are only made to one <a href="#branch">branch</a> of one repository at a time.</p>
+</blockquote>
+<h6 id="merge">Merge</h6>
+<blockquote>
+<p>A Merge combined the <a href="#commit">commits</a> from one <a href="#branch">branch</a> into another, and removes the original branch. If conflicts between the commits exist, they must be resolved before the merge can complete.</p>
+</blockquote>
+<h6 id="origin">Origin</h6>
+<blockquote>
+<p>An Origin repository is the original or primary <a href="#repository">repository</a> of a project, and is sometimes labeled as the "central" repository. While Git is a decentralized <a href="#version-control-system">version control system</a>, it can be used similarly to a centralized version control system by regularly updating the original repository with updates from <a href="#clone">clones</a>.</p>
+</blockquote>
+<h6 id="remote">Remote</h6>
+<blockquote>
+<p>In contrast to the <a href="#origin">Origin</a> <a href="#repository">repository</a>, a Remote repository is NOT the central repository of a project. Remote repositories are often <a href="#clone">clones</a> of the Origin, used to update different parts of the repository in parallel without conflicting changes. However, remote repositories can also be clones of other remote repositories, allowing for sub-divisions of centralization.</p>
+</blockquote>
+<h6 id="push">Push</h6>
+<blockquote>
+<p>A Push takes the <a href="#commit">commits</a> from the current <a href="#branch">branch</a> of the local <a href="#repository">repository</a> and overwrites a branch on a <a href="#remote">remote</a> repository. When trying to push to an <a href="#origin">origin</a> repository, a <a href="#pull">pull</a> request is used instead.</p>
+</blockquote>
+<h6 id="fetch">Fetch</h6>
+<blockquote>
+<p>A Fetch gathers the metadata from a <a href="#remote">remote</a> <a href="#repository">repository</a> <a href="#branch">branch</a> and checks it against a local repository branch. Fetching does not modify any files except the .git files.</p>
+</blockquote>
+<h6 id="pull">Pull</h6>
+<blockquote>
+<p>A Pull completes the actions described in a <a href="#fetch">fetch</a>. Pulling will overwrite local <a href="#repository">repository</a> files with the changes described in the identical fetch process. Pulls are typically done by <a href="#remote">remote</a> repositories and pull from either other remote repositories, or from an <a href="#origin">origin</a> repository. Instead of <a href="#push">pushing</a> a change to an origin repository, a Pull Request is made to ask the origin repository to pull from your local repository. This allows the origin to never be accidentally overwritten.</p>
+</blockquote>
+<h6 id="checkout">Checkout</h6>
+<blockquote>
+<p>A Checkout updates a local repository with a copy of a branch or tagged commit from a repository. Checkouts are used as the basis for updates and comparisons.</p>
+</blockquote>
+<h6 id="tag">Tag</h6>
+<blockquote>
+<p>A Tag is marker to indicate a notable <a href="#commit">commit</a>. Tags are typically used to manage stable, authorized, or remarkable updates, and can utilize various alphanumeric sequencing systems. Additional information on the sequencing systems can be found on the official <a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging">Git website</a>.</p>
+</blockquote>
+<h6 id="rebase">Rebase</h6>
+<blockquote>
+<p>A rebase is when the base (root) of a branch is moved from one commit to another. Rebasing can have a wide variety of use cases, from troubleshooting a repository itself to substituting for proper branching and merging.</p>
+</blockquote>
+<h2 id="how-git-works">How Git Works</h2>
+<h4 id="two-trees">Two Trees</h4>
+<p>When looking at just one machine's files (or one <a href="#repository">repository</a>), Git can be viewed as 2 <a href="#tree">trees</a> that are rooted at the same node. One is the directory tree that the operating system helped create, one is the Git tree used to maintain information about <a href="#branch">branches</a>, <a href="#blob">blobs</a>, and <a href="#commit">commits</a>.</p>
+<h6 id="the-directory-tree">The Directory Tree</h6>
+<p><img alt="Folder Tree" src="../../../imgs/Git/folder-tree.png" /></p>
+<p>Since Git must run on top of <a href="../Windows/">Windows</a> or <a href="../Ubuntu/">Ubuntu</a>, it can utilize the very familiar directory tree structures that exist in both to manage <a href="#repository">repositories</a>.  Each folder is either the root, or a sub-tree of the root. Links and shortcuts connecting folders (which effectively create cycles in the directory tree) can exist, but must be explicitly removed from the <a href="#the-git-tree">Git tree</a> using a <code>.gitignore</code> file.</p>
+<h6 id="the-git-tree">The Git Tree</h6>
+<p><img alt="Git Tree" src="../../../imgs/Git/Git%20branches.png" /></p>
+<p>The above image represents a Git Tree. Each colorful circle represents a individual commit of <em>an entire repository</em>, including the entirety of its Directory Tree.</p>
+<p>While the <a href="#the-directory-tree">Directory Tree</a> helps maintain the folder and file structure itself, it does nothing to preserve information between changes to files; that's where the Git Tree comes in. The Git Tree not only maintains information about changes made to folders and files in the form of tracking <a href="#commit">Commits</a> to <a href="#blob">Blobs</a>, but also maintains various versions of each folder and file in the form of <a href="#branch">Branches</a>.</p>
+<p>As indicated by the directed black lines, every commit can be traced back to a commit before it, all the way back to the the Origin Commit (the first commit into the <a href="#origin">Origin</a>). Because <a href="#merge">Merging</a> is a forward action, this structure effectively represents a <a href="#tree">tree</a> structure.</p>
+<h4 id="primary-branches">Primary Branches</h4>
+<p>A typical Git repository will consist of two primary <a href="#branch">branches</a>. One for production (authorized) releases which is often labeled <strong>master</strong> because that is the default, and one for development (unauthorized) updates often shorthanded <strong>develop</strong>.</p>
+<p><img alt="Main Git Branches" src="../../../imgs/Git/git%20main%20branches.png" /></p>
+<p>Changes are generally not made directly to the production branch as they would take immediate effect without being authorized. Instead, a development branch is spun off of the production branch, and <a href="#commit">commits</a> are made there first. Once they are verified and validated to be production-ready, the development branch is then merged into the production branch, and a <a href="#tag">tag</a> is typically created (but not required).</p>
+<p>When working with multiple machines, branches can be merged on a local machine or pushed to a remote repository first depending on which order of operation suits the situation best. However, merging and pushing should be done in two atomic steps, rather than pushing changes of one branch directly into another. This prevents confusion and allows them to be reverted separately should a need arise.</p>
+<h4 id="features">Features</h4>
+<p>Sometimes a large number of changes need to all be made before any of them can be pulled into the master branch of the origin. In these instances it often is easier to manage each changed feature as a separate branch all stemming from the development branch, rather than the master branch.</p>
+<p><img alt="Feature Branches" src="../../../imgs/Git/feature%20branches.png" /></p>
+<p>By separating features out into their own <a href="#branch">branches</a> and <a href="#merge">merging</a> them into the development branch first, we can ensure that all the features work <strong>and</strong> work together before introducing any of them into the production system. In the event that features need to be re-designed, this prevents unnecessary updates to the production system, and allows for better system and integration testing.</p>
+<h4 id="releases-and-tags">Releases and Tags</h4>
+<p>Once our planned features are completed, or when we need to hotfix a broken feature of a production system, it's useful to annotate the <a href="#commit_">commit</a> with a <a href="#tag">tag</a>. Tagging a release allows us to document major milestones, but it <em>also</em> allows us to easily revert a repository.</p>
+<p><img alt="Git Tags" src="../../../imgs/Git/tags.png" /></p>
+<p>Suppose we add a bunch of new features to a system, and call the release <code>1.1</code> and it works perfectly. Then we add more features and call the release <code>1.2</code>. Suppose however, despite being reviewed and tested thoroughly, a feature is still broken and not working as designed. We could branch the repository off, fix the feature, and merge it back in with a <code>1.2.1</code> as listed in the image above.</p>
+<p>However, suppose those fixes will take weeks, and the system is completely broken until then. We could also use the <code>1.1</code> tag to revert the repository to the older, stable state while we wait for the <code>1.2</code> features to be corrected. For project management clarity, this new tag would ideally still be incremented to <code>1.2.1</code> or <code>1.3</code>, and the original tag <code>1.2</code> would be considered a <em>broken</em> release.</p>
+<h2 id="using-git-on-bash">Using Git on BASH</h2>
+<p>Below are commands used in <a href="../BASH/">BASH</a> to simplify using Git. The angle brackets &lt; &gt; are used to denote fields that must be replaced with the appropriate info.</p>
+<h4 id="initializing-a-repository">Initializing a Repository</h4>
+<p>To initialize a repository, use the command <code>git init</code>.</p>
+<h4 id="checking-out-a-repository">Checking Out a Repository</h4>
+<p>To check out a repository, use the command <code>git checkout &lt;repo_url&gt;</code></p>
+<h4 id="cloning-a-repository">Cloning a Repository</h4>
+<p>To clone a repository, use the command <code>git clone &lt;repo_url&gt;</code>.
+To clone a specific branch of a repository, use the command <code>git clone -b &lt;branch&gt; &lt;repo_url&gt;</code></p>
+<h4 id="forking-a-repository">Forking a Repository</h4>
+<p>To fork a repository, use the command <code>git fork &lt;repo url&gt;</code>.</p>
+<h4 id="branching">Branching</h4>
+<p>To create or change to a branch in a repository, use the command <code>git branch &lt;branch&gt;</code>.</p>
+<h4 id="staging-changes">Staging Changes</h4>
+<p>To stage a change to a repository, use the command <code>git add "&lt;file1&gt;" "&lt;file2&gt;" ...</code> or <code>git add -A</code>.</p>
+<h4 id="committing-changes">Committing Changes</h4>
+<p>To commit changes to a repository, use the command <code>git commit -m "&lt;Log Message&gt;"</code>.</p>
+<h4 id="pushing-changes">Pushing Changes</h4>
+<p>To push changes to a repository, use the command <code>git push &lt;origin/remote name&gt;</code>.</p>
+<h4 id="fetching-changes">Fetching Changes</h4>
+<p>To fetch changes from a repository, use the command <code>git fetch &lt;origin/remote_name&gt;</code>.</p>
+<h4 id="pulling-changes">Pulling Changes</h4>
+<p>To pull changes from a repository, use the command <code>git pull &lt;origin/remote_name&gt;</code>.</p>
+<h4 id="tagging">Tagging</h4>
+<p>To tag the current commit, use the command <code>git tag -a &lt;tag_name&gt; -m "&lt;Tag Comment&gt;"</code>
+To tag a previous commit, use the command <code>git tag -a &lt;tag_name&gt; &lt;commit&gt;</code>
+To view all tags, use the command <code>git tag</code>
+To view the latest tag, use the command <code>git show</code>
+To checkout a tagged commit, use the command <code>git checkout &lt;tag_name&gt;</code></p>
+<h4 id="rebasing">Rebasing</h4>
+<p>To rebase, use the command <code>git rebase --interactive</code></p>
+<h4 id="git-log">Git Log</h4>
+<p>To view the Git Log, use the command <code>git log</code></p>
+<h4 id="git-ignore">Git Ignore</h4>
+<p>To edit the folders and files that Git ignores, modify a <code>.gitignore</code> file inside the <a href="#the-git-tree">Git Tree</a>.</p>
+<h4 id="git-include">Git Include</h4>
+<p>To edit the folders and files that Git includes, modify a <code>.gitinclude</code> file inside the <a href="#the-git-tree">Git Tree</a>.</p>
+<h2 id="using-the-git-gui">Using the Git GUI</h2>
+<p>While Git is best used from a command-line interface like <a href="../BASH/">BASH</a>, a graphical tool does exist for use on <a href="../Windows/">Windows</a> <a href="../Workstations/">Workstations</a>. To download the tool, navigate to the official <a href="https://git-scm.com/downloads">Git Download Website</a> and select "<em>Windows</em>".</p>
+<p>To use the Git GUI, right-click in or on a directory that you would like to manage. Either click <code>Git GUI Here</code> to use the GUI, or if using <a href="../BASH/">BASH</a> select <code>Git BASH Here</code> and use the commands listed <a href="#using-git-on-bash">above</a>.</p>
+<p><img alt="GUI in Folder" src="../../../imgs/Git/GUI%20in%20folder.png" /></p>
+<p>Once the GUI opens, the page displayed could be one of two things. If the folder that was originally selected is NOT already initialized as a Git Repository, then the following menu will be displayed to prompt the user to open one.</p>
+<p><img alt="GUI Landing Page" src="../../../imgs/Git/GUI%20Landing%20Page.png" /></p>
+<p>Once a repository is selected, or if one was selected to begin with, then the contents of the repository will be scanned and displayed in the following menu format:</p>
+<p><img alt="GUI Program" src="../../../imgs/Git/GUI%20Program.png" /></p>
+<p>The areas are as follows:</p>
+<p><strong>1 - Current Branch</strong><br />
+The current branch of the repository being viewed. Additional branches may exist on your local machine, and it's important that commits are made to the correct branch. To create|checkout branches, use the toolbar menu option Branch -&gt; Create|Checkout.</p>
+<p><strong>2 - Unstaged Changes</strong><br />
+When any file or folder that is being tracked by Git is changed, the changed object will appear in this area. These changes will NOT be included in a <a href="#commit">commit</a> until they are staged. To stage a change, either double click it in the Unstaged Changes section, or select '<em>Stage Changed</em>' from the controls in the bottom to stage <strong>ALL</strong> changes listed.</p>
+<p><strong>3 - Staged Changes</strong><br />
+Listed here are the changes to files and folders that have already been staged. Changes are made on a <em>bitwise</em> difference, not an entire file. What this means is that if a staged file is further modified, the newer changes are listed in the <strong>Unstaged Changes</strong> section while the changes selected for staging would remain in the <strong>Staged Changes</strong> section, despite both changes being for the same file.</p>
+<p><strong>4 - Line by Line Edits</strong><br />
+This section will only display when selecting a staged or unstaged object. The details of the changes will be listed here, indicated by lines that were added and lines that were removed.</p>
+<p><strong>5 - Simplified Control Panel</strong><br />
+While a full range of tools can be found on the toolbar at the top of the window, this section provides the tools typically used for reviewing and committing changes to an active repository.</p>
+<ul>
+<li>Rescan - Refreshes the program with any new changes that may have occurred within the repository.</li>
+<li>Stage Changes - Stage ALL current Unstaged changes.</li>
+<li>Sign Off - Signs out of the current Git User.</li>
+<li>Commit - Commits all staged changes to the current branch of the local repository</li>
+<li>Push - Pushes the most recent commit of the current branch to a remote repository.</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../../../..';</script>
+    <script src="../../../../js/theme.js" defer></script>
+      <script src="../../../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
