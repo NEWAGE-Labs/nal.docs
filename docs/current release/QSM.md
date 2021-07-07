@@ -564,7 +564,7 @@ Laboratory activities shall be undertaken impartially and are structured and man
 The laboratory's [quality management team](#quality-management-team) shall be committed to impartiality. They are responsible for designing the [quality management system](#quality-management-system) to effectively ensure impartiality of laboratory activity by all management, personnel, and external providers. Laboratory management is responsible for the communication and training of employees on impartially including the policy, details, and consequences. Employees will be made aware of the need for impartiality, and any conflicts of interest or concerns shall be brought to the attention of the employee’s direct supervisor immediately.
 
 *Related documents:*
-[*QSP - Conflict of Interest, Impartiality, and Confidentiality*](QSPs/Conflict of Interest Impartiality and Confidentiality.md)
+[*QSP - Conflict of Interest, Impartiality, and Confidentiality*](QSPs/Conflict of Interest Impartiality and Confidentiality.md)  
 *QSL 4.x - Log of Employees whom have signed QSP - Conflict of Interest, Impartiality, and Confidentiality*
 
 #### 4.1.3 Impartiality to Pressure ####
@@ -727,7 +727,7 @@ the public
 * Improves laboratory activities and quality system on a continuous basis.  
 * Ensure the effectiveness of laboratory activities.
 
-###### Executive Assistant ######  
+###### Executive Assistant ######
 * Ensures that the quality management system is established, implemented, and maintained in accordance with all accreditation and regulatory authorities.  
 * Oversees accounts payable, accounts receivable, purchasing and vendor evaluations.  
 * Oversees standard pricing, customized quotations, and invoicing for tests performed
@@ -1073,7 +1073,7 @@ For review of routine and other simple tasks, the date and the identification (e
 
 #### 7.2.1 Selection and Verification of Methods ####
 
-###### 7.2.1.1 Use of Appropriate Methods ######  
+###### 7.2.1.1 Use of Appropriate Methods ######
 
 Methods and procedures used for all tests are appropriate as per:
 
@@ -1115,10 +1115,15 @@ The laboratory validates non-standardized methods, laboratory-designed/developed
 
 The techniques used for the determination of the performance of a method, are one of, or
 a combination of, the following:
+
 * Calibration using reference standards or reference materials
+
 * Comparison of results achieved with other methods
+
 * Inter-laboratory comparisons
+
 * Systematic assessment of the factors influencing the result
+
 * Assessment of the uncertainty of the results based on scientific understanding of the theoretical principles of the method and practical experience.
 
 ###### 7.2.2.2 Changes to Validated Methods ######
@@ -1129,26 +1134,44 @@ Methods are re-validated when changes occur that affect the original validation.
 
 Validation of a method establishes, by systematic laboratory studies, that the performance characteristics of the method meet the specifications related to the intended use of the test results.
 
-The performance characteristics of a validation plan includes, as applicable:
-* Selectivity and specificity
-* Range
-* Linearity
-* Sensitivity
-* Limit of detection (LOD)
-* Limit of quantitation (LOQ)
-* Ruggedness
-* Accuracy
-* precision
-* reporting limit
-* repeatability
-* reproducibility
-* recovery
-* confirmation techniques
-* criteria for the number of samples tested to validate method as per defined scope of
-method
-* action levels where defined by regulation
-* quality control incorporating statistics as applicable
-* interpretation of population results as applicable
+The performance characteristics of a validation plan includes, as applicable:  
+
+- Selectivity and specificity  
+
+- Range  
+
+- Linearity  
+
+- Sensitivity  
+
+- Limit of detection (LOD)  
+
+- Limit of quantitation (LOQ)  
+
+- Ruggedness  
+
+- Accuracy  
+
+- Precision    
+
+- Reporting Limit  
+
+- Repeatability  
+
+- Reproducibility  
+
+- Recovery  
+
+- Confirmation Techniques  
+
+- Criteria for the number of samples tested to validate method as per defined scope of
+method  
+
+- Action levels where defined by regulation  
+
+- Quality Control incorporating statistics as applicable  
+
+- Interpretation of population results as applicable  
 
 ###### 7.2.2.4 Method Validation Records ######
 
