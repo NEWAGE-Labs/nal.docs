@@ -103,3 +103,39 @@ Currently creating an SDG this way has some odd behavior. It is better to create
 ### Sample Listing
 
 ![Sample Listing](../../imgs/NALIMS/Sample Listing.png)
+
+### Add Sample Part 1
+
+![Add Sample Part 1](../../imgs/NALIMS/Add Sample Part 1.png)
+
+### Add Sample Part 2
+
+![Add Sample Part 2](../../imgs/NALIMS/Add Sample Part 2.png)
+
+### Sample View
+
+![Sample View Top](../../imgs/NALIMS/Sample View Top.png)
+
+### Sample View Remarks
+
+![Sample View Remarks](../../imgs/NALIMS/Sample View Remarks.png)
+
+### Sample View Results Save and Submit
+
+![Sample View Results Save and Submit](../../imgs/NALIMS/Sample View Results Save and Submit.png)
+
+### Sample View Retract Reject and Interpretations
+
+![Retract Reject and Interpretations](../../imgs/NALIMS/Retract Reject and Interpretations.png)
+
+### Sample View Verifying samples
+
+![Verify Samples](../../imgs/NALIMS/Verify Samples.png)
+
+### Publish from SDG Sample Listing
+
+![publish from sdg listing](../../imgs/NALIMS/publish from sdg listing.png)
+
+### Reports
+
+![Reports](../../imgs/NALIMS/Reports.png)
