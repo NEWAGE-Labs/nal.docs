@@ -153,14 +153,17 @@ Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of
 [Results and Reports](NALIMS/AgPro - Results and Reports.md)  
 
 ##### (NALIMS)
+[Access and Credentials](NALIMS/Access and Credentials.md)  
 [Application and Database](NALIMS/Application and Database.md)  
 [Client Entry and Modification](NALIMS/Client Entry and Modification.md)  
 [Content Administration](NALIMS/Content Administration.md)  
+[Demos](NALIMS/Demos.md)  
 [Development and Addons](NALIMS/Development and Addons.md)  
 [Publishing and Issuing Reports](NALIMS/Publishing and Issuing Reports.md)  
 [Results Entry and Modificaton](NALIMS/Results Entry and Modification.md)  
 [Results Review and Verification](NALIMS/Results Review and Verification.md)  
 [Sample Entry and Modification](NALIMS/Sample Entry and Modification.md)  
+[SDG Entry and Modification](NALIMS/SDG Entry and Modification.md)  
 
 ## Quality Management System
 
