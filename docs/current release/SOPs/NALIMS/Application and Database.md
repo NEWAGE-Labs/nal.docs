@@ -1,4 +1,4 @@
-# Standard Operating Procedure - NALLIMS: Application and Database
+# Standard Operating Procedure - NALIMS: Application and Database
 
 >Most recently edited by: *Paul VanderWeele*  
 >Most recent edit date: *Jan 2nd, 2021*  

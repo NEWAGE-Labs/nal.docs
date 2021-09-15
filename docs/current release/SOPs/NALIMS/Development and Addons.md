@@ -1,4 +1,4 @@
-# Standard Operating Procedure - NALLIMS: Development and Addons
+# Standard Operating Procedure - NALIMS: Development and Addons
 
 >Most recently edited by: *Paul VanderWeele*  
 >Most recent edit date: *Jan 2nd, 2021*  

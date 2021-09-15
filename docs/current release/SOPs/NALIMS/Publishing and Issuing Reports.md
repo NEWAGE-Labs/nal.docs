@@ -1,9 +1,19 @@
-# Standard Operating Procedure - NALLIMS: Publishing and Issuing Reports
+# Standard Operating Procedure - NALIMS: Publishing and Issuing Reports
 
 >Most recently edited by: *Paul VanderWeele*  
->Most recent edit date: *Jan 2nd, 2021*  
+>Most recent edit date: *14 Sep 2021*  
 >Edits were authorized by:  
 
+## Table of Contents
+
+[Purpose and Scope](#purpose-and-scope)  
+[Terms and Definitions](#terms-and-definitions)  
+[How Git Works](#how-git-works)  
+[Using Git on BASH](#using-git-on-bash)  
+[Using the Git GUI](#using-the-git-gui)
+
 ## Purpose and Scope
+
+The purpose of this procedure is to explain how to Publish and Issue Reports for Verified Samples in the NALIMS software, including the [Senaite.Impress](https://github.com/senaite/senaite.impress) reporting mechanism, the various ways to access it, and how to email a new or old report to a Client.
 
 ## Terms and Definitions

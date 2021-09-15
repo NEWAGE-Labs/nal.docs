@@ -1,4 +1,4 @@
-# Standard Operating Procedure - NALLIMS: Content Administration
+# Standard Operating Procedure - NALIMS: Content Administration
 
 >Most recently edited by: *Paul VanderWeele*  
 >Most recent edit date: *Jan 2nd, 2021*  

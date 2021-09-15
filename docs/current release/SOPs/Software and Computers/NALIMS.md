@@ -1,4 +1,4 @@
-# Standard Operating Procedure - NALLIMS
+# Standard Operating Procedure - NALIMS
 
 >Most recently edited by: *Paul VanderWeele*  
 >Most recent edit date: *Jan 2nd, 2021*  
