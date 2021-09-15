@@ -121,8 +121,45 @@ Edits were authorized by:  </p>
 <p>Username - First initial of first name followed by entire last name (same as email and network login).
 Password - <strong>password</strong></p>
 <h2 id="clients">Clients</h2>
+<h3 id="client-folder">Client Folder</h3>
 <p>Upon logging in, clicking the <strong>Clients</strong> button on the navigation panel, or selecting <strong>Clients</strong> from any breadcrumbs will navigate to an overview screen of all the Clients in the system.</p>
 <p><img alt="Client Folder" src="../../../imgs/NALIMS/Client%20Folder.png" /></p>
+<p>On this screen, users can search, filter, overview, and create Clients.</p>
+<p>Selecting the <strong>[+ADD]</strong> button will prompt users to create a new client.</p>
+<p>Selecting either the Client Name or the NAL Account # will navigate users to an overview of the Client's samples with navigation buttons to view, create, and edit various contents of clients.</p>
+<h3 id="adding-a-client">Adding a Client</h3>
+<p>Upon selecting the <strong>[+ADD]</strong> button on the Client Folder, a form screen will be prompted to fill out the new Client's information.</p>
+<p><img alt="Add Client 1" src="../../../imgs/NALIMS/Adding%20a%20Client%20Part%201.png" /></p>
+<p>The only required fields are a name and a NAL Account #. The NAL Account # MUST be unique, and the Client will not be accepted otherwise. <em>Grower Clients</em> that have sub accounts can be created here using a NALXX-XXX-XX formatted Account #.</p>
+<p>At the top of the screen are navigation buttons to modify the Address or Grower Information for the Client.</p>
+<h3 id="adding-a-client-address">Adding a Client - Address</h3>
+<p>In the NALIMS, address are often captured using a set of Address-related fields. Namely Country, State, District (County), City, and the actual street Address.</p>
+<p><img alt="Add Client 2" src="../../../imgs/NALIMS/Adding%20a%20Client%20Part%202.png" /></p>
+<p>Currently the Country and District (County) do not appear on NAL Certificate of Analyses, however they can still be filled out if that information is available. There are also a few different types of address (Postal, Physical, and Billing). The <em>Physical</em> Address should be filled out if only 1 address is given.</p>
+<h3 id="adding-a-client-grower-information">Adding a Client - Grower Information</h3>
+<p>When adding a Client involved in Agriculture, there is often other information related to who is growing the sample and who is paying for the sample. The 'Grower Info' tab can be used to capture this information in a variety of ways.</p>
+<p><img alt="Add Client 3" src="../../../imgs/NALIMS/Adding%20a%20Client%20Part%203.png" /></p>
+<p>For MBG and TrueBlue growers, their <em>Grower Number</em> can be stored her to be referenced and reported. Consulting and Distributing Clients can also have a list of referenced clients with whom they work with.</p>
+<h3 id="client-contact-listing">Client Contact Listing</h3>
+<p><img alt="Contact Listing" src="../../../imgs/NALIMS/Client%20Contact%20Listing.png" /></p>
+<h3 id="add-client-contact">Add Client Contact</h3>
+<p><img alt="Adding a Contact" src="../../../imgs/NALIMS/Adding%20a%20Contact.png" /></p>
+<h3 id="add-client-sample-point">Add Client Sample Point</h3>
+<p><img alt="Adding a Sample Point" src="../../../imgs/NALIMS/Add%20Sample%20Point.png" /></p>
+<h2 id="sdgs">SDGs</h2>
+<p>There are two ways SDGs can be created. They can be created <em>without a Client</em> which <strong>currently has a bug preventing it from re-adding a client</strong>. They can also be created <em>for a specific Client</em> which is the correct way to create an SDG in the NALIMS at this time. <strong>This also has a bug preventing it from re-adding a client</strong></p>
+<h3 id="client-sdg-overview">Client SDG Overview</h3>
+<p>To view and create SDGs under a client, first navigate to that client and select the <em>SDG</em> tab at the top of the screen. This will bring up a screen listing all of the SDGs under that specific client.</p>
+<p><img alt="Client SDG Listing" src="../../../imgs/NALIMS/Adding%20an%20SDG%20under%20a%20client.png" /></p>
+<p>To bring up a form to create the new SDG, select the <strong>[+ADD]</strong> button.</p>
+<h3 id="all-sdgs">All SDGs</h3>
+<p>To view ALL SDGs regardless of Client, select the <em>SDGs</em> tab from the navigation menu.</p>
+<p><img alt="SDG Listing" src="../../../imgs/NALIMS/SDG%20Listing.png" /></p>
+<p>Currently creating an SDG this way has some odd behavior. It is better to create it under the Client themselves. (See Issues on Github)</p>
+<h3 id="adding-an-sdg">Adding an SDG</h3>
+<p><img alt="Adding an SDG" src="../../../imgs/NALIMS/Adding%20an%20SDG.png" /></p>
+<h3 id="sample-listing">Sample Listing</h3>
+<p><img alt="Sample Listing" src="../../../imgs/NALIMS/Sample%20Listing.png" /></p>
               
             </div>
           </div>
