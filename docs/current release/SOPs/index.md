@@ -155,6 +155,7 @@ Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of
 ##### (NALIMS)
 [Access and Credentials](NALIMS/Access and Credentials.md)  
 [Application and Database](NALIMS/Application and Database.md)  
+[Client Contact Entry and Modification](NALIMS/Client Contact Entry and Modification.md)  
 [Client Entry and Modification](NALIMS/Client Entry and Modification.md)  
 [Content Administration](NALIMS/Content Administration.md)  
 [Demos](NALIMS/Demos.md)  
@@ -163,6 +164,7 @@ Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of
 [Results Entry and Modificaton](NALIMS/Results Entry and Modification.md)  
 [Results Review and Verification](NALIMS/Results Review and Verification.md)  
 [Sample Entry and Modification](NALIMS/Sample Entry and Modification.md)  
+[Sample Location and Modification](NALIMS/Sample Location and Modification.md)  
 [SDG Entry and Modification](NALIMS/SDG Entry and Modification.md)  
 
 ## Quality Management System
