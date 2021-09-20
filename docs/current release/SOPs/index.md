@@ -164,7 +164,7 @@ Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of
 [Results Entry and Modificaton](NALIMS/Results Entry and Modification.md)  
 [Results Review and Verification](NALIMS/Results Review and Verification.md)  
 [Sample Entry and Modification](NALIMS/Sample Entry and Modification.md)  
-[Sample Location and Modification](NALIMS/Sample Location and Modification.md)  
+[Sample Location Entry and Modification](NALIMS/Sample Location Entry and Modification.md)  
 [SDG Entry and Modification](NALIMS/SDG Entry and Modification.md)  
 
 ## Quality Management System
