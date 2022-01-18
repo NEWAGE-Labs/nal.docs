@@ -1,7 +1,5 @@
 # NAL Standard Operating Procedures
 
-Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of SOPs can be found in the [NAL Document Archive](../../archive/index.md)
-
 ## Analytes
 
 [Brix](Analytes/Brix.md)  
@@ -12,7 +10,6 @@ Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of
 [Humic-Fulvic](Analytes/Humic-Fulvic.md)  
 [Mehlich III](Analytes/Mehlich III.md)  
 [pH](Analytes/pH.md)  
-[Brix](Analytes/Brix.md)  
 [Sap Analysis](Analytes/Sap Analysis.md)  
 [Sap Sample Prep](Analytes/Sap Sample Prep.md)  
 [Solvita](Analytes/Solvita.md)  
@@ -106,7 +103,7 @@ Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of
 [HACH 8043 - BOD](Methods/Chemistry (Inorganic)/HACH 8043.md)  
 [HACH 8113 - Chlorine](Methods/Chemistry (Inorganic)/HACH 8113.md)  
 [HACH 10208 - Total Nitrogen](Methods/Chemistry (Inorganic)/HACH 10208.md)  
-[ISO 19822:20181E - Humic/Fulvic Acid](Methods/Chemistry (Inorganic)/ISO 19822:20181E.md)  
+[ISO 19822:20181E - Humic/Fulvic Acid](Methods/Chemistry (Inorganic)/ISO 19822-20181E.md)  
 [Mehlich III - Soil Extraction](Methods/Chemistry (Inorganic)/Mehlich III.md)  
 [Solvita - Compost Maturity](Methods/Chemistry (Inorganic)/Solvita.md)  
 [NEWAGE SOP Plant Tissue Acid Digestion - 001](Methods/Chemistry (Inorganic)/NEWAGE SOP Plant Tissue Acid Digestion 001.md)  
@@ -176,8 +173,8 @@ Below are the list of NAL Standard Operating Procedures (SOPs). Old revisions of
 [Sap - Blueberry (PDF)](Sampling/Sap - Blueberry.pdf)  
 [Sap - Blackberry (PDF)](Sampling/Sap - Blackberry.pdf)  
 [Sap - Brassica (PDF)](Sampling/Sap - Brassica.pdf)  
-[Sap - Broccoli (PDF)](Sampling/Sap - Broccoli.pdf)
-[Sap - Bulb Crops (PDF)](Sampling/Sap - Bulb Crops.pdf)
+[Sap - Broccoli (PDF)](Sampling/Sap - Broccoli.pdf)  
+[Sap - Bulb Crops (PDF)](Sampling/Sap - Bulb Crops.pdf)  
 [Sap-  Cannabis (PDF)](Sampling/Sap - Cannabis.pdf)  
 [Sap - Citrus (PDF)](Sampling/Sap - Citrus.pdf)  
 [Sap - Cucurbit (PDF)](Sampling/Sap - Cucurbit.pdf)  
