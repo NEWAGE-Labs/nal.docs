@@ -138,3 +138,7 @@ Optionally, a language can be specified on the first line.
 Use the {} notation to indicate a language besides the default (Python).
 
 ````  
+
+## Additional Reference
+
+Additional information can be found on [Github's guide to Markdown Syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
