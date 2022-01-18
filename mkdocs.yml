@@ -1,9 +1,6 @@
 site_name: NEWAGE Quality System Documentation
 nav:
-    - Home: NALQMS.md
-    - Newest Release: Releases.md
-    - Quality System Manual (QSM): current release/QSM.md
-    - Quality System Procedures (QSPs): current release/QSPs/index.md
-    - Standard Operating Procedures (SOPs): current release/SOPs/index.md
-    - Archive: archive/index.md
+    - Quality System Manual (QSM): index.md
+    - Quality System Procedures (QSPs): QSPs/index.md
+    - Standard Operating Procedures (SOPs): SOPs/index.md
 theme: readthedocs
