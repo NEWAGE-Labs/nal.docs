@@ -4,6 +4,27 @@
 >Most recent edit date: *Jan 12th, 2021*  
 >Edits were authorized by:  
 
+## Table of Contents
+
+[Related Procedures](#related-procedures)
+[Purpose and Scope](#purpose-and-scope)  
+[Terms and Definitions](#terms-and-definitions)  
+[Current Version](#current-version)  
+[Additional Information and Tools](#additional-information-and-tools)  
+
+## Related Procedures
+
+##### Pre-Requisites Procedures  
+
+[QSP - LIMS](../../QSPs/LIMS.md)  
+
+##### Other Related Procedures  
+
+[Workstations](./Workstations.md)  
+[Servers](./Servers.md)  
+[Office 365](./Office 365.md)  
+[SQL Server](./SQL Server.md)
+
 ## Purpose and Scope
 
 Windows is a software built by [Microsoft](#microsoft) used to help operate 32-bit and 64-bit [computer architectures](#computer-architecture). It is used as the primary [operating system](#operating-system) for the [workstations](Workstations.md) throughout NAL. This documents provides general information about the software, details about the versions we utilize, and instructions to retrieve additional information and tools related to working with it.
@@ -22,10 +43,10 @@ Windows is a software built by [Microsoft](#microsoft) used to help operate 32-b
 
 > Microsoft is an extremely large organization that provides a wide range of software tools and services. They are our software provider for Windows, [Office 365](Office 365.md), and [SQL Server](SQL Server.md).
 
-# Current Version
+## Current Version
 
 Currently NAL uses Windows 10 for all personnel and instrument [workstations](Workstations.md) except where an older version is required or [Ubuntu](Ubuntu.md) can be used instead. It is also used for the main office [domain controller](Servers.md#domain-controller) and [file server](Servers.md#file-server).
 
-# Additional Information and Tools
+## Additional Information and Tools
 
 Additional information on Windows, including how to use Powershell, can be found on [Microsoft's website](www.microsoft.com/en-us/windows).
