@@ -9,7 +9,7 @@
 [Related Procedures](#related-procedures)  
 [Purpose and Scope](#purpose-and-scope)  
 [Terms and Definitions](#terms-and-definitions)  
-[Training](#training)  
+[Training and Authorization](#training-and-authorization)  
 [Additional Information](#additional-information)  
 
 ## Related Procedures
@@ -100,11 +100,13 @@ This procedure is NOT an alternative for the [Git](./Git.md) procedure, but rath
 
 > A Label is an entity on GitHub that can be applied to [Issues](#issue) to help index and organize them. Multiple Labels can be used to create sub-lists and to aid in documentation.
 
-## Training
+## Training and Authorization
 
-The `Hello World` [Quickstart Guide](https://docs.github.com/en/get-started/quickstart/hello-world) is the primary part of training for NEW AGE personnel who utilize GitHub, and completion of it is sufficient to obtain competency. Alternative repository work can be used as evidence for competency if it contains each component of the branch-commit-pull-merge process.
+The `Hello World` [Quickstart Guide](https://docs.github.com/en/get-started/quickstart/hello-world) is the primary part of training for NEW AGE personnel who utilize GitHub, and completion of it is sufficient to obtain competency to contribute to repositories in the organization. Alternative repository work can be used as evidence for competency to contribute to repositories if it contains each component of the branch-commit-pull-merge process.
 
-Personnel must successfully complete the guide (or other sufficient work) on the GitHub account that is marked as a contributor to the [NEWAGE-Labs GitHub Organization](https://github.com/NEWAGE-Labs). The supervisor(s) for the training is the User marked as ***Owner*** of the NAL organization.
+Publishing of documents to the NAL Organization's GitHub Pages sites is considered a separate training, and sufficient evidence of competency can be attained by completing the [Quickstart](https://docs.github.com/en/pages/quickstart) and [Getting Started](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) guides on the [GitHub Pages Documentation](https://docs.github.com/en/pages) site, or by showing evidence of competency for [MkDocs](./MkDocs.md).
+
+Personnel must successfully complete all guides (or other sufficient work) on the GitHub account that is marked as a contributor to the [NEWAGE-Labs GitHub Organization](https://github.com/NEWAGE-Labs). The supervisor(s) for the training is the User marked as ***Owner*** of the NAL organization.
 
 ## Additional Information
 
