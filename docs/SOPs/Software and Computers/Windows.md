@@ -16,7 +16,7 @@ Windows is a software built by [Microsoft](#microsoft) used to help operate 32-b
 
 ### Operating System
 
-> An Operating System is a set of machine instructions used to allow a human to easily control and interact with a computer architecture. Most Operating Systems are either 32-bit or 64-bit depending on which style of computer architecture](#computer-architecture) they were designed to operate with.
+> An Operating System is a set of machine instructions used to allow a human to easily control and interact with a computer architecture. Most Operating Systems are either 32-bit or 64-bit depending on which style of [computer architecture](#computer-architecture) they were designed to operate with.
 
 ### Microsoft
 
@@ -24,7 +24,7 @@ Windows is a software built by [Microsoft](#microsoft) used to help operate 32-b
 
 # Current Version
 
-Currently NAL uses Windows 10 for all personnel and instrument [workstations](Workstations.md) except where an older version is required or [Ubuntu](Ubuntu.md) can be used instead. It is also used for the main office domain controller and [file server](Servers.md#file-server).
+Currently NAL uses Windows 10 for all personnel and instrument [workstations](Workstations.md) except where an older version is required or [Ubuntu](Ubuntu.md) can be used instead. It is also used for the main office [domain controller](Servers.md#domain-controller) and [file server](Servers.md#file-server).
 
 # Additional Information and Tools
 
