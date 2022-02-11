@@ -158,7 +158,7 @@ However, suppose those fixes will take weeks, and the system is completely broke
 
 ## Using Git on GitHub.com
 
-Follow the [GitHub](./GitHub.com) SOP guide.
+Follow the [GitHub](./GitHub.md) SOP guide.
 
 ## Using Git with Atom
 
