@@ -44,10 +44,10 @@
 
 ## Management
 
-[Hiring](Management/Hiring.md)
-[Management Meetings](Management/Management Meetings.md)
-[Training](Management/Training.md)
-[Vendor Evaluation](Management/Vendor Evaluation.md)
+[Hiring](Management/Hiring.md)  
+[Management Meetings](Management/Management Meetings.md)  
+[Training](Management/Training.md)  
+[Vendor Evaluation](Management/Vendor Evaluation.md)  
 
 ## Methods
 
@@ -143,10 +143,6 @@
 
 ## NALIMS
 
-##### (AgPro)
-[Clients and Samples](NALIMS/AgPro - Clients and Samples.md)  
-[Results and Reports](NALIMS/AgPro - Results and Reports.md)  
-
 ##### (NALIMS)
 [Access and Credentials](NALIMS/Access and Credentials.md)  
 [Application and Database](NALIMS/Application and Database.md)  
@@ -164,8 +160,8 @@
 
 ## Personnel
 
-[Employee Handbook](Personnel/Employee Handbook.md)
-[Interpersonnel Communication](Personnel/Interpersonnel Communication.md)
+[Employee Handbook](Personnel/Employee Handbook.md)  
+[Interpersonnel Communication](Personnel/Interpersonnel Communication.md)  
 
 ## Sampling
 
@@ -233,6 +229,7 @@
 [Vega](Software and Computers/Vega.md)  
 [VirtualBox](Software and Computers/VirtualBox.md)  
 [Volto](Software and Computers/Volto.md)  
+[Web Browsers](Software and Computers/Web Browsers.md)  
 [Windows](Software and Computers/Windows.md)  
 [Workstations](Software and Computers/Workstations.md)  
 [YAML](Software and Computers/YAML.md)  
