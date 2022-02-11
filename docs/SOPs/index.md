@@ -42,6 +42,13 @@
 [Mobile Lab 5](Labs/Mobile Lab 5.md)  
 [Mobile Lab 6](Labs/Mobile Lab 6.md)  
 
+## Management
+
+[Hiring](Management/Hiring.md)
+[Management Meetings](Management/Management Meetings.md)
+[Training](Management/Training.md)
+[Vendor Evaluation](Management/Vendor Evaluation.md)
+
 ## Methods
 
 ##### Chemistry (Organic)
@@ -155,7 +162,10 @@
 [Sample Location Entry and Modification](NALIMS/Sample Location Entry and Modification.md)  
 [SDG Entry and Modification](NALIMS/SDG Entry and Modification.md)  
 
-## Quality Management System
+## Personnel
+
+[Employee Handbook](Personnel/Employee Handbook.md)
+[Interpersonnel Communication](Personnel/Interpersonnel Communication.md)
 
 ## Sampling
 
@@ -194,6 +204,7 @@
 [Docker](Software and Computers/Docker.md)  
 [GenericSetup](Software and Computers/GenericSetup.md)  
 [Git](Software and Computers/Git.md)  
+[GitHub](Software and Computers/GitHub.md)  
 [HTML](Software and Computers/HTML.md)  
 [Javascript](Software and Computers/Javascript.md)  
 [Jinja2](Software and Computers/Jinja2.md)  
