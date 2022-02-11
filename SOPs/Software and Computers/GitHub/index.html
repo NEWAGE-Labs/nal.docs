@@ -94,14 +94,15 @@
                 <h1 id="standard-operating-procedure-github">Standard Operating Procedure - GitHub</h1>
 <blockquote>
 <p>Most recently edited by: <em>Paul VanderWeele</em><br />
-Most recent edit date: <em>Feb 8th, 2022</em><br />
-Edits were authorized by:  </p>
+Most recent edit date: <em>Feb 11, 2022</em><br />
+Edits were authorized by: <em>Paul VanderWeele</em>  </p>
 </blockquote>
 <h2 id="table-of-contents">Table of Contents</h2>
 <p><a href="#related-procedures">Related Procedures</a><br />
 <a href="#purpose-and-scope">Purpose and Scope</a><br />
 <a href="#terms-and-definitions">Terms and Definitions</a><br />
-<a href="#training">Training</a></p>
+<a href="#training">Training</a><br />
+<a href="#additional-information">Additional Information</a>  </p>
 <h2 id="related-procedures">Related Procedures</h2>
 <h5 id="pre-requisites-procedures">Pre-Requisites Procedures</h5>
 <p><a href="../../../QSPs/Document%20Control%20and%20Management/">QSP - Document Control</a><br />
@@ -110,18 +111,18 @@ Edits were authorized by:  </p>
 <a href="../Git/">Git</a>  </p>
 <h5 id="other-related-procedures">Other Related Procedures</h5>
 <p><a href="../Markdown/">Markdown</a><br />
-<a href="./Interpersonal Communication.md">Interpersonal Communication</a>  </p>
+<a href="../Personnel/Interpersonal Communication.md">Interpersonal Communication</a>  </p>
 <h2 id="purpose-and-scope">Purpose and Scope</h2>
 <p>The purpose of this procedure is to explain the functionality and process flow of using <a href="https://www.github.com">GitHub.com</a> to manage documents in a controlled manner using <a href="../Git/">Git</a> as a foundational mechanism. It includes both an introduction for NEW AGE personnel, as well as references to the official 3rd party documentation for the web service.</p>
 <p>This procedure is NOT an alternative for the <a href="../Git/">Git</a> procedure, but rather is an extension to using the <em>Git</em> tool. Git is open source, and is used as a version control system; while GitHub is a <a href="#web-application">Web Application</a> hosted by Microsoft used for collaboration and project management.</p>
 <h2 id="terms-and-definitions">Terms and Definitions</h2>
 <h5 id="user">User</h5>
 <blockquote>
-<p>A GitHub User is an entity controlled by 1 personnel, and is used to manage, create, and contribute to repositories on GitHub.com.</p>
+<p>A GitHub User is an entity controlled by 1 personnel, and is used to manage, create, and contribute to repositories on GitHub.com. User actions can be considered representative for a single personnel, and can therefor be used as a signature for technical records.</p>
 </blockquote>
 <h5 id="organization">Organization</h5>
 <blockquote>
-<p>A GitHub Organization is an entity controlled by 1 or more personnel, and is used to organize projects that are contributed to by multiple users. The Organization for NAL is <a href="https://github.com/NEWAGE-Labs">NEWAGE-Labs</a>.</p>
+<p>A GitHub Organization is an entity controlled by 1 or more personnel, and is used to organize projects that are contributed to by multiple users. The Organization for NAL is [NEWAGE-Labs](https://github.com/NEWAGE-Labs, and is a major component of the <a href="../../index.md/#83-control-of-management-system-documents-option-a">NAL Document Control System</a>.</p>
 </blockquote>
 <h5 id="web-application">Web Application</h5>
 <blockquote>
@@ -155,18 +156,34 @@ Edits were authorized by:  </p>
 </blockquote>
 <h5 id="assignee">Assignee</h5>
 <blockquote>
-<p>An assignee on Github is a <a href="#user">User</a> who is assigned to a particular <a href="#issue">Issue</a> or <a href="#pull-request">Pull Request</a>.</p>
+<p>An assignee on GitHub is a <a href="#user">User</a> who is assigned to a particular <a href="#issue">Issue</a> or <a href="#pull-request">Pull Request</a>.</p>
 </blockquote>
 <h5 id="project">Project</h5>
 <blockquote>
-<p>A Project on GitHub is a collection of <a href="#issue">Issues</a> for either a specific <a href="#organization">Organization</a>, or a specific <a href="#repository">Repository</a>.</p>
+<p>A Project is an entity on GitHub that is a collection of <a href="#task">Tasks</a> for either a specific <a href="#organization">Organization</a>, or a specific <a href="#repository">Repository</a>.</p>
+</blockquote>
+<h5 id="task">Task</h5>
+<blockquote>
+<p>A Task in an entity on GitHub inside of a <a href="#project">Project</a>. Tasks are often are linked 1-to-1 with <a href="#issue">Issues</a> to create project management structure across various <a href="#repository">Repositories</a>.</p>
 </blockquote>
 <h5 id="issue">Issue</h5>
+<blockquote>
+<p>An issue is an entity on GitHub, typically pertaining to a proposed change or current problem with a <a href="#repository">Repository</a> or to an <a href="#organization">Organization</a>. Issues are often linked 1-to-1 inside of a <a href="#project">Project</a> with <a href="#task">Tasks</a>, and can be expanded by linking additional entities like <a href="#author">Authors</a>, <a href="#reviewer">Reviewers</a>, <a href="#assignee">Assigness</a>, <a href="#pull-request">Pull Requests</a>, <a href="#milestone">Milestones</a>, and <a href="#label">Labels</a>.</p>
+<p>Issues are the primary place of recorded conversation and collaboration on GitHub for both NAL software development and NAL quality management document control. Issues are part of the NAL <a href="../../../QSPs/Technical%20Records/">Technical Records</a>.</p>
+</blockquote>
 <h5 id="milestone">Milestone</h5>
+<blockquote>
+<p>A Milestone is an entity on GitHub that denotes deadline for a collection of <a href="#issue">Issues</a>. Milestones can be used to help organize <a href="#project">Projects</a> around important deadlines and company goals.</p>
+</blockquote>
 <h5 id="label">Label</h5>
+<blockquote>
+<p>A Label is an entity on GitHub that can be applied to <a href="#issue">Issues</a> to help index and organize them. Multiple Labels can be used to create sub-lists and to aid in documentation.</p>
+</blockquote>
 <h2 id="training">Training</h2>
-<p>The <code>Hello World</code> <a href="https://docs.github.com/en/get-started/quickstart/hello-world">Quickstart Guide</a> the primary part of training for NEW AGE personnel who utilize GitHub, and completion of it is sufficient to obtain competency. Alternative repository work can be used as evidence for competency if it contains each component of the branch-commit-pull-merge process.</p>
-<p>Personnel must successful complete the guide (or other sufficient work) on the GitHub account that is marked as a contributor to the <a href="https://github.com/NEWAGE-Labs">NEWAGE-Labs GitHub Organization</a>.</p>
+<p>The <code>Hello World</code> <a href="https://docs.github.com/en/get-started/quickstart/hello-world">Quickstart Guide</a> is the primary part of training for NEW AGE personnel who utilize GitHub, and completion of it is sufficient to obtain competency. Alternative repository work can be used as evidence for competency if it contains each component of the branch-commit-pull-merge process.</p>
+<p>Personnel must successfully complete the guide (or other sufficient work) on the GitHub account that is marked as a contributor to the <a href="https://github.com/NEWAGE-Labs">NEWAGE-Labs GitHub Organization</a>. The supervisor(s) for the training is the User marked as <strong><em>Owner</em></strong> of the NAL organization.</p>
+<h2 id="additional-information">Additional Information</h2>
+<p>Additional information, resources, and up-to-date trainings can be found in the <a href="https://docs.github.com/en">Official GitHub Documentation</a>.</p>
               
             </div>
           </div>
