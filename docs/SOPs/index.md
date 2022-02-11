@@ -143,7 +143,6 @@
 
 ## NALIMS
 
-##### (NALIMS)
 [Access and Credentials](NALIMS/Access and Credentials.md)  
 [Application and Database](NALIMS/Application and Database.md)  
 [Client Contact Entry and Modification](NALIMS/Client Contact Entry and Modification.md)  
