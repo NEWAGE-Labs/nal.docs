@@ -94,15 +94,27 @@
                 <h1 id="standard-operating-procedure-git">Standard Operating Procedure - Git</h1>
 <blockquote>
 <p>Most recently edited by: <em>Paul VanderWeele</em><br />
-Most recent edit date: <em>Jan 19th, 2021</em><br />
-Edits were authorized by:  </p>
+Most recent edit date: <em>Feb 11th, 2022</em><br />
+Edits were authorized by: <em>Paul VanderWeele</em></p>
 </blockquote>
 <h2 id="table-of-contents">Table of Contents</h2>
 <p><a href="#purpose-and-scope">Purpose and Scope</a><br />
 <a href="#terms-and-definitions">Terms and Definitions</a><br />
 <a href="#how-git-works">How Git Works</a><br />
+<a href="#using-git-on-github-com">Using Git on GitHub</a>
+<a href="#using-git-with-atom">Using Git with Atom</a>
 <a href="#using-git-on-bash">Using Git on BASH</a><br />
-<a href="#using-the-git-gui">Using the Git GUI</a></p>
+<a href="#using-the-git-gui">Using the Git GUI</a>  </p>
+<h2 id="related-procedures">Related Procedures</h2>
+<h5 id="pre-requisites-procedures">Pre-Requisites Procedures</h5>
+<p><a href="../../../QSPs/Document%20Control%20and%20Management/">QSP - Document Control</a><br />
+<a href="../Workstations/">Workstations</a>  </p>
+<h5 id="other-related-procedures">Other Related Procedures</h5>
+<p><a href="../Atom/">Atom</a><br />
+<a href="../GitHub/">GitHub</a><br />
+<a href="../BASH/">BASH</a><br />
+<a href="../Windows/">Windows</a><br />
+<a href="../Ubuntu/">Ubuntu</a>  </p>
 <h2 id="purpose-and-scope">Purpose and Scope</h2>
 <p>The purpose of this procedure is to explain how to use the <a href="#version-control-system">version control system</a> Git to track changes to controlled documents. It includes both an explanation on how Git functions as a tool at an abstract level, and also how to actually perform operations using the Git toolset. When exploring how Git works, most of the information involved can actually be found in a <code>.git</code> file located within a repository. Almost all of the information is stored as raw-text, and can be interacted with directly. However, there is also a Git software designed to provide easy tools in manipulating the text.</p>
 <h2 id="terms-and-definitions">Terms and Definitions</h2>
@@ -201,6 +213,10 @@ Git utilizes its own tree structure, often referred to as the 'Git Tree' to repr
 <p><img alt="Git Tags" src="../../../imgs/Git/tags.png" /></p>
 <p>Suppose we add a bunch of new features to a system, and call the release <code>1.1</code> and it works perfectly. Then we add more features and call the release <code>1.2</code>. Suppose however, despite being reviewed and tested thoroughly, a feature is still broken and not working as designed. We could branch the repository off, fix the feature, and merge it back in with a <code>1.2.1</code> as listed in the image above.</p>
 <p>However, suppose those fixes will take weeks, and the system is completely broken until then. We could also use the <code>1.1</code> tag to revert the repository to the older, stable state while we wait for the <code>1.2</code> features to be corrected. For project management clarity, this new tag would ideally still be incremented to <code>1.2.1</code> or <code>1.3</code>, and the original tag <code>1.2</code> would be considered a <em>broken</em> release.</p>
+<h2 id="using-git-on-githubcom">Using Git on GitHub.com</h2>
+<p>Follow the <a href="../GitHub/">GitHub</a> SOP guide.</p>
+<h2 id="using-git-with-atom">Using Git with Atom</h2>
+<p>Follow the <a href="../Atom/">Atom</a> SOP guide.</p>
 <h2 id="using-git-on-bash">Using Git on BASH</h2>
 <p>Below are commands used in <a href="../BASH/">BASH</a> to simplify using Git. The angle brackets &lt; &gt; are used to denote fields that must be replaced with the appropriate info.</p>
 <h4 id="initializing-a-repository">Initializing a Repository</h4>
