@@ -44,7 +44,7 @@ This procedure is NOT an alternative for the [Git](./Git.md) procedure, but rath
 
 ##### Web Application
 
-> A Web Application is a software program that runs on a computer open to internet traffic. Users connect to the web application via a [web browser](./Web Browsers.md), via http/ssh on [BASH](./BASH.md), or via the [Atom](./Atom.md) text editor.
+> A Web Application is a software program that runs on a computer open to internet traffic. Users connect to the web application via a [web browser](./Web Browsers.md), via http/ssh on [BASH](./BASH.md), or (in the case of GitHub) via the [Atom](./Atom.md) text editor.
 
 ##### Pull Request
 
