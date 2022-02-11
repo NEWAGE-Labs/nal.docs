@@ -1,16 +1,33 @@
 # Standard Operating Procedure - Git
 
 >Most recently edited by: *Paul VanderWeele*  
->Most recent edit date: *Jan 19th, 2021*  
->Edits were authorized by:  
+>Most recent edit date: *Feb 11th, 2022*  
+>Edits were authorized by: *Paul VanderWeele*
 
 ## Table of Contents
 
 [Purpose and Scope](#purpose-and-scope)  
 [Terms and Definitions](#terms-and-definitions)  
 [How Git Works](#how-git-works)  
+[Using Git on GitHub](#using-git-on-github-com)
+[Using Git with Atom](#using-git-with-atom)
 [Using Git on BASH](#using-git-on-bash)  
-[Using the Git GUI](#using-the-git-gui)
+[Using the Git GUI](#using-the-git-gui)  
+
+## Related Procedures
+
+##### Pre-Requisites Procedures  
+
+[QSP - Document Control](../../QSPs/Document Control and Management.md)  
+[Workstations](./Workstations.md)  
+
+##### Other Related Procedures  
+
+[Atom](./Atom.md)  
+[GitHub](./GitHub.md)  
+[BASH](./BASH.md)  
+[Windows](./Windows.md)  
+[Ubuntu](./Ubuntu.md)  
 
 ## Purpose and Scope
 
@@ -139,9 +156,17 @@ Suppose we add a bunch of new features to a system, and call the release `1.1` a
 
 However, suppose those fixes will take weeks, and the system is completely broken until then. We could also use the `1.1` tag to revert the repository to the older, stable state while we wait for the `1.2` features to be corrected. For project management clarity, this new tag would ideally still be incremented to `1.2.1` or `1.3`, and the original tag `1.2` would be considered a *broken* release.
 
+## Using Git on GitHub.com
+
+Follow the [GitHub](./GitHub.com) SOP guide.
+
+## Using Git with Atom
+
+Follow the [Atom](./Atom.md) SOP guide.
+
 ## Using Git on BASH
 
-Below are commands used in [BASH](BASH.md) to simplify using Git. The angle brackets < > are used to denote fields that must be replaced with the appropriate info.
+Below are commands used in [BASH](./BASH.md) to simplify using Git. The angle brackets < > are used to denote fields that must be replaced with the appropriate info.
 
 #### Initializing a Repository
 
