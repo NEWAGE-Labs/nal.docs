@@ -44,7 +44,9 @@
 
 ## Management
 
+[External Audits](Management/External Audits.md)  
 [Hiring](Management/Hiring.md)  
+[Internal Audits](Management/Internal Audits.md)  
 [Management Meetings](Management/Management Meetings.md)  
 [Training](Management/Training.md)  
 [Vendor Evaluation](Management/Vendor Evaluation.md)  
