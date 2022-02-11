@@ -36,7 +36,7 @@ This procedure is NOT an alternative for the [Git](./Git.md) procedure, but rath
 
 ##### User  
 
-> A GitHub User is an entity controlled by 1 personnel, and is used to manage, create, and contribute to repositories on GitHub.com. User actions can be considered representative for a single personnel, and can therefor be used as a signature for technical records.
+> A GitHub User is an entity controlled by 1 personnel, and is used to manage, create, and contribute to [Repositories](#repository) on GitHub.com. User actions can be considered uniquely performed by a single personnel, and can therefore be used as a signature for [Technical Records](../../QSPs/Technical Records.md).
 
 ##### Organization
 
