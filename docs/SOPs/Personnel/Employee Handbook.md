@@ -3,11 +3,11 @@
 
 A New Age/Landmark, Inc. Human Resources Document
 
-New Age/Landmark, Inc.
-160 Veterans Blvd.
-South Haven, MI 49090
-269-637-5658
-www.newagelaboratories.com
+New Age/Landmark, Inc.  
+160 Veterans Blvd.  
+South Haven, MI 49090  
+269-637-5658  
+www.newagelaboratories.com  
 
 Table of Contents
 
