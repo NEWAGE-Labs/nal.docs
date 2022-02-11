@@ -23,7 +23,7 @@
 ##### Other Related Procedures  
 
 [Markdown](./Markdown.md)  
-[Interpersonal Communication](./Interpersonal Communication.md)  
+[Interpersonal Communication](../Personnel/Interpersonal Communication.md)  
 
 ## Purpose and Scope
 
