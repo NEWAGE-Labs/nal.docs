@@ -35,11 +35,11 @@ This procedure is NOT an alternative for the [Git](./Git.md) procedure, but rath
 
 ##### User  
 
-> A GitHub User is an entity controlled by 1 personnel, and is used to manage, create, and contribute to repositories on GitHub.com.
+> A GitHub User is an entity controlled by 1 personnel, and is used to manage, create, and contribute to repositories on GitHub.com. User actions can be considered representative for a single personnel, and can therefor be used as a signature for technical records.
 
 ##### Organization
 
-> A GitHub Organization is an entity controlled by 1 or more personnel, and is used to organize projects that are contributed to by multiple users. The Organization for NAL is [NEWAGE-Labs](https://github.com/NEWAGE-Labs).
+> A GitHub Organization is an entity controlled by 1 or more personnel, and is used to organize projects that are contributed to by multiple users. The Organization for NAL is [NEWAGE-Labs](https://github.com/NEWAGE-Labs, and is a major component of the [NAL Document Control system](../../index.md/#83-control-of-management-system-documents-option-a).
 
 ##### Web Application
 
@@ -89,6 +89,6 @@ This procedure is NOT an alternative for the [Git](./Git.md) procedure, but rath
 
 ## Training
 
-The `Hello World` [Quickstart Guide](https://docs.github.com/en/get-started/quickstart/hello-world) the primary part of training for NEW AGE personnel who utilize GitHub, and completion of it is sufficient to obtain competency. Alternative repository work can be used as evidence for competency if it contains each component of the branch-commit-pull-merge process.
+The `Hello World` [Quickstart Guide](https://docs.github.com/en/get-started/quickstart/hello-world) is the primary part of training for NEW AGE personnel who utilize GitHub, and completion of it is sufficient to obtain competency. Alternative repository work can be used as evidence for competency if it contains each component of the branch-commit-pull-merge process.
 
-Personnel must successful complete the guide (or other sufficient work) on the GitHub account that is marked as a contributor to the [NEWAGE-Labs GitHub Organization](https://github.com/NEWAGE-Labs).
+Personnel must successfully complete the guide (or other sufficient work) on the GitHub account that is marked as a contributor to the [NEWAGE-Labs GitHub Organization](https://github.com/NEWAGE-Labs). The supervisor(s) for the training is the User marked as  
