@@ -9,7 +9,7 @@
 [Purpose and Scope](#purpose-and-scope)  
 [Terms and Definitions](#terms-and-definitions)  
 [How Git Works](#how-git-works)  
-[Using Git on GitHub](#using-git-on-github-com)  
+[Using Git on GitHub](#using-git-on-githubcom)  
 [Using Git with Atom](#using-git-with-atom)  
 [Using Git on BASH](#using-git-on-bash)  
 [Using the Git GUI](#using-the-git-gui)  
