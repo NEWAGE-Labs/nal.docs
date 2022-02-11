@@ -1,15 +1,16 @@
 # Standard Operating Procedure - GitHub
 
 >Most recently edited by: *Paul VanderWeele*  
->Most recent edit date: *Feb 8th, 2022*  
->Edits were authorized by:  
+>Most recent edit date: *Feb 11, 2022*  
+>Edits were authorized by: *Paul VanderWeele*  
 
 ## Table of Contents
 
 [Related Procedures](#related-procedures)  
 [Purpose and Scope](#purpose-and-scope)  
 [Terms and Definitions](#terms-and-definitions)  
-[Training](#training)
+[Training](#training)  
+[Additional Information](#additional-information)  
 
 ## Related Procedures
 
@@ -39,7 +40,7 @@ This procedure is NOT an alternative for the [Git](./Git.md) procedure, but rath
 
 ##### Organization
 
-> A GitHub Organization is an entity controlled by 1 or more personnel, and is used to organize projects that are contributed to by multiple users. The Organization for NAL is [NEWAGE-Labs](https://github.com/NEWAGE-Labs, and is a major component of the [NAL Document Control system](../../index.md/#83-control-of-management-system-documents-option-a).
+> A GitHub Organization is an entity controlled by 1 or more personnel, and is used to organize projects that are contributed to by multiple users. The Organization for NAL is [NEWAGE-Labs](https://github.com/NEWAGE-Labs, and is a major component of the [NAL Document Control System](../../index.md/#83-control-of-management-system-documents-option-a).
 
 ##### Web Application
 
@@ -75,20 +76,36 @@ This procedure is NOT an alternative for the [Git](./Git.md) procedure, but rath
 
 ##### Assignee
 
-> An assignee on Github is a [User](#user) who is assigned to a particular [Issue](#issue) or [Pull Request](#pull-request).
+> An assignee on GitHub is a [User](#user) who is assigned to a particular [Issue](#issue) or [Pull Request](#pull-request).
 
 ##### Project
 
-> A Project on GitHub is a collection of [Issues](#issue) for either a specific [Organization](#organization), or a specific [Repository](#repository).
+> A Project is an entity on GitHub that is a collection of [Tasks](#task) for either a specific [Organization](#organization), or a specific [Repository](#repository).
+
+##### Task
+
+> A Task in an entity on GitHub inside of a [Project](#project). Tasks are often are linked 1-to-1 with [Issues](#issue) to create project management structure across various [Repositories](#repository).
 
 ##### Issue
 
+> An issue is an entity on GitHub, typically pertaining to a proposed change or current problem with a [Repository](#repository) or to an [Organization](#organization). Issues are often linked 1-to-1 inside of a [Project](#project) with [Tasks](#task), and can be expanded by linking additional entities like [Authors](#author), [Reviewers](#reviewer), [Assigness](#assignee), [Pull Requests](#pull-request), [Milestones](#milestone), and [Labels](#label).
+
+> Issues are the primary place of recorded conversation and collaboration on GitHub for both NAL software development and NAL quality management document control. Issues are part of the NAL [Technical Records](../../QSPs/Technical Records.md).
+
 ##### Milestone
 
+> A Milestone is an entity on GitHub that denotes deadline for a collection of [Issues](#issue). Milestones can be used to help organize [Projects](#project) around important deadlines and company goals.
+
 ##### Label
+
+> A Label is an entity on GitHub that can be applied to [Issues](#issue) to help index and organize them. Multiple Labels can be used to create sub-lists and to aid in documentation.
 
 ## Training
 
 The `Hello World` [Quickstart Guide](https://docs.github.com/en/get-started/quickstart/hello-world) is the primary part of training for NEW AGE personnel who utilize GitHub, and completion of it is sufficient to obtain competency. Alternative repository work can be used as evidence for competency if it contains each component of the branch-commit-pull-merge process.
 
-Personnel must successfully complete the guide (or other sufficient work) on the GitHub account that is marked as a contributor to the [NEWAGE-Labs GitHub Organization](https://github.com/NEWAGE-Labs). The supervisor(s) for the training is the User marked as  
+Personnel must successfully complete the guide (or other sufficient work) on the GitHub account that is marked as a contributor to the [NEWAGE-Labs GitHub Organization](https://github.com/NEWAGE-Labs). The supervisor(s) for the training is the User marked as ***Owner*** of the NAL organization.
+
+## Additional Information
+
+Additional information, resources, and up-to-date trainings can be found in the [Official GitHub Documentation](https://docs.github.com/en).
