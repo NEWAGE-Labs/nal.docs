@@ -295,3 +295,5 @@ This procedure is the primary training for obtaining competency with **Git**. Ev
 * Fetch Commits
 * Pull Commits
 * Merge a Branch
+
+Evidence of Supervision and Authorization is shown through an additional commit on the training repositories by either the IT Director or another personnel who is competent in Git.
