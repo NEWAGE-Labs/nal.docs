@@ -1,7 +1,7 @@
 # Standard Operating Procedure - Git
 
 >Most recently edited by: *Paul VanderWeele*  
->Most recent edit date: *Feb 11th, 2022*  
+>Most recent edit date: *Feb 15, 2022*  
 >Edits were authorized by: *Paul VanderWeele*
 
 ## Table of Contents
@@ -14,6 +14,7 @@
 [Using Git with Atom](#using-git-with-atom)  
 [Using Git on BASH](#using-git-on-bash)  
 [Using the Git GUI](#using-the-git-gui)  
+[Training and Authorization](#training-and-authorization)
 
 ## Related Procedures
 
@@ -184,11 +185,11 @@ To clone a specific branch of a repository, use the command `git clone -b <branc
 
 #### Forking a Repository
 
-To fork a repository, use the command `git fork <repo url>`.
+To fork a repository, use the command `git fork <repo_url>`.
 
 #### Branching
 
-To create or change to a branch in a repository, use the command `git branch <branch>`.
+To create or change to a branch in a repository, use the command `git branch <branch_name>`.
 
 #### Staging Changes
 
@@ -196,11 +197,11 @@ To stage a change to a repository, use the command `git add "<file1>" "<file2>" 
 
 #### Committing Changes
 
-To commit changes to a repository, use the command `git commit -m "<Log Message>"`.
+To commit changes to a repository, use the command `git commit -m "<Log_Message>"`.
 
 #### Pushing Changes
 
-To push changes to a repository, use the command `git push <origin/remote name>`.
+To push changes to a repository, use the command `git push <origin/remote_name>`.
 
 #### Fetching Changes
 
@@ -209,6 +210,14 @@ To fetch changes from a repository, use the command `git fetch <origin/remote_na
 #### Pulling Changes
 
 To pull changes from a repository, use the command `git pull <origin/remote_name>`.
+
+#### Merging a Branch
+
+To Merge a branch into the current branch, use the command `git merge <branch_name>`
+
+#### Deleting a Branch
+
+To Delete a branch, use the command `git branch -d <branch_name>`
 
 #### Tagging
 
@@ -272,3 +281,17 @@ While a full range of tools can be found on the toolbar at the top of the window
 * Sign Off - Signs out of the current Git User.
 * Commit - Commits all staged changes to the current branch of the local repository
 * Push - Pushes the most recent commit of the current branch to a remote repository.
+
+## Training and Authorization
+
+This procedure is the primary training for obtaining competency with **Git**. Evidence of training can be shown by completing at least the following actions via one of the 4 interfacing tools (Github.com, Atom, BASH, or GitGUI):
+
+* Initialize a Repository
+* Clone a Repository
+* Fork a Repository
+* Create a Branch
+* Add Commits
+* Push Commits
+* Fetch Commits
+* Pull Commits
+* Merge a Branch
