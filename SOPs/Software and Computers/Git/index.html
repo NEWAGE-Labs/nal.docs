@@ -94,7 +94,7 @@
                 <h1 id="standard-operating-procedure-git">Standard Operating Procedure - Git</h1>
 <blockquote>
 <p>Most recently edited by: <em>Paul VanderWeele</em><br />
-Most recent edit date: <em>Feb 11th, 2022</em><br />
+Most recent edit date: <em>Feb 15, 2022</em><br />
 Edits were authorized by: <em>Paul VanderWeele</em></p>
 </blockquote>
 <h2 id="table-of-contents">Table of Contents</h2>
@@ -105,7 +105,8 @@ Edits were authorized by: <em>Paul VanderWeele</em></p>
 <a href="#using-git-on-githubcom">Using Git on GitHub</a><br />
 <a href="#using-git-with-atom">Using Git with Atom</a><br />
 <a href="#using-git-on-bash">Using Git on BASH</a><br />
-<a href="#using-the-git-gui">Using the Git GUI</a>  </p>
+<a href="#using-the-git-gui">Using the Git GUI</a><br />
+<a href="#training-and-authorization">Training and Authorization</a></p>
 <h2 id="related-procedures">Related Procedures</h2>
 <h5 id="pre-requisites-procedures">Pre-Requisites Procedures</h5>
 <p><a href="../../../QSPs/Document%20Control%20and%20Management/">QSP - Document Control</a><br />
@@ -228,19 +229,23 @@ Git utilizes its own tree structure, often referred to as the 'Git Tree' to repr
 <p>To clone a repository, use the command <code>git clone &lt;repo_url&gt;</code>.
 To clone a specific branch of a repository, use the command <code>git clone -b &lt;branch&gt; &lt;repo_url&gt;</code></p>
 <h4 id="forking-a-repository">Forking a Repository</h4>
-<p>To fork a repository, use the command <code>git fork &lt;repo url&gt;</code>.</p>
+<p>To fork a repository, use the command <code>git fork &lt;repo_url&gt;</code>.</p>
 <h4 id="branching">Branching</h4>
-<p>To create or change to a branch in a repository, use the command <code>git branch &lt;branch&gt;</code>.</p>
+<p>To create or change to a branch in a repository, use the command <code>git branch &lt;branch_name&gt;</code>.</p>
 <h4 id="staging-changes">Staging Changes</h4>
 <p>To stage a change to a repository, use the command <code>git add "&lt;file1&gt;" "&lt;file2&gt;" ...</code> or <code>git add -A</code>.</p>
 <h4 id="committing-changes">Committing Changes</h4>
-<p>To commit changes to a repository, use the command <code>git commit -m "&lt;Log Message&gt;"</code>.</p>
+<p>To commit changes to a repository, use the command <code>git commit -m "&lt;Log_Message&gt;"</code>.</p>
 <h4 id="pushing-changes">Pushing Changes</h4>
-<p>To push changes to a repository, use the command <code>git push &lt;origin/remote name&gt;</code>.</p>
+<p>To push changes to a repository, use the command <code>git push &lt;origin/remote_name&gt;</code>.</p>
 <h4 id="fetching-changes">Fetching Changes</h4>
 <p>To fetch changes from a repository, use the command <code>git fetch &lt;origin/remote_name&gt;</code>.</p>
 <h4 id="pulling-changes">Pulling Changes</h4>
 <p>To pull changes from a repository, use the command <code>git pull &lt;origin/remote_name&gt;</code>.</p>
+<h4 id="merging-a-branch">Merging a Branch</h4>
+<p>To Merge a branch into the current branch, use the command <code>git merge &lt;branch_name&gt;</code></p>
+<h4 id="deleting-a-branch">Deleting a Branch</h4>
+<p>To Delete a branch, use the command <code>git branch -d &lt;branch_name&gt;</code></p>
 <h4 id="tagging">Tagging</h4>
 <p>To tag the current commit, use the command <code>git tag -a &lt;tag_name&gt; -m "&lt;Tag Comment&gt;"</code>
 To tag a previous commit, use the command <code>git tag -a &lt;tag_name&gt; &lt;commit&gt;</code>
@@ -281,6 +286,20 @@ While a full range of tools can be found on the toolbar at the top of the window
 <li>Commit - Commits all staged changes to the current branch of the local repository</li>
 <li>Push - Pushes the most recent commit of the current branch to a remote repository.</li>
 </ul>
+<h2 id="training-and-authorization">Training and Authorization</h2>
+<p>This procedure is the primary training for obtaining competency with <strong>Git</strong>. Evidence of training can be shown by completing at least the following actions via one of the 4 interfacing tools (Github.com, Atom, BASH, or GitGUI):</p>
+<ul>
+<li>Initialize a Repository</li>
+<li>Clone a Repository</li>
+<li>Fork a Repository</li>
+<li>Create a Branch</li>
+<li>Add Commits</li>
+<li>Push Commits</li>
+<li>Fetch Commits</li>
+<li>Pull Commits</li>
+<li>Merge a Branch</li>
+</ul>
+<p>Evidence of Supervision and Authorization is shown through an additional commit on the training repositories by either the IT Director or another personnel who is competent in Git.</p>
               
             </div>
           </div>
