@@ -84,7 +84,7 @@ WELCOME
 [6.5 Hazard Communication Program](#65-hazard-communication-program)  
 [7.0 STANDARDS OF CONDUCT AND CORRECTIVE ACTION](#70-standards-of-conduct-and-corrective-action)  
 [7.1 Conflict of Interest](#71-conflict-of-interest)  
-[7.2 Harassment](#72-harrassment)  
+[7.2 Harassment](#72-harassment)  
 [7.3 Attendance Standards](#73-attendance-standards)  
 [7.4 Absence Without Notice](#74-absence-without-notice)  
 [7.5 Solicitation and Distribution](#75-solicitation-and-distribution)  
