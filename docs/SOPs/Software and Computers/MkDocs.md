@@ -20,6 +20,7 @@
 [Ubuntu](./Ubuntu.md)  
 [BASH](./BASH.md)  
 [Workstations](./Workstations.md)
+[Python](./Python.md)
 
 ## Purpose and Scope
 
@@ -33,6 +34,6 @@ The purpose of this procedure is to explain how to ultilize the [Command Line Ut
 
 ## Training and Authorization
 
-[MkDocs Getting Started Guide](https://www.mkdocs.org/getting-started/)
+Training is done by completing the [MkDocs Getting Started Guide](https://www.mkdocs.org/getting-started/). Evidence of competency is shown by successfully deploying a MkDocs document to [Github.com](https://github.com). The supervisor is the Owner of the [NEW AGE Github Organization](https://github.com/NEWAGE-Labs) if the evidence is submitted to [Github](./Github.com), and evidence of Authorization is done by either forking the repository of evidence, or making a subsequent commit to the same repository.
 
 ## Additional Information
