@@ -23,7 +23,7 @@
 
 ## Purpose and Scope
 
-The purpose of this procedure is to demonstrate how to create a FedEx shipping label using the FedEx [API](#API).
+The purpose of this procedure is to demonstrate how to create a FedEx shipping label using the FedEx [API](#api).
 
 ## Terms and Definitions
 
