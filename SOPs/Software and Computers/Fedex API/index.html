@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../../img/favicon.ico">
+  <title>Standard Operation Procedure - FedEx API - NEWAGE Quality System Documentation</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../../css/theme.css" />
+  <link rel="stylesheet" href="../../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Standard Operation Procedure - FedEx API";
+    var mkdocs_page_input_path = "SOPs/Software and Computers/Fedex API.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../../.." class="icon icon-home"> NEWAGE Quality System Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../..">Quality System Manual (QSM)</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../QSPs/">Quality System Procedures (QSPs)</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../">Standard Operating Procedures (SOPs)</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../..">NEWAGE Quality System Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Standard Operation Procedure - FedEx API</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="standard-operation-procedure-fedex-api">Standard Operation Procedure - FedEx API</h1>
+<blockquote>
+<p>Most recently edited by: <em>Paul VanderWeele</em><br />
+Most recent edit date: <em>Feb 22, 2022</em><br />
+Edits were authorized by: <em>Paul VanderWeele</em></p>
+</blockquote>
+<h2 id="table-of-contents">Table of Contents</h2>
+<p><a href="#related-procedures">Related Procedures</a><br />
+<a href="#purpose-and-scope">Purpose and Scope</a><br />
+<a href="#terms-and-definitions">Terms and Definitions</a><br />
+<a href="#training-and-authorization">Training and Authorization</a><br />
+<a href="#additional-information">Additional Information</a>  </p>
+<h2 id="related-procedures">Related Procedures</h2>
+<p><a href="../../../QSPs/Sample%20Handling/">QSP - Sample Handling</a>
+<a href="../JSON/">JSON</a>
+<a href="../../Management/Discount%20Shipping/">Discount Shipping</a>
+<a href="../Python/">Python</a>
+<a href="../RESTful%20API/">RESTful API</a>
+<a href="./Protocols">Protocols</a></p>
+<h2 id="purpose-and-scope">Purpose and Scope</h2>
+<p>The purpose of this procedure is to demonstrate how to create a FedEx shipping label using the FedEx <a href="#api">API</a>.</p>
+<h2 id="terms-and-definitions">Terms and Definitions</h2>
+<h6 id="api">API</h6>
+<blockquote>
+<p>An API, otherwise known as an Application Programming Interface, is a feature of a software application that is built specficially to interact with other software applications programmatically.</p>
+</blockquote>
+<h2 id="training-and-authorization">Training and Authorization</h2>
+<p><a href="https://developer.fedex.com/api/en-ca/catalog/ship/v1/docs.html">FedEx Ship API Guide</a></p>
+<h2 id="additional-information">Additional Information</h2>
+<p>Python Request format:</p>
+<pre><code class="language-Python">import requests
+
+url = &quot;https://apis-sandbox.fedex.com/ship/v1/shipments&quot;
+
+payload = input # 'input' refers to JSON Payload
+headers = {
+    'Content-Type': &quot;application/json&quot;,
+    'X-locale': &quot;en_US&quot;,
+    'Authorization': &quot;Bearer &quot;
+    }
+
+response = requests.request(&quot;POST&quot;, url, data=payload, headers=headers)
+
+print(response.text)
+</code></pre>
+<p>JSON Payload format - Create Shipment:</p>
+<pre><code class="language-JSON">{
+  &quot;mergeLabelDocOption&quot;: &quot;LABELS_AND_DOCS&quot;,
+  &quot;requestedShipment&quot;: {
+    &quot;shipDatestamp&quot;: &quot;2019-10-14&quot;,
+    &quot;totalDeclaredValue&quot;: {
+      &quot;amount&quot;: 12.45,
+      &quot;currency&quot;: &quot;USD&quot;
+    },
+    &quot;shipper&quot;: {
+      &quot;address&quot;: {
+        &quot;streetLines&quot;: [
+          &quot;10 FedEx Parkway&quot;,
+          &quot;Suite 302&quot;
+        ],
+        &quot;city&quot;: &quot;Beverly Hills&quot;,
+        &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+        &quot;postalCode&quot;: &quot;90210&quot;,
+        &quot;countryCode&quot;: &quot;US&quot;,
+        &quot;residential&quot;: false
+      },
+      &quot;contact&quot;: {
+        &quot;personName&quot;: &quot;John Taylor&quot;,
+        &quot;emailAddress&quot;: &quot;sample@company.com&quot;,
+        &quot;phoneExtension&quot;: &quot;91&quot;,
+        &quot;phoneNumber&quot;: &quot;XXXX567890&quot;,
+        &quot;companyName&quot;: &quot;Fedex&quot;
+      },
+      &quot;tins&quot;: [
+        {
+          &quot;number&quot;: &quot;XXX567&quot;,
+          &quot;tinType&quot;: &quot;FEDERAL&quot;,
+          &quot;usage&quot;: &quot;usage&quot;,
+          &quot;effectiveDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;,
+          &quot;expirationDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;
+        }
+      ]
+    },
+    &quot;soldTo&quot;: {
+      &quot;address&quot;: {
+        &quot;streetLines&quot;: [
+          &quot;10 FedEx Parkway&quot;,
+          &quot;Suite 302&quot;
+        ],
+        &quot;city&quot;: &quot;Beverly Hills&quot;,
+        &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+        &quot;postalCode&quot;: &quot;90210&quot;,
+        &quot;countryCode&quot;: &quot;US&quot;,
+        &quot;residential&quot;: false
+      },
+      &quot;contact&quot;: {
+        &quot;personName&quot;: &quot;John Taylor&quot;,
+        &quot;emailAddress&quot;: &quot;sample@company.com&quot;,
+        &quot;phoneExtension&quot;: &quot;91&quot;,
+        &quot;phoneNumber&quot;: &quot;1234567890&quot;,
+        &quot;companyName&quot;: &quot;Fedex&quot;
+      },
+      &quot;tins&quot;: [
+        {
+          &quot;number&quot;: &quot;123567&quot;,
+          &quot;tinType&quot;: &quot;FEDERAL&quot;,
+          &quot;usage&quot;: &quot;usage&quot;,
+          &quot;effectiveDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;,
+          &quot;expirationDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;
+        }
+      ],
+      &quot;accountNumber&quot;: {
+        &quot;value&quot;: &quot;Your account number&quot;
+      }
+    },
+    &quot;recipients&quot;: [
+      {
+        &quot;address&quot;: {
+          &quot;streetLines&quot;: [
+            &quot;10 FedEx Parkway&quot;,
+            &quot;Suite 302&quot;
+          ],
+          &quot;city&quot;: &quot;Beverly Hills&quot;,
+          &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+          &quot;postalCode&quot;: &quot;90210&quot;,
+          &quot;countryCode&quot;: &quot;US&quot;,
+          &quot;residential&quot;: false
+        },
+        &quot;contact&quot;: {
+          &quot;personName&quot;: &quot;John Taylor&quot;,
+          &quot;emailAddress&quot;: &quot;sample@company.com&quot;,
+          &quot;phoneExtension&quot;: &quot;000&quot;,
+          &quot;phoneNumber&quot;: &quot;XXXX345671&quot;,
+          &quot;companyName&quot;: &quot;FedEx&quot;
+        },
+        &quot;tins&quot;: [
+          {
+            &quot;number&quot;: &quot;123567&quot;,
+            &quot;tinType&quot;: &quot;FEDERAL&quot;,
+            &quot;usage&quot;: &quot;usage&quot;,
+            &quot;effectiveDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;,
+            &quot;expirationDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;
+          }
+        ],
+        &quot;deliveryInstructions&quot;: &quot;Delivery Instructions&quot;
+      }
+    ],
+    &quot;recipientLocationNumber&quot;: &quot;1234567&quot;,
+    &quot;pickupType&quot;: &quot;USE_SCHEDULED_PICKUP&quot;,
+    &quot;serviceType&quot;: &quot;PRIORITY_OVERNIGHT&quot;,
+    &quot;packagingType&quot;: &quot;YOUR_PACKAGING&quot;,
+    &quot;totalWeight&quot;: 20.6,
+    &quot;origin&quot;: {
+      &quot;address&quot;: {
+        &quot;streetLines&quot;: [
+          &quot;10 FedEx Parkway&quot;,
+          &quot;Suite 302&quot;
+        ],
+        &quot;city&quot;: &quot;Beverly Hills&quot;,
+        &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+        &quot;postalCode&quot;: &quot;38127&quot;,
+        &quot;countryCode&quot;: &quot;US&quot;,
+        &quot;residential&quot;: false
+      },
+      &quot;contact&quot;: {
+        &quot;personName&quot;: &quot;person name&quot;,
+        &quot;emailAddress&quot;: &quot;email address&quot;,
+        &quot;phoneNumber&quot;: &quot;phone number&quot;,
+        &quot;phoneExtension&quot;: &quot;phone extension&quot;,
+        &quot;companyName&quot;: &quot;company name&quot;,
+        &quot;faxNumber&quot;: &quot;fax number&quot;
+      }
+    },
+    &quot;shippingChargesPayment&quot;: {
+      &quot;paymentType&quot;: &quot;SENDER&quot;,
+      &quot;payor&quot;: {
+        &quot;responsibleParty&quot;: {
+          &quot;address&quot;: {
+            &quot;streetLines&quot;: [
+              &quot;10 FedEx Parkway&quot;,
+              &quot;Suite 302&quot;
+            ],
+            &quot;city&quot;: &quot;Beverly Hills&quot;,
+            &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+            &quot;postalCode&quot;: &quot;90210&quot;,
+            &quot;countryCode&quot;: &quot;US&quot;,
+            &quot;residential&quot;: false
+          },
+          &quot;contact&quot;: {
+            &quot;personName&quot;: &quot;John Taylor&quot;,
+            &quot;emailAddress&quot;: &quot;sample@company.com&quot;,
+            &quot;parsedPersonName&quot;: {
+              &quot;firstName&quot;: &quot;first name&quot;,
+              &quot;lastName&quot;: &quot;last name&quot;,
+              &quot;middleName&quot;: &quot;middle name&quot;,
+              &quot;suffix&quot;: &quot;suffix&quot;
+            },
+            &quot;phoneNumber&quot;: &quot;XXXX567890&quot;,
+            &quot;phoneExtension&quot;: &quot;phone extension&quot;,
+            &quot;companyName&quot;: &quot;Fedex&quot;,
+            &quot;faxNumber&quot;: &quot;fax number&quot;
+          },
+          &quot;accountNumber&quot;: {
+            &quot;value&quot;: &quot;Your account number&quot;
+          }
+        }
+      }
+    },
+    &quot;shipmentSpecialServices&quot;: {
+      &quot;specialServiceTypes&quot;: [
+        &quot;THIRD_PARTY_CONSIGNEE&quot;,
+        &quot;PROTECTION_FROM_FREEZING&quot;
+      ],
+      &quot;etdDetail&quot;: {
+        &quot;attributes&quot;: [
+          &quot;POST_SHIPMENT_UPLOAD_REQUESTED&quot;
+        ],
+        &quot;attachedDocuments&quot;: [
+          {
+            &quot;documentType&quot;: &quot;PRO_FORMA_INVOICE&quot;,
+            &quot;documentReference&quot;: &quot;DocumentReference&quot;,
+            &quot;description&quot;: &quot;PRO FORMA INVOICE&quot;,
+            &quot;documentId&quot;: &quot;090927d680038c61&quot;
+          }
+        ],
+        &quot;requestedDocumentTypes&quot;: [
+          &quot;VICS_BILL_OF_LADING&quot;,
+          &quot;GENERAL_AGENCY_AGREEMENT&quot;
+        ]
+      },
+      &quot;returnShipmentDetail&quot;: {
+        &quot;returnEmailDetail&quot;: {
+          &quot;merchantPhoneNumber&quot;: &quot;19012635656&quot;,
+          &quot;allowedSpecialService&quot;: [
+            &quot;SATURDAY_DELIVERY&quot;
+          ]
+        },
+        &quot;rma&quot;: {
+          &quot;reason&quot;: &quot;Wrong Size or Color&quot;
+        },
+        &quot;returnAssociationDetail&quot;: {
+          &quot;shipDatestamp&quot;: &quot;2019-10-01&quot;,
+          &quot;trackingNumber&quot;: &quot;123456789&quot;
+        },
+        &quot;returnType&quot;: &quot;PRINT_RETURN_LABEL&quot;
+      },
+      &quot;deliveryOnInvoiceAcceptanceDetail&quot;: {
+        &quot;recipient&quot;: {
+          &quot;address&quot;: {
+            &quot;streetLines&quot;: [
+              &quot;23, RUE JOSEPH-DE MA&quot;,
+              &quot;Suite 302&quot;
+            ],
+            &quot;city&quot;: &quot;Beverly Hills&quot;,
+            &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+            &quot;postalCode&quot;: &quot;90210&quot;,
+            &quot;countryCode&quot;: &quot;US&quot;,
+            &quot;residential&quot;: false
+          },
+          &quot;contact&quot;: {
+            &quot;personName&quot;: &quot;John Taylor&quot;,
+            &quot;emailAddress&quot;: &quot;sample@company.com&quot;,
+            &quot;phoneExtension&quot;: &quot;000&quot;,
+            &quot;phoneNumber&quot;: &quot;1234567890&quot;,
+            &quot;companyName&quot;: &quot;Fedex&quot;
+          },
+          &quot;tins&quot;: [
+            {
+              &quot;number&quot;: &quot;123567&quot;,
+              &quot;tinType&quot;: &quot;FEDERAL&quot;,
+              &quot;usage&quot;: &quot;usage&quot;,
+              &quot;effectiveDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;,
+              &quot;expirationDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;
+            }
+          ],
+          &quot;deliveryInstructions&quot;: &quot;Delivery Instructions&quot;
+        }
+      },
+      &quot;internationalTrafficInArmsRegulationsDetail&quot;: {
+        &quot;licenseOrExemptionNumber&quot;: &quot;9871234&quot;
+      },
+      &quot;pendingShipmentDetail&quot;: {
+        &quot;pendingShipmentType&quot;: &quot;EMAIL&quot;,
+        &quot;processingOptions&quot;: {
+          &quot;options&quot;: [
+            &quot;ALLOW_MODIFICATIONS&quot;
+          ]
+        },
+        &quot;recommendedDocumentSpecification&quot;: {
+          &quot;types&quot;: &quot;ANTIQUE_STATEMENT_EUROPEAN_UNION&quot;
+        },
+        &quot;emailLabelDetail&quot;: {
+          &quot;recipients&quot;: [
+            {
+              &quot;emailAddress&quot;: &quot;neena@fedex.com&quot;,
+              &quot;optionsRequested&quot;: {
+                &quot;options&quot;: [
+                  &quot;PRODUCE_PAPERLESS_SHIPPING_FORMAT&quot;,
+                  &quot;SUPPRESS_ACCESS_EMAILS&quot;
+                ]
+              },
+              &quot;role&quot;: &quot;SHIPMENT_COMPLETOR&quot;,
+              &quot;locale&quot;: &quot;en_US&quot;
+            }
+          ],
+          &quot;message&quot;: &quot;your optional message&quot;
+        },
+        &quot;attachedDocuments&quot;: [
+          {
+            &quot;documentType&quot;: &quot;PRO_FORMA_INVOICE&quot;,
+            &quot;documentReference&quot;: &quot;DocumentReference&quot;,
+            &quot;description&quot;: &quot;PRO FORMA INVOICE&quot;,
+            &quot;documentId&quot;: &quot;090927d680038c61&quot;
+          }
+        ],
+        &quot;expirationTimeStamp&quot;: &quot;2020-01-01&quot;
+      },
+      &quot;holdAtLocationDetail&quot;: {
+        &quot;locationId&quot;: &quot;YBZA&quot;,
+        &quot;locationContactAndAddress&quot;: {
+          &quot;address&quot;: {
+            &quot;streetLines&quot;: [
+              &quot;10 FedEx Parkway&quot;,
+              &quot;Suite 302&quot;
+            ],
+            &quot;city&quot;: &quot;Beverly Hills&quot;,
+            &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+            &quot;postalCode&quot;: &quot;38127&quot;,
+            &quot;countryCode&quot;: &quot;US&quot;,
+            &quot;residential&quot;: false
+          },
+          &quot;contact&quot;: {
+            &quot;personName&quot;: &quot;person name&quot;,
+            &quot;emailAddress&quot;: &quot;email address&quot;,
+            &quot;parsedPersonName&quot;: {
+              &quot;firstName&quot;: &quot;first name&quot;,
+              &quot;lastName&quot;: &quot;last name&quot;,
+              &quot;middleName&quot;: &quot;middle name&quot;,
+              &quot;suffix&quot;: &quot;suffix&quot;
+            },
+            &quot;phoneNumber&quot;: &quot;phone number&quot;,
+            &quot;phoneExtension&quot;: &quot;phone extension&quot;,
+            &quot;companyName&quot;: &quot;company name&quot;,
+            &quot;faxNumber&quot;: &quot;fax number&quot;
+          }
+        },
+        &quot;locationType&quot;: &quot;FEDEX_ONSITE&quot;
+      },
+      &quot;shipmentCODDetail&quot;: {
+        &quot;addTransportationChargesDetail&quot;: {
+          &quot;rateType&quot;: &quot;ACCOUNT&quot;,
+          &quot;rateLevelType&quot;: &quot;BUNDLED_RATE&quot;,
+          &quot;chargeLevelType&quot;: &quot;CURRENT_PACKAGE&quot;,
+          &quot;chargeType&quot;: &quot;COD_SURCHARGE&quot;
+        },
+        &quot;codRecipient&quot;: {
+          &quot;address&quot;: {
+            &quot;streetLines&quot;: [
+              &quot;10 FedEx Parkway&quot;,
+              &quot;Suite 302&quot;
+            ],
+            &quot;city&quot;: &quot;Beverly Hills&quot;,
+            &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+            &quot;postalCode&quot;: &quot;90210&quot;,
+            &quot;countryCode&quot;: &quot;US&quot;,
+            &quot;residential&quot;: false
+          },
+          &quot;contact&quot;: {
+            &quot;personName&quot;: &quot;John Taylor&quot;,
+            &quot;emailAddress&quot;: &quot;sample@company.com&quot;,
+            &quot;phoneExtension&quot;: &quot;000&quot;,
+            &quot;phoneNumber&quot;: &quot;XXXX345671&quot;,
+            &quot;companyName&quot;: &quot;Fedex&quot;
+          },
+          &quot;accountNumber&quot;: {
+            &quot;value&quot;: &quot;Your account number&quot;
+          },
+          &quot;tins&quot;: [
+            {
+              &quot;number&quot;: &quot;123567&quot;,
+              &quot;tinType&quot;: &quot;FEDERAL&quot;,
+              &quot;usage&quot;: &quot;usage&quot;,
+              &quot;effectiveDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;,
+              &quot;expirationDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;
+            }
+          ]
+        },
+        &quot;remitToName&quot;: &quot;remitToName&quot;,
+        &quot;codCollectionType&quot;: &quot;ANY&quot;,
+        &quot;financialInstitutionContactAndAddress&quot;: {
+          &quot;address&quot;: {
+            &quot;streetLines&quot;: [
+              &quot;10 FedEx Parkway&quot;,
+              &quot;Suite 302&quot;
+            ],
+            &quot;city&quot;: &quot;Beverly Hills&quot;,
+            &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+            &quot;postalCode&quot;: &quot;38127&quot;,
+            &quot;countryCode&quot;: &quot;US&quot;,
+            &quot;residential&quot;: false
+          },
+          &quot;contact&quot;: {
+            &quot;personName&quot;: &quot;person name&quot;,
+            &quot;emailAddress&quot;: &quot;email address&quot;,
+            &quot;parsedPersonName&quot;: {
+              &quot;firstName&quot;: &quot;first name&quot;,
+              &quot;lastName&quot;: &quot;last name&quot;,
+              &quot;middleName&quot;: &quot;middle name&quot;,
+              &quot;suffix&quot;: &quot;suffix&quot;
+            },
+            &quot;phoneNumber&quot;: &quot;phone number&quot;,
+            &quot;phoneExtension&quot;: &quot;phone extension&quot;,
+            &quot;companyName&quot;: &quot;company name&quot;,
+            &quot;faxNumber&quot;: &quot;fax number&quot;
+          }
+        },
+        &quot;codCollectionAmount&quot;: {
+          &quot;amount&quot;: 12.45,
+          &quot;currency&quot;: &quot;USD&quot;
+        },
+        &quot;returnReferenceIndicatorType&quot;: &quot;INVOICE&quot;,
+        &quot;shipmentCodAmount&quot;: {
+          &quot;amount&quot;: 12.45,
+          &quot;currency&quot;: &quot;USD&quot;
+        }
+      },
+      &quot;shipmentDryIceDetail&quot;: {
+        &quot;totalWeight&quot;: {
+          &quot;units&quot;: &quot;LB&quot;,
+          &quot;value&quot;: 10
+        },
+        &quot;packageCount&quot;: 12
+      },
+      &quot;internationalControlledExportDetail&quot;: {
+        &quot;licenseOrPermitExpirationDate&quot;: &quot;2019-12-03&quot;,
+        &quot;licenseOrPermitNumber&quot;: &quot;11&quot;,
+        &quot;entryNumber&quot;: &quot;125&quot;,
+        &quot;foreignTradeZoneCode&quot;: &quot;US&quot;,
+        &quot;type&quot;: &quot;WAREHOUSE_WITHDRAWAL&quot;
+      },
+      &quot;homeDeliveryPremiumDetail&quot;: {
+        &quot;phoneNumber&quot;: {
+          &quot;areaCode&quot;: &quot;901&quot;,
+          &quot;localNumber&quot;: &quot;3575012&quot;,
+          &quot;extension&quot;: &quot;200&quot;,
+          &quot;personalIdentificationNumber&quot;: &quot;98712345&quot;
+        },
+        &quot;deliveryDate&quot;: &quot;2019-06-26&quot;,
+        &quot;homedeliveryPremiumType&quot;: &quot;APPOINTMENT&quot;
+      }
+    },
+    &quot;emailNotificationDetail&quot;: {
+      &quot;aggregationType&quot;: &quot;PER_PACKAGE&quot;,
+      &quot;emailNotificationRecipients&quot;: [
+        {
+          &quot;name&quot;: &quot;Joe Smith&quot;,
+          &quot;emailNotificationRecipientType&quot;: &quot;SHIPPER&quot;,
+          &quot;emailAddress&quot;: &quot;jsmith3@aol.com&quot;,
+          &quot;notificationFormatType&quot;: &quot;TEXT&quot;,
+          &quot;notificationType&quot;: &quot;EMAIL&quot;,
+          &quot;locale&quot;: &quot;en_US&quot;,
+          &quot;notificationEventType&quot;: [
+            &quot;ON_PICKUP_DRIVER_ARRIVED&quot;,
+            &quot;ON_SHIPMENT&quot;
+          ]
+        }
+      ],
+      &quot;personalMessage&quot;: &quot;your personal message here&quot;
+    },
+    &quot;expressFreightDetail&quot;: {
+      &quot;bookingConfirmationNumber&quot;: &quot;123456789812&quot;,
+      &quot;shippersLoadAndCount&quot;: 123,
+      &quot;packingListEnclosed&quot;: true
+    },
+    &quot;variableHandlingChargeDetail&quot;: {
+      &quot;rateType&quot;: &quot;PREFERRED_CURRENCY&quot;,
+      &quot;percentValue&quot;: 12.45,
+      &quot;rateLevelType&quot;: &quot;INDIVIDUAL_PACKAGE_RATE&quot;,
+      &quot;fixedValue&quot;: {
+        &quot;amount&quot;: 24.45,
+        &quot;currency&quot;: &quot;USD&quot;
+      },
+      &quot;rateElementBasis&quot;: &quot;NET_CHARGE_EXCLUDING_TAXES&quot;
+    },
+    &quot;customsClearanceDetail&quot;: {
+      &quot;regulatoryControls&quot;: &quot;NOT_IN_FREE_CIRCULATION&quot;,
+      &quot;brokers&quot;: [
+        {
+          &quot;broker&quot;: {
+            &quot;address&quot;: {
+              &quot;streetLines&quot;: [
+                &quot;10 FedEx Parkway&quot;,
+                &quot;Suite 302&quot;
+              ],
+              &quot;city&quot;: &quot;Beverly Hills&quot;,
+              &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+              &quot;postalCode&quot;: &quot;90210&quot;,
+              &quot;countryCode&quot;: &quot;US&quot;,
+              &quot;residential&quot;: false
+            },
+            &quot;contact&quot;: {
+              &quot;personName&quot;: &quot;John Taylor&quot;,
+              &quot;emailAddress&quot;: &quot;sample@company.com&quot;,
+              &quot;parsedPersonName&quot;: {
+                &quot;firstName&quot;: &quot;John&quot;,
+                &quot;lastName&quot;: &quot;Taylor&quot;,
+                &quot;middleName&quot;: &quot;Raymond&quot;,
+                &quot;suffix&quot;: &quot;Jr&quot;
+              },
+              &quot;phoneNumber&quot;: &quot;1234567890&quot;,
+              &quot;phoneExtension&quot;: 91,
+              &quot;companyName&quot;: &quot;Fedex&quot;,
+              &quot;faxNumber&quot;: 1234567
+            },
+            &quot;accountNumber&quot;: {
+              &quot;value&quot;: &quot;Your account number&quot;
+            },
+            &quot;tins&quot;: [
+              {
+                &quot;number&quot;: &quot;number&quot;,
+                &quot;tinType&quot;: &quot;FEDERAL&quot;,
+                &quot;usage&quot;: &quot;usage&quot;,
+                &quot;effectiveDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;,
+                &quot;expirationDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;
+              }
+            ],
+            &quot;deliveryInstructions&quot;: &quot;deliveryInstructions&quot;
+          },
+          &quot;type&quot;: &quot;IMPORT&quot;
+        }
+      ],
+      &quot;commercialInvoice&quot;: {
+        &quot;originatorName&quot;: &quot;originator Name&quot;,
+        &quot;comments&quot;: [
+          &quot;optional comments for the commercial invoice&quot;
+        ],
+        &quot;customerReferences&quot;: [
+          {
+            &quot;customerReferenceType&quot;: &quot;INVOICE_NUMBER&quot;,
+            &quot;value&quot;: &quot;3686&quot;
+          }
+        ],
+        &quot;taxesOrMiscellaneousCharge&quot;: {
+          &quot;amount&quot;: 12.45,
+          &quot;currency&quot;: &quot;USD&quot;
+        },
+        &quot;taxesOrMiscellaneousChargeType&quot;: &quot;COMMISSIONS&quot;,
+        &quot;freightCharge&quot;: {
+          &quot;amount&quot;: 12.45,
+          &quot;currency&quot;: &quot;USD&quot;
+        },
+        &quot;packingCosts&quot;: {
+          &quot;amount&quot;: 12.45,
+          &quot;currency&quot;: &quot;USD&quot;
+        },
+        &quot;handlingCosts&quot;: {
+          &quot;amount&quot;: 12.45,
+          &quot;currency&quot;: &quot;USD&quot;
+        },
+        &quot;declarationStatement&quot;: &quot;declarationStatement&quot;,
+        &quot;termsOfSale&quot;: &quot;FCA&quot;,
+        &quot;specialInstructions&quot;: &quot;specialInstructions\&quot;&quot;,
+        &quot;shipmentPurpose&quot;: &quot;REPAIR_AND_RETURN&quot;,
+        &quot;emailNotificationDetail&quot;: {
+          &quot;emailAddress&quot;: &quot;neena@fedex.com&quot;,
+          &quot;type&quot;: &quot;EMAILED&quot;,
+          &quot;recipientType&quot;: &quot;SHIPPER&quot;
+        }
+      },
+      &quot;freightOnValue&quot;: &quot;OWN_RISK&quot;,
+      &quot;dutiesPayment&quot;: {
+        &quot;payor&quot;: {
+          &quot;responsibleParty&quot;: {
+            &quot;address&quot;: {
+              &quot;streetLines&quot;: [
+                &quot;10 FedEx Parkway&quot;,
+                &quot;Suite 302&quot;
+              ],
+              &quot;city&quot;: &quot;Beverly Hills&quot;,
+              &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+              &quot;postalCode&quot;: &quot;38127&quot;,
+              &quot;countryCode&quot;: &quot;US&quot;,
+              &quot;residential&quot;: false
+            },
+            &quot;contact&quot;: {
+              &quot;personName&quot;: &quot;John Taylor&quot;,
+              &quot;emailAddress&quot;: &quot;sample@company.com&quot;,
+              &quot;parsedPersonName&quot;: {
+                &quot;firstName&quot;: &quot;first name&quot;,
+                &quot;lastName&quot;: &quot;last name&quot;,
+                &quot;middleName&quot;: &quot;middle name&quot;,
+                &quot;suffix&quot;: &quot;suffix&quot;
+              },
+              &quot;phoneNumber&quot;: &quot;1234567890&quot;,
+              &quot;phoneExtension&quot;: &quot;phone extension&quot;,
+              &quot;companyName&quot;: &quot;Fedex&quot;,
+              &quot;faxNumber&quot;: &quot;fax number&quot;
+            },
+            &quot;accountNumber&quot;: {
+              &quot;value&quot;: &quot;Your account number&quot;
+            },
+            &quot;tins&quot;: [
+              {
+                &quot;number&quot;: &quot;number&quot;,
+                &quot;tinType&quot;: &quot;FEDERAL&quot;,
+                &quot;usage&quot;: &quot;usage&quot;,
+                &quot;effectiveDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;,
+                &quot;expirationDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;
+              },
+              {
+                &quot;number&quot;: &quot;number&quot;,
+                &quot;tinType&quot;: &quot;FEDERAL&quot;,
+                &quot;usage&quot;: &quot;usage&quot;,
+                &quot;effectiveDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;,
+                &quot;expirationDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;
+              }
+            ]
+          }
+        },
+        &quot;billingDetails&quot;: {
+          &quot;billingCode&quot;: &quot;billingCode&quot;,
+          &quot;billingType&quot;: &quot;billingType&quot;,
+          &quot;aliasId&quot;: &quot;aliasId&quot;,
+          &quot;accountNickname&quot;: &quot;accountNickname&quot;,
+          &quot;accountNumber&quot;: &quot;Your account number&quot;,
+          &quot;accountNumberCountryCode&quot;: &quot;US&quot;
+        },
+        &quot;paymentType&quot;: &quot;SENDER&quot;
+      },
+      &quot;commodities&quot;: [
+        {
+          &quot;unitPrice&quot;: {
+            &quot;amount&quot;: 12.45,
+            &quot;currency&quot;: &quot;USD&quot;
+          },
+          &quot;additionalMeasures&quot;: [
+            {
+              &quot;quantity&quot;: 12.45,
+              &quot;units&quot;: &quot;KG&quot;
+            }
+          ],
+          &quot;numberOfPieces&quot;: 12,
+          &quot;quantity&quot;: 125,
+          &quot;quantityUnits&quot;: &quot;Ea&quot;,
+          &quot;customsValue&quot;: {
+            &quot;amount&quot;: 12.45,
+            &quot;currency&quot;: &quot;USD&quot;
+          },
+          &quot;countryOfManufacture&quot;: &quot;US&quot;,
+          &quot;cIMarksAndNumbers&quot;: &quot;87123&quot;,
+          &quot;harmonizedCode&quot;: &quot;0613&quot;,
+          &quot;description&quot;: &quot;description&quot;,
+          &quot;name&quot;: &quot;non-threaded rivets&quot;,
+          &quot;weight&quot;: {
+            &quot;units&quot;: &quot;KG&quot;,
+            &quot;value&quot;: 68
+          },
+          &quot;exportLicenseNumber&quot;: &quot;26456&quot;,
+          &quot;exportLicenseExpirationDate&quot;: &quot;2022-02-22T16:51:26Z&quot;,
+          &quot;partNumber&quot;: &quot;167&quot;,
+          &quot;purpose&quot;: &quot;BUSINESS&quot;,
+          &quot;usmcaDetail&quot;: {
+            &quot;originCriterion&quot;: &quot;A&quot;
+          }
+        }
+      ],
+      &quot;isDocumentOnly&quot;: true,
+      &quot;recipientCustomsId&quot;: {
+        &quot;type&quot;: &quot;PASSPORT&quot;,
+        &quot;value&quot;: &quot;123&quot;
+      },
+      &quot;customsOption&quot;: {
+        &quot;description&quot;: &quot;Description&quot;,
+        &quot;type&quot;: &quot;COURTESY_RETURN_LABEL&quot;
+      },
+      &quot;importerOfRecord&quot;: {
+        &quot;address&quot;: {
+          &quot;streetLines&quot;: [
+            &quot;10 FedEx Parkway&quot;,
+            &quot;Suite 302&quot;
+          ],
+          &quot;city&quot;: &quot;Beverly Hills&quot;,
+          &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+          &quot;postalCode&quot;: &quot;90210&quot;,
+          &quot;countryCode&quot;: &quot;US&quot;,
+          &quot;residential&quot;: false
+        },
+        &quot;contact&quot;: {
+          &quot;personName&quot;: &quot;John Taylor&quot;,
+          &quot;emailAddress&quot;: &quot;sample@company.com&quot;,
+          &quot;phoneExtension&quot;: &quot;000&quot;,
+          &quot;phoneNumber&quot;: &quot;XXXX345671&quot;,
+          &quot;companyName&quot;: &quot;Fedex&quot;
+        },
+        &quot;accountNumber&quot;: {
+          &quot;value&quot;: &quot;Your account number&quot;
+        },
+        &quot;tins&quot;: [
+          {
+            &quot;number&quot;: &quot;123567&quot;,
+            &quot;tinType&quot;: &quot;FEDERAL&quot;,
+            &quot;usage&quot;: &quot;usage&quot;,
+            &quot;effectiveDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;,
+            &quot;expirationDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;
+          }
+        ]
+      },
+      &quot;generatedDocumentLocale&quot;: &quot;en_US&quot;,
+      &quot;exportDetail&quot;: {
+        &quot;destinationControlDetail&quot;: {
+          &quot;endUser&quot;: &quot;dest country user&quot;,
+          &quot;statementTypes&quot;: &quot;DEPARTMENT_OF_COMMERCE&quot;,
+          &quot;destinationCountries&quot;: [
+            &quot;USA&quot;,
+            &quot;India&quot;
+          ]
+        },
+        &quot;b13AFilingOption&quot;: &quot;NOT_REQUIRED&quot;,
+        &quot;exportComplianceStatement&quot;: &quot;export Compliance Statement&quot;,
+        &quot;permitNumber&quot;: &quot;12345&quot;
+      },
+      &quot;totalCustomsValue&quot;: {
+        &quot;amount&quot;: 12.45,
+        &quot;currency&quot;: &quot;USD&quot;
+      },
+      &quot;partiesToTransactionAreRelated&quot;: true,
+      &quot;declarationStatementDetail&quot;: {
+        &quot;usmcaLowValueStatementDetail&quot;: {
+          &quot;countryOfOriginLowValueDocumentRequested&quot;: true,
+          &quot;customsRole&quot;: &quot;EXPORTER&quot;
+        }
+      },
+      &quot;insuranceCharge&quot;: {
+        &quot;amount&quot;: 12.45,
+        &quot;currency&quot;: &quot;USD&quot;
+      }
+    },
+    &quot;smartPostInfoDetail&quot;: {
+      &quot;ancillaryEndorsement&quot;: &quot;RETURN_SERVICE&quot;,
+      &quot;hubId&quot;: &quot;5015&quot;,
+      &quot;indicia&quot;: &quot;PRESORTED_STANDARD&quot;,
+      &quot;specialServices&quot;: &quot;USPS_DELIVERY_CONFIRMATION&quot;
+    },
+    &quot;blockInsightVisibility&quot;: true,
+    &quot;labelSpecification&quot;: {
+      &quot;labelFormatType&quot;: &quot;COMMON2D&quot;,
+      &quot;labelOrder&quot;: &quot;SHIPPING_LABEL_FIRST&quot;,
+      &quot;customerSpecifiedDetail&quot;: {
+        &quot;maskedData&quot;: [
+          &quot;CUSTOMS_VALUE&quot;,
+          &quot;TOTAL_WEIGHT&quot;
+        ],
+        &quot;regulatoryLabels&quot;: [
+          {
+            &quot;generationOptions&quot;: &quot;CONTENT_ON_SHIPPING_LABEL_ONLY&quot;,
+            &quot;type&quot;: &quot;ALCOHOL_SHIPMENT_LABEL&quot;
+          }
+        ],
+        &quot;additionalLabels&quot;: [
+          {
+            &quot;type&quot;: &quot;CONSIGNEE&quot;,
+            &quot;count&quot;: 1
+          }
+        ],
+        &quot;docTabContent&quot;: {
+          &quot;docTabContentType&quot;: &quot;BARCODED&quot;,
+          &quot;zone001&quot;: {
+            &quot;docTabZoneSpecifications&quot;: [
+              {
+                &quot;zoneNumber&quot;: 0,
+                &quot;header&quot;: &quot;string&quot;,
+                &quot;dataField&quot;: &quot;string&quot;,
+                &quot;literalValue&quot;: &quot;string&quot;,
+                &quot;justification&quot;: &quot;RIGHT&quot;
+              }
+            ]
+          },
+          &quot;barcoded&quot;: {
+            &quot;symbology&quot;: &quot;UCC128&quot;,
+            &quot;specification&quot;: {
+              &quot;zoneNumber&quot;: 0,
+              &quot;header&quot;: &quot;string&quot;,
+              &quot;dataField&quot;: &quot;string&quot;,
+              &quot;literalValue&quot;: &quot;string&quot;,
+              &quot;justification&quot;: &quot;RIGHT&quot;
+            }
+          }
+        }
+      },
+      &quot;printedLabelOrigin&quot;: {
+        &quot;address&quot;: {
+          &quot;streetLines&quot;: [
+            &quot;10 FedEx Parkway&quot;,
+            &quot;Suite 302&quot;
+          ],
+          &quot;city&quot;: &quot;Beverly Hills&quot;,
+          &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+          &quot;postalCode&quot;: &quot;38127&quot;,
+          &quot;countryCode&quot;: &quot;US&quot;,
+          &quot;residential&quot;: false
+        },
+        &quot;contact&quot;: {
+          &quot;personName&quot;: &quot;person name&quot;,
+          &quot;emailAddress&quot;: &quot;email address&quot;,
+          &quot;parsedPersonName&quot;: {
+            &quot;firstName&quot;: &quot;first name&quot;,
+            &quot;lastName&quot;: &quot;last name&quot;,
+            &quot;middleName&quot;: &quot;middle name&quot;,
+            &quot;suffix&quot;: &quot;suffix&quot;
+          },
+          &quot;phoneNumber&quot;: &quot;phone number&quot;,
+          &quot;phoneExtension&quot;: &quot;phone extension&quot;,
+          &quot;companyName&quot;: &quot;company name&quot;,
+          &quot;faxNumber&quot;: &quot;fax number&quot;
+        }
+      },
+      &quot;labelStockType&quot;: &quot;PAPER_85X11_TOP_HALF_LABEL&quot;,
+      &quot;labelRotation&quot;: &quot;UPSIDE_DOWN&quot;,
+      &quot;imageType&quot;: &quot;PDF&quot;,
+      &quot;labelPrintingOrientation&quot;: &quot;TOP_EDGE_OF_TEXT_FIRST&quot;,
+      &quot;returnedDispositionDetail&quot;: true
+    },
+    &quot;shippingDocumentSpecification&quot;: {
+      &quot;generalAgencyAgreementDetail&quot;: {
+        &quot;documentFormat&quot;: {
+          &quot;provideInstructions&quot;: true,
+          &quot;optionsRequested&quot;: {
+            &quot;options&quot;: [
+              &quot;SUPPRESS_ADDITIONAL_LANGUAGES&quot;,
+              &quot;SHIPPING_LABEL_LAST&quot;
+            ]
+          },
+          &quot;stockType&quot;: &quot;PAPER_LETTER&quot;,
+          &quot;dispositions&quot;: [
+            {
+              &quot;eMailDetail&quot;: {
+                &quot;eMailRecipients&quot;: [
+                  {
+                    &quot;emailAddress&quot;: &quot;email@fedex.com&quot;,
+                    &quot;recipientType&quot;: &quot;THIRD_PARTY&quot;
+                  }
+                ],
+                &quot;locale&quot;: &quot;en_US&quot;,
+                &quot;grouping&quot;: &quot;NONE&quot;
+              },
+              &quot;dispositionType&quot;: &quot;CONFIRMED&quot;
+            }
+          ],
+          &quot;locale&quot;: &quot;en_US&quot;,
+          &quot;docType&quot;: &quot;PDF&quot;
+        }
+      },
+      &quot;returnInstructionsDetail&quot;: {
+        &quot;customText&quot;: &quot;This is additional text printed on Return instr&quot;,
+        &quot;documentFormat&quot;: {
+          &quot;provideInstructions&quot;: true,
+          &quot;optionsRequested&quot;: {
+            &quot;options&quot;: [
+              &quot;SUPPRESS_ADDITIONAL_LANGUAGES&quot;,
+              &quot;SHIPPING_LABEL_LAST&quot;
+            ]
+          },
+          &quot;stockType&quot;: &quot;PAPER_LETTER&quot;,
+          &quot;dispositions&quot;: [
+            {
+              &quot;eMailDetail&quot;: {
+                &quot;eMailRecipients&quot;: [
+                  {
+                    &quot;emailAddress&quot;: &quot;email@fedex.com&quot;,
+                    &quot;recipientType&quot;: &quot;THIRD_PARTY&quot;
+                  }
+                ],
+                &quot;locale&quot;: &quot;en_US&quot;,
+                &quot;grouping&quot;: &quot;NONE&quot;
+              },
+              &quot;dispositionType&quot;: &quot;CONFIRMED&quot;
+            }
+          ],
+          &quot;locale&quot;: &quot;en_US\&quot;&quot;,
+          &quot;docType&quot;: &quot;PNG&quot;
+        }
+      },
+      &quot;op900Detail&quot;: {
+        &quot;customerImageUsages&quot;: [
+          {
+            &quot;id&quot;: &quot;IMAGE_5&quot;,
+            &quot;type&quot;: &quot;SIGNATURE&quot;,
+            &quot;providedImageType&quot;: &quot;LETTER_HEAD&quot;
+          }
+        ],
+        &quot;signatureName&quot;: &quot;Signature Name&quot;,
+        &quot;documentFormat&quot;: {
+          &quot;provideInstructions&quot;: true,
+          &quot;optionsRequested&quot;: {
+            &quot;options&quot;: [
+              &quot;SUPPRESS_ADDITIONAL_LANGUAGES&quot;,
+              &quot;SHIPPING_LABEL_LAST&quot;
+            ]
+          },
+          &quot;stockType&quot;: &quot;PAPER_LETTER&quot;,
+          &quot;dispositions&quot;: [
+            {
+              &quot;eMailDetail&quot;: {
+                &quot;eMailRecipients&quot;: [
+                  {
+                    &quot;emailAddress&quot;: &quot;email@fedex.com&quot;,
+                    &quot;recipientType&quot;: &quot;THIRD_PARTY&quot;
+                  }
+                ],
+                &quot;locale&quot;: &quot;en_US&quot;,
+                &quot;grouping&quot;: &quot;NONE&quot;
+              },
+              &quot;dispositionType&quot;: &quot;CONFIRMED&quot;
+            }
+          ],
+          &quot;locale&quot;: &quot;en_US&quot;,
+          &quot;docType&quot;: &quot;PDF&quot;
+        }
+      },
+      &quot;usmcaCertificationOfOriginDetail&quot;: {
+        &quot;customerImageUsages&quot;: [
+          {
+            &quot;id&quot;: &quot;IMAGE_5&quot;,
+            &quot;type&quot;: &quot;SIGNATURE&quot;,
+            &quot;providedImageType&quot;: &quot;LETTER_HEAD&quot;
+          }
+        ],
+        &quot;documentFormat&quot;: {
+          &quot;provideInstructions&quot;: true,
+          &quot;optionsRequested&quot;: {
+            &quot;options&quot;: [
+              &quot;SUPPRESS_ADDITIONAL_LANGUAGES&quot;,
+              &quot;SHIPPING_LABEL_LAST&quot;
+            ]
+          },
+          &quot;stockType&quot;: &quot;PAPER_LETTER&quot;,
+          &quot;dispositions&quot;: [
+            {
+              &quot;eMailDetail&quot;: {
+                &quot;eMailRecipients&quot;: [
+                  {
+                    &quot;emailAddress&quot;: &quot;email@fedex.com&quot;,
+                    &quot;recipientType&quot;: &quot;THIRD_PARTY&quot;
+                  }
+                ],
+                &quot;locale&quot;: &quot;en_US&quot;,
+                &quot;grouping&quot;: &quot;NONE&quot;
+              },
+              &quot;dispositionType&quot;: &quot;CONFIRMED&quot;
+            }
+          ],
+          &quot;locale&quot;: &quot;en_US&quot;,
+          &quot;docType&quot;: &quot;PDF&quot;
+        },
+        &quot;certifierSpecification&quot;: &quot;EXPORTER&quot;,
+        &quot;importerSpecification&quot;: &quot;UNKNOWN&quot;,
+        &quot;producerSpecification&quot;: &quot;SAME_AS_EXPORTER&quot;,
+        &quot;producer&quot;: {
+          &quot;address&quot;: {
+            &quot;streetLines&quot;: [
+              &quot;10 FedEx Parkway&quot;,
+              &quot;Suite 302&quot;
+            ],
+            &quot;city&quot;: &quot;Beverly Hills&quot;,
+            &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+            &quot;postalCode&quot;: &quot;90210&quot;,
+            &quot;countryCode&quot;: &quot;US&quot;,
+            &quot;residential&quot;: false
+          },
+          &quot;contact&quot;: {
+            &quot;personName&quot;: &quot;John Taylor&quot;,
+            &quot;emailAddress&quot;: &quot;sample@company.com&quot;,
+            &quot;phoneExtension&quot;: &quot;000&quot;,
+            &quot;phoneNumber&quot;: &quot;XXXX345671&quot;,
+            &quot;companyName&quot;: &quot;Fedex&quot;
+          },
+          &quot;accountNumber&quot;: {
+            &quot;value&quot;: &quot;Your account number&quot;
+          },
+          &quot;tins&quot;: [
+            {
+              &quot;number&quot;: &quot;123567&quot;,
+              &quot;tinType&quot;: &quot;FEDERAL&quot;,
+              &quot;usage&quot;: &quot;usage&quot;,
+              &quot;effectiveDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;,
+              &quot;expirationDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;
+            }
+          ]
+        },
+        &quot;blanketPeriod&quot;: {
+          &quot;begins&quot;: &quot;22-01-2020&quot;,
+          &quot;ends&quot;: &quot;2-01-2020&quot;
+        },
+        &quot;certifierJobTitle&quot;: &quot;Manager&quot;
+      },
+      &quot;usmcaCommercialInvoiceCertificationOfOriginDetail&quot;: {
+        &quot;customerImageUsages&quot;: [
+          {
+            &quot;id&quot;: &quot;IMAGE_5&quot;,
+            &quot;type&quot;: &quot;SIGNATURE&quot;,
+            &quot;providedImageType&quot;: &quot;LETTER_HEAD&quot;
+          }
+        ],
+        &quot;documentFormat&quot;: {
+          &quot;provideInstructions&quot;: true,
+          &quot;optionsRequested&quot;: {
+            &quot;options&quot;: [
+              &quot;SUPPRESS_ADDITIONAL_LANGUAGES&quot;,
+              &quot;SHIPPING_LABEL_LAST&quot;
+            ]
+          },
+          &quot;stockType&quot;: &quot;PAPER_LETTER&quot;,
+          &quot;dispositions&quot;: [
+            {
+              &quot;eMailDetail&quot;: {
+                &quot;eMailRecipients&quot;: [
+                  {
+                    &quot;emailAddress&quot;: &quot;email@fedex.com&quot;,
+                    &quot;recipientType&quot;: &quot;THIRD_PARTY&quot;
+                  }
+                ],
+                &quot;locale&quot;: &quot;en_US&quot;,
+                &quot;grouping&quot;: &quot;NONE&quot;
+              },
+              &quot;dispositionType&quot;: &quot;CONFIRMED&quot;
+            }
+          ],
+          &quot;locale&quot;: &quot;en_US&quot;,
+          &quot;docType&quot;: &quot;PDF&quot;
+        },
+        &quot;certifierSpecification&quot;: &quot;EXPORTER&quot;,
+        &quot;importerSpecification&quot;: &quot;UNKNOWN&quot;,
+        &quot;producerSpecification&quot;: &quot;SAME_AS_EXPORTER&quot;,
+        &quot;producer&quot;: {
+          &quot;address&quot;: {
+            &quot;streetLines&quot;: [
+              &quot;10 FedEx Parkway&quot;,
+              &quot;Suite 302&quot;
+            ],
+            &quot;city&quot;: &quot;Beverly Hills&quot;,
+            &quot;stateOrProvinceCode&quot;: &quot;CA&quot;,
+            &quot;postalCode&quot;: &quot;90210&quot;,
+            &quot;countryCode&quot;: &quot;US&quot;,
+            &quot;residential&quot;: false
+          },
+          &quot;contact&quot;: {
+            &quot;personName&quot;: &quot;John Taylor&quot;,
+            &quot;emailAddress&quot;: &quot;sample@company.com&quot;,
+            &quot;phoneExtension&quot;: &quot;000&quot;,
+            &quot;phoneNumber&quot;: &quot;XXXX345671&quot;,
+            &quot;companyName&quot;: &quot;Fedex&quot;
+          },
+          &quot;accountNumber&quot;: {
+            &quot;value&quot;: &quot;Your account number&quot;
+          },
+          &quot;tins&quot;: [
+            {
+              &quot;number&quot;: &quot;123567&quot;,
+              &quot;tinType&quot;: &quot;FEDERAL&quot;,
+              &quot;usage&quot;: &quot;usage&quot;,
+              &quot;effectiveDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;,
+              &quot;expirationDate&quot;: &quot;2000-01-23T04:56:07.000+00:00&quot;
+            }
+          ]
+        },
+        &quot;certifierJobTitle&quot;: &quot;Manager&quot;
+      },
+      &quot;shippingDocumentTypes&quot;: [
+        &quot;RETURN_INSTRUCTIONS&quot;,
+        &quot;DANGEROUS_GOODS_SHIPPERS_DECLARATION&quot;
+      ],
+      &quot;certificateOfOrigin&quot;: {
+        &quot;customerImageUsages&quot;: [
+          {
+            &quot;id&quot;: &quot;IMAGE_5&quot;,
+            &quot;type&quot;: &quot;SIGNATURE&quot;,
+            &quot;providedImageType&quot;: &quot;LETTER_HEAD&quot;
+          }
+        ],
+        &quot;documentFormat&quot;: {
+          &quot;provideInstructions&quot;: true,
+          &quot;optionsRequested&quot;: {
+            &quot;options&quot;: [
+              &quot;SUPPRESS_ADDITIONAL_LANGUAGES&quot;,
+              &quot;SHIPPING_LABEL_LAST&quot;
+            ]
+          },
+          &quot;stockType&quot;: &quot;PAPER_LETTER&quot;,
+          &quot;dispositions&quot;: [
+            {
+              &quot;eMailDetail&quot;: {
+                &quot;eMailRecipients&quot;: [
+                  {
+                    &quot;emailAddress&quot;: &quot;email@fedex.com&quot;,
+                    &quot;recipientType&quot;: &quot;THIRD_PARTY&quot;
+                  }
+                ],
+                &quot;locale&quot;: &quot;en_US&quot;,
+                &quot;grouping&quot;: &quot;NONE&quot;
+              },
+              &quot;dispositionType&quot;: &quot;CONFIRMED&quot;
+            }
+          ],
+          &quot;locale&quot;: &quot;en_US&quot;,
+          &quot;docType&quot;: &quot;PDF&quot;
+        }
+      },
+      &quot;commercialInvoiceDetail&quot;: {
+        &quot;customerImageUsages&quot;: [
+          {
+            &quot;id&quot;: &quot;IMAGE_5&quot;,
+            &quot;type&quot;: &quot;SIGNATURE&quot;,
+            &quot;providedImageType&quot;: &quot;LETTER_HEAD&quot;
+          }
+        ],
+        &quot;documentFormat&quot;: {
+          &quot;provideInstructions&quot;: true,
+          &quot;optionsRequested&quot;: {
+            &quot;options&quot;: [
+              &quot;SUPPRESS_ADDITIONAL_LANGUAGES&quot;,
+              &quot;SHIPPING_LABEL_LAST&quot;
+            ]
+          },
+          &quot;stockType&quot;: &quot;PAPER_LETTER&quot;,
+          &quot;dispositions&quot;: [
+            {
+              &quot;eMailDetail&quot;: {
+                &quot;eMailRecipients&quot;: [
+                  {
+                    &quot;emailAddress&quot;: &quot;email@fedex.com&quot;,
+                    &quot;recipientType&quot;: &quot;THIRD_PARTY&quot;
+                  }
+                ],
+                &quot;locale&quot;: &quot;en_US&quot;,
+                &quot;grouping&quot;: &quot;NONE&quot;
+              },
+              &quot;dispositionType&quot;: &quot;CONFIRMED&quot;
+            }
+          ],
+          &quot;locale&quot;: &quot;en_US&quot;,
+          &quot;docType&quot;: &quot;PDF&quot;
+        }
+      }
+    },
+    &quot;rateRequestType&quot;: [
+      &quot;LIST&quot;,
+      &quot;PREFERRED&quot;
+    ],
+    &quot;preferredCurrency&quot;: &quot;USD&quot;,
+    &quot;totalPackageCount&quot;: 25,
+    &quot;masterTrackingId&quot;: {
+      &quot;formId&quot;: &quot;0201&quot;,
+      &quot;trackingIdType&quot;: &quot;EXPRESS&quot;,
+      &quot;uspsApplicationId&quot;: &quot;92&quot;,
+      &quot;trackingNumber&quot;: &quot;49092000070120032835&quot;
+    },
+    &quot;requestedPackageLineItems&quot;: [
+      {
+        &quot;sequenceNumber&quot;: &quot;1&quot;,
+        &quot;subPackagingType&quot;: &quot;BUCKET&quot;,
+        &quot;customerReferences&quot;: [
+          {
+            &quot;customerReferenceType&quot;: &quot;INVOICE_NUMBER&quot;,
+            &quot;value&quot;: &quot;3686&quot;
+          }
+        ],
+        &quot;declaredValue&quot;: {
+          &quot;amount&quot;: 12.45,
+          &quot;currency&quot;: &quot;USD&quot;
+        },
+        &quot;weight&quot;: {
+          &quot;units&quot;: &quot;KG&quot;,
+          &quot;value&quot;: 68
+        },
+        &quot;dimensions&quot;: {
+          &quot;length&quot;: 100,
+          &quot;width&quot;: 50,
+          &quot;height&quot;: 30,
+          &quot;units&quot;: &quot;CM&quot;
+        },
+        &quot;groupPackageCount&quot;: 2,
+        &quot;itemDescriptionForClearance&quot;: &quot;description&quot;,
+        &quot;contentRecord&quot;: [
+          {
+            &quot;itemNumber&quot;: &quot;2876&quot;,
+            &quot;receivedQuantity&quot;: 256,
+            &quot;description&quot;: &quot;Description&quot;,
+            &quot;partNumber&quot;: &quot;456&quot;
+          }
+        ],
+        &quot;itemDescription&quot;: &quot;item description for the package&quot;,
+        &quot;variableHandlingChargeDetail&quot;: {
+          &quot;rateType&quot;: &quot;PREFERRED_CURRENCY&quot;,
+          &quot;percentValue&quot;: 12.45,
+          &quot;rateLevelType&quot;: &quot;INDIVIDUAL_PACKAGE_RATE&quot;,
+          &quot;fixedValue&quot;: {
+            &quot;amount&quot;: 24.45,
+            &quot;currency&quot;: &quot;USD&quot;
+          },
+          &quot;rateElementBasis&quot;: &quot;NET_CHARGE_EXCLUDING_TAXES&quot;
+        },
+        &quot;packageSpecialServices&quot;: {
+          &quot;specialServiceTypes&quot;: [
+            &quot;ALCOHOL&quot;,
+            &quot;NON_STANDARD_CONTAINER&quot;
+          ],
+          &quot;signatureOptionType&quot;: &quot;SERVICE_DEFAULT&quot;,
+          &quot;priorityAlertDetail&quot;: {
+            &quot;enhancementTypes&quot;: [
+              &quot;PRIORITY_ALERT_PLUS&quot;
+            ],
+            &quot;content&quot;: [
+              &quot;string&quot;
+            ]
+          },
+          &quot;signatureOptionDetail&quot;: {
+            &quot;signatureReleaseNumber&quot;: &quot;23456&quot;
+          },
+          &quot;alcoholDetail&quot;: {
+            &quot;alcoholRecipientType&quot;: &quot;string&quot;,
+            &quot;shipperAgreementType&quot;: &quot;Retailer&quot;
+          },
+          &quot;dangerousGoodsDetail&quot;: {
+            &quot;accessibility&quot;: &quot;INACCESSIBLE&quot;,
+            &quot;options&quot;: [
+              &quot;LIMITED_QUANTITIES_COMMODITIES&quot;,
+              &quot;ORM_D&quot;
+            ]
+          },
+          &quot;packageCODDetail&quot;: {
+            &quot;codCollectionAmount&quot;: {
+              &quot;amount&quot;: 12.45,
+              &quot;currency&quot;: &quot;USD&quot;
+            }
+          },
+          &quot;pieceCountVerificationBoxCount&quot;: 0,
+          &quot;batteryDetails&quot;: [
+            {
+              &quot;batteryPackingType&quot;: &quot;CONTAINED_IN_EQUIPMENT&quot;,
+              &quot;batteryRegulatoryType&quot;: &quot;IATA_SECTION_II&quot;,
+              &quot;batteryMaterialType&quot;: &quot;LITHIUM_METAL&quot;
+            }
+          ],
+          &quot;dryIceWeight&quot;: {
+            &quot;units&quot;: &quot;KG&quot;,
+            &quot;value&quot;: 68
+          }
+        }
+      }
+    ]
+  },
+  &quot;labelResponseOptions&quot;: &quot;LABEL&quot;,
+  &quot;accountNumber&quot;: {
+    &quot;value&quot;: &quot;Your account number&quot;
+  },
+  &quot;shipAction&quot;: &quot;CONFIRM&quot;,
+  &quot;processingOptionType&quot;: &quot;ALLOW_ASYNCHRONOUS&quot;,
+  &quot;oneLabelAtATime&quot;: true
+}
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../../..';</script>
+    <script src="../../../js/theme.js" defer></script>
+      <script src="../../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
