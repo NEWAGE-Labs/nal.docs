@@ -93,7 +93,7 @@ WELCOME
 [7.8 Dress and Personal Appearance](#78-dress-and-personal-appearance)  
 [7.9 Smoking](#79-smoking)  
 
-\pagebreak
+<div style="page-break-after: always;"></div>
 
 ## COMPANY INTRODUCTION!  
 
