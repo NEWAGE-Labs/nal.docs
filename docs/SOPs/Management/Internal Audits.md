@@ -44,15 +44,16 @@ The goal of this procedure is to provide understand and guidance on performing, 
 
 ## Internal Audit Program Details
 
-The [NAL Internal Audit Program](#internal-audit-program) is an [audit program](../../QSPs/Audits.md#audit-program) hosted on the [NAL GitHub Organization Page](https://github.com/NEWAGE-Labs), and is implemented using a [GitHub project](../Software and Computers/GitHub.md#project). This program should include, at minimum, internal audit plans scheduled within the next 6 months and  should include:  
-* Objectives for the audit program;  
-* [Risks](../../QSPs/Audits.md#risk) and opportunities associated with the audit program and the actions to address them;  
-* Scope (extent, boundaries, locations) of each audit within the audit program;  
-* Schedule (number/duration/frequency) of the audits;  
-* [Audit Criteria](../../QSPs/Audits.md#audit-criteria);  
-* [Audit Methods](../../QSPs/Audits.md#audit-method) to be employed;  
-* Criteria for selecting [audit team](../../QSPs/Audits.md#audit-team) members and [leader](../../QSPs/Audits.md#audit-team-leader);  
-* Relevant documented information.  
+The [NAL Internal Audit Program](#internal-audit-program) is an [audit program](../../QSPs/Audits.md#audit-program) hosted on the [NAL GitHub Organization Page](https://github.com/NEWAGE-Labs), and is implemented using a [GitHub Project](../Software and Computers/GitHub.md#project). This program should include, at minimum, internal audit plans scheduled within the next 6 months and  should include:  
+
+- Objectives for the audit program;  
+- [Risks](../../QSPs/Audits.md#risk) and opportunities associated with the audit program and the actions to address them;  
+- Scope (extent, boundaries, locations) of each audit within the audit program;  
+- Schedule (number/duration/frequency) of the audits;  
+- [Audit Criteria](../../QSPs/Audits.md#audit-criteria);  
+- [Audit Methods](../../QSPs/Audits.md#audit-method) to be employed;  
+- Criteria for selecting [audit team](../../QSPs/Audits.md#audit-team) members and [leader](../../QSPs/Audits.md#audit-team-leader);  
+- Relevant documented information.  
 
 ## Completing an Internal Audit Report
 
