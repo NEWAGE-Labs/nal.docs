@@ -20,14 +20,14 @@
 
 [QSP - Audits](../../QSPs/Audits.md)  
 
-#### QSPs
+#### Related QSPs
 
 [QSP - Control of Nonconforming Work](../../QSPs/Control of Nonconforming Work.md)  
 [QSP - Technical Records](../../QSPs/Technical Records.md)  
 [QSP - Document Control and Management](../../QSPs/Document Control and Management.md)  
 [QSP - Management Review](../../QSPs/Management Review.md)  
 
-#### SOPs
+#### Related SOPs
 
 [External Audits](./External Audits.md)  
 [GitHub](../Software and Computers/GitHub.md)  
