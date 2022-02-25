@@ -44,7 +44,12 @@ The goal of this procedure is to provide understand and guidance on performing, 
 
 ## Internal Audit Program Details
 
-The [NAL Internal Audit Program](#internal-audit-program) is an [audit program](../../QSPs/Audits.md#audit-program) hosted on the [NAL GitHub Organization Page](https://github.com/NEWAGE-Labs), and is implemented using a [GitHub Project](../Software and Computers/GitHub.md#project). This program should include, at minimum, internal audit plans scheduled within the next 6 months and  should include:  
+The [NAL Internal Audit Program](#internal-audit-program) is an [audit program](../../QSPs/Audits.md#audit-program) hosted on the [NAL GitHub Organization Page](https://github.com/NEWAGE-Labs), and is implemented using a [GitHub Project](../Software and Computers/GitHub.md#project).
+
+
+#### Internal Audit Program Requirements:
+
+This program should include, at minimum, internal audit plans scheduled within the next 6 months and should include:  
 
 - Objectives for the audit program;  
 - [Risks](../../QSPs/Audits.md#risk) and opportunities associated with the audit program and the actions to address them;  
@@ -54,6 +59,10 @@ The [NAL Internal Audit Program](#internal-audit-program) is an [audit program](
 - [Audit Methods](../../QSPs/Audits.md#audit-method) to be employed;  
 - Criteria for selecting [audit team](../../QSPs/Audits.md#audit-team) members and [leader](../../QSPs/Audits.md#audit-team-leader);  
 - Relevant documented information.  
+
+#### Management of the Internal Audit Program
+
+The [Quality Mangement Team](../../index.md#quality-management-team) is responsible for the maintenance of the [Internal Audit Program](#internal-audit-program). This includes implementing audits that are scheduled during their schedule time frames, and updating the audit plan based on [Management Reviews](../../QSPs/Management Review.md), in response to [Nonconformities](../../QSPs/Audits.md#nonconformity), and in accordance with new risks and opportunities identified.
 
 ## Completing an Internal Audit Report
 
