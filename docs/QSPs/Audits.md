@@ -14,19 +14,19 @@
 
 ## Related Procedures
 
-##### Required Procedures  
+#### Required Procedures  
 
 [Quality System Manual](../index.md)  
 [ISO 19011:2018](../parent_pdfs/ISO-19011-2018.pdf)
 
-##### Related QSPs  
+#### Related QSPs  
 
 [QSP - Control of Nonconforming Work](./Control of Nonconforming Work.md)  
 [QSP - Technical Records](./Technical Records.md)  
 [QSP - Document Control and Management](./Document Control and Management.md)  
 [QSP - Management Review](./Management Review.md)  
 
-##### Related SOPs  
+#### Related SOPs  
 
 [Internal Audits](../SOPs/Management/Internal Audits.md)  
 [External Audits](../SOPs/Management/External Audits.md)  
@@ -78,6 +78,15 @@ There is also a dedicated [SOP for Internal Audits](../SOPs/Management/Internal 
 ###### Audit Criteria
 
 >The set of [requirements](#requirement) used as a reference against which [objective evidence](#objective-evidence) is compared. [Requirements](#requirement) may include policies, procedures, work instructions, legal requirements, and contractual obligations. "Compliance" or "Non-Compliance" are often used in an [audit finding](#audit-finding) based on the type of criteria used.
+
+###### Audit Method
+
+> An audit method is the process by which objective evidence is obtained during an audit by an auditor. Examples of Audit Methods include, but are not limited to, the following:
+
+|Involvement|On-Site|Off-Site|  
+|-----|-----|-----|  
+|**Human Interaction**|<ul><li>Conducting Interviews</li><li>Completing checklists and questionnaires with auditee participation</li><li>Conducting document review with auditee participation</li><li>Sampling</li></ul>|<ul><li>Conducting Interviews</li><li>Observing work performed with remote guide</li><li>completing checklists and questionnaires</li><li>conducting document review with auditee participation</li></ul>|  
+|**No Human Interaction**|<ul><li>Conducting document review (e.g. records, data analysis)</li><li>Observing work performed</li><li>Conducting on-site visit</li><li>Completing chekclists</li><li>Sampling (e.g. products)</li></ul>|<ul><li>Conducting document review (e.g. records, data analysis)</li><li>Observing work performed via surveillance means, considering social and statutory and regulatory requirements</li><li>Analysing data</li></ul>|  
 
 ###### Objective Evidence
 
