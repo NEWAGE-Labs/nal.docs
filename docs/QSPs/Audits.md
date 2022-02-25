@@ -35,7 +35,7 @@
 
 The purpose of this [Quality System Procedure](../index.md#quality-system-procedure-qsp) is to expand upon the [Quality System Manual](../index.md) in regards to [Audits](#audit). This document provides details of audit-related terminology, guidance on how NAL categorizes and utilizes [Audits](#audit), details about the different Audit Plans that NAL employs, and reference to training requirements and criteria for various functions of auditing.
 
-There is also a dedicated [SOP for Internal Audits](../SOPs/Managment/Internal Audits.md) and [SOP for External Audits](../SOPs/Managment/External Audits.md) that go beyond the scope of this QSP.
+There is also a dedicated [SOP for Internal Audits](../SOPs/Management/Internal Audits.md) and [SOP for External Audits](../SOPs/Management/External Audits.md) that go beyond the scope of this QSP.
 
 ## Terms and Definitions  
 
@@ -173,9 +173,9 @@ All NAL personnel are authorized to be [technical experts](#technical-experts) i
 
 All members of the [Quality Management Team](../index.md#quality-management-team) are authorized to be auditors and to supervise training of additional auditors. All auditors must be familiar with both the [NAL Quality System Manual](#../index.md) and [ISO 19011:2018 - Guidelines for Auditing Management Systems](../parent_pdfs/ISO-19011-2018.pdf).
 
-Training and Monitoring for [internal audits](#internal-audit) can be found in the [SOP for Internal Audits](#../SOPs/Managmenet/Internal Audits.md), and generally consists of successfully completing an [audit report](#audit-report) for an [internal audit](#internal-audit) compliant with [ISO 19011:2018](../parent_pdfs/ISO-19011-2018.pdf).
+Training and Monitoring for [internal audits](#internal-audit) can be found in the [SOP for Internal Audits](../SOPs/Management/Internal Audits.md), and generally consists of successfully completing an [audit report](#audit-report) for an [internal audit](#internal-audit) compliant with [ISO 19011:2018](../parent_pdfs/ISO-19011-2018.pdf).
 
-Training and Monitoring for [external audits](#external-audit) can be found in the [SOP for External Audits](#../SOPs/Managmenet/External Audits.md), and generally consists of observing at least one external audit and completing (or assisting the completing of) one or more [audit reports](#audit-report) compliant with [ISO 19011:2018](../parent_pdfs/ISO-19011-2018.pdf).
+Training and Monitoring for [external audits](#external-audit) can be found in the [SOP for External Audits](../SOPs/Management/External Audits.md), and generally consists of observing at least one external audit and completing (or assisting the completing of) one or more [audit reports](#audit-report) compliant with [ISO 19011:2018](../parent_pdfs/ISO-19011-2018.pdf).
 
 Any personnel with [competence](#competence) in both [internal audits](#internal-audit) and [external audits](#external-audit) is authorized to be an [Audit Team Leader](#audit-team-leader).
 
