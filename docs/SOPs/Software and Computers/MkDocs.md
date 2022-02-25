@@ -24,7 +24,7 @@
 
 ## Purpose and Scope
 
-The purpose of this procedure is to explain how to ultilize the [Command Line Utility](#command-line-utility) known as "MkDocs" for documentation. It is a [Python](./Python.md)-based application that compiles [Markdown](./Markdown.md) and [TeX](./TeX.md) syntax to generate simple and effeciently formatted web-based documents. It also has the capability of publishing documents directly to [Github Pages](./GitHub.md)
+The purpose of this procedure is to explain how to ultilize the [Command Line Utility](#command-line-utility) known as "MkDocs" for documentation. It is a [Python](./Python.md)-based application that compiles [Markdown](./Markdown.md) and [TeX](./TeX.md) syntax to generate simple and efficiently formatted web-based documents. It also has the capability of publishing documents directly to [Github Pages](./GitHub.md)
 
 ## Terms and Definitions
 
