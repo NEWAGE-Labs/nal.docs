@@ -171,7 +171,7 @@ All NAL personnel are authorized to be [observers](#observer), and can participa
 
 All NAL personnel are authorized to be [technical experts](#technical-experts) in any discipline they have demonstrated [competence](#competence) in and are authorized to perform.
 
-All members of the [Quality Management Team](../index.md#quality-management-team) are authorized to be auditors and to supervise training of additional auditors. All auditors must be familiar with both the [NAL Quality System Manual](#../index.md) and [ISO 19011:2018 - Guidelines for Auditing Management Systems](../parent_pdfs/ISO-19011-2018.pdf).
+All members of the [Quality Management Team](../index.md#quality-management-team) are authorized to be auditors and to supervise training of additional auditors. All auditors must be familiar with both the [NAL Quality System Manual](../index.md) and [ISO 19011:2018 - Guidelines for Auditing Management Systems](../parent_pdfs/ISO-19011-2018.pdf).
 
 Training and Monitoring for [internal audits](#internal-audit) can be found in the [SOP for Internal Audits](../SOPs/Management/Internal Audits.md), and generally consists of successfully completing an [audit report](#audit-report) for an [internal audit](#internal-audit) compliant with [ISO 19011:2018](../parent_pdfs/ISO-19011-2018.pdf).
 
