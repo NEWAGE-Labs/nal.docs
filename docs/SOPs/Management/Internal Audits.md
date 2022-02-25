@@ -30,6 +30,7 @@
 #### Related SOPs
 
 [External Audits](./External Audits.md)  
+[Git](../Software and Computers/Git.md)
 [GitHub](../Software and Computers/GitHub.md)  
 
 ## Purpose and Scope
@@ -63,6 +64,18 @@ This program should include, at minimum, internal audit plans scheduled within t
 #### Management of the Internal Audit Program
 
 The [Quality Mangement Team](../../index.md#quality-management-team) is responsible for the maintenance of the [Internal Audit Program](#internal-audit-program). This includes implementing audits that are scheduled during their schedule time frames, and updating the audit plan based on [Management Reviews](../../QSPs/Management Review.md), in response to [Nonconformities](../../QSPs/Audits.md#nonconformity), and in accordance with new risks and opportunities identified.
+
+#### Controlling Internal Audit Program Records
+
+[Internal Audit Program](#internal-audit-program) records are stored and maintained in accordance with the [Quality System Manual](../../index.md) and [QSP - Technical Records](../../QSPs/Technical Records.md), and changes are preserved via [Git](../Software and Computers/Git.md) and controlled according to [QSP - Document Control and Management](../../QSPs/Document Control and Management.md).
+
+Records are typically stored using branching, commits, pull requests, projects, issues, and merges on [GitHub](../Software and Computers/GitHub.md). The majority of records are stored within the [NAL Internal Audit Program GitHub project](https://github.com/orgs/NEWAGE-Labs/projects/6) and inside [repositories](../Software and Computers/GitHub.md#repository) on the [NAL GitHub Organization Page](https://github.com/NEWAGE-Labs).
+
+While [Issues](../Software and Computers/GitHub.md#issue) are not directly stored within [the Git tree](../Software and Computers/Git.md#the-git-tree), their number and reference is stored inside the commit message of the pull request. By locating the issue ID in the commit message, and pairing it with the issue ID for that respective repository, all records are able to be recreated outside of the [GitHub](https://github.com) web service.
+
+#### Updating the Internal Audit Program
+
+Updates to the Internal Audit Program are made directly by the [Quality Mangement Team](../../index.md#quality-management-team), or someone else with [authorization to update the internal audit program](#training-and-authorization). Updates should be made promptly in response to [Nonconformities](../../QSPs/Audits.md#nonconformity), as a result of [Management Reviews](../../QSPs/Management Review.md), or based on newly identified [Risk](../../QSPs/Audits.md#risk) and opportunities for improvement.
 
 ## Completing an Internal Audit Report
 
