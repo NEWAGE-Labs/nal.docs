@@ -20,14 +20,14 @@
 
 #### QSPs
 
-[QSP - Control of Nonconforming Work](./Control of Nonconforming Work.md)  
-[QSP - Technical Records](./Technical Records.md)  
-[QSP - Document Control and Management](./Document Control and Management.md)  
-[QSP - Management Review](./Management Review.md)  
+[QSP - Control of Nonconforming Work](../../QSPs/Control of Nonconforming Work.md)  
+[QSP - Technical Records](../../QSPs/Technical Records.md)  
+[QSP - Document Control and Management](../../QSPs/Document Control and Management.md)  
+[QSP - Management Review](../../QSPs/Management Review.md)  
 
 #### SOPs
 
-[Internal Audits](../Internal Audits.md)
+[Internal Audits](./Internal Audits.md)
 
 ## Purpose and Scope
 
