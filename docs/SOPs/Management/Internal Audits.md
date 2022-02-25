@@ -50,7 +50,7 @@ The [NAL Internal Audit Program](#internal-audit-program) is an [audit program](
 - [Risks](../../QSPs/Audits.md#risk) and opportunities associated with the audit program and the actions to address them;  
 - Scope (extent, boundaries, locations) of each audit within the audit program;  
 - Schedule (number/duration/frequency) of the audits;  
-- [Audit Criteria](../../QSPs/Audits.md#audit-criteria);  
+- [Audit Criteria](../../QSPs/Audits.md#audit-criteria) used to evaluate evidence against;  
 - [Audit Methods](../../QSPs/Audits.md#audit-method) to be employed;  
 - Criteria for selecting [audit team](../../QSPs/Audits.md#audit-team) members and [leader](../../QSPs/Audits.md#audit-team-leader);  
 - Relevant documented information.  
