@@ -233,7 +233,6 @@ In addition, this Quality System Manual outlines how we meet the requirements of
 
 * ISO/IEC 17025:2017
 * AOAC International Guidelines for Laboratories Performing Microbiological and Chemical Analysis of Food and Pharmaceuticals - Revision March 2010
-* NELAC 2009
 * ISO 9001 (Option A of ISO/IEC 17025:2017)
 
 All personnel are to take an active role in establishing, implementing, and maintaining our quality management program. We do not separate quality from our daily business. Quality cannot be something that we do just to meet basic requirements. Quality is integrated into every facet of the decision-making process in the management of our laboratory and the science that we practice.
