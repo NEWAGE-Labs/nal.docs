@@ -256,9 +256,11 @@ This Quality System Manual facilitates:
 The following documents are referenced, and are considered required for fulfillment of the quality system outlined in this manual.
 
 * ISO/IEC 17000, Conformity assessment – Vocabulary and general principles
-* VIM, International vocabulary of basic and general terms in metrology, issued by BIPM, IEC, IFCC, ISO, IUPAC, IUPAP and OIML.
-* ISO 9001:2008 – Quality Management Systems – Requirements.
-* ISO/IEC 17025:2017 – General Requirements for the Competence of Testing and Calibration Laboratories.
+* [VIM, International vocabulary of basic and general terms in metrology](./parent_pdfs/VIM 2012.pdf), issued by BIPM, IEC, IFCC, ISO, IUPAC, IUPAP and OIML.
+* [ISO 9000:2015 – Quality management systems — Fundamentals and Vocabulary](./parent_pdfs/ISO-9000-2015.pdf).
+* [ISO 9001:2015 – Quality Management Systems – Requirements](./parent_pdfs/ISO-9001-2015.pdf).
+* [ISO/IEC 17025:2017 – General Requirements for the Competence of Testing and Calibration Laboratories](./parent_pdfs/ISO-17025-2017.pdf).
+* [ISO 19011:2018 - Guidelines for Auditing Management Systems](./parent_pdfs/ISO-19011-2018.pdf)
 * ISO/IEC 17025:2017-AOAC International Guidelines for Laboratories
 Performing Microbiological and Chemical Analysis of Food and Pharmaceuticals – Revision March 2010
 * All NAL [Quality System Procedures](#quality-system-procedures)
