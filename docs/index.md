@@ -485,8 +485,16 @@ HPLC.
 > * Executive Assistant  
 > * IT Director  
 
+##### Quality System Manual (QSM) #####
+
+>This document.
+
+##### Quality System Procedure (QSP) #####
+
+>A documented, recorded, and controlled procedure used to expand the [Quality System Manual](#quality-system-manual) and provide additional details about components of the [Quality Management System](#quality-management-system). A QSP often will link directly to many [Standard Operating Procedures (SOPs)](#standard-operating-system-sop) to expand further upon specific details.
+
 ##### Quality System Procedures #####
->The collection of documented procedures required for accurate and complete implementation of the [Quality Management System](#quality-management-system). These procedures are maintained and reviewed for accuracy and completeness. Procedures found to be inaccurate or incomplete must be addressed with an immediate corrective action.
+>The collection of [QSPs](#quality-system-procedure-qsp) required for accurate and complete implementation of the [Quality Management System](#quality-management-system). These procedures are maintained and reviewed for accuracy and completeness. Procedures found to be inaccurate or incomplete must be addressed with an immediate corrective action.
 
 ##### Quality System Records #####
 >The collection of paper documents, electronic files, raw data, and data structures that record laboratory operations. These records are maintained and reviewed for accuracy and completeness. Records found to be inaccurate or incomplete must be addressed with an immediate corrective action.
