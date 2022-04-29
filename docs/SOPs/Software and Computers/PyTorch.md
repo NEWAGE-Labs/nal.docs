@@ -35,7 +35,7 @@ PyTorch is an application written in [Python](./Python.md) and built on top of [
 
 ## Training and Authorization
 
-Both the [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) as well as the "**PyTorch for Deep Learning**" Textbook can be used for training.
+Both the [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) as well as the "*PyTorch for Deep Learning*" Textbook can be used for training.
 
 Authorization can be achieved by successfully completing a model, and documenting it using [Git](./Git.md)
 
