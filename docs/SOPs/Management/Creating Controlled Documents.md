@@ -14,7 +14,7 @@
 
 ## Related Procedures
 
-[QSP - Document Control](../../QSPs/Document Control.md)
+[QSP - Document Control and Management](../../QSPs/Document Control and Management.md)
 
 ## Purpose and Scope
 
