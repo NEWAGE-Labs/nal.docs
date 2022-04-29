@@ -1,4 +1,4 @@
-# Standard Operation Procedure - CSS
+# Standard Operation Procedure - CoffeeScript
 
 >Most recently edited by: *Paul VanderWeele*  
 >Most recent edit date: *April 29, 2022*  
