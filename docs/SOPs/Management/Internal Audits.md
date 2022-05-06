@@ -36,6 +36,8 @@
 
 The goal of this procedure is to provide understand and guidance on performing, training on, and understanding the internal auditing process at NAL. Internal audits are one of the most powerful management system tools that we can utilize to help identify risks, discover opportunities for improvement, and verify conformity across the vast and complex structure of NAL. Internal audits are voluntary and are planned ahead of time according to the [NAL Internal Audit Program](#internal-audit-program).
 
+Like all NAL audits, this procedure is based upon [ISO 19011: 2018](../../parent_pdfs/ISO-19011-2018.pdf).
+
 ## Terms and Definitions
 
 ###### Internal Audit Program
