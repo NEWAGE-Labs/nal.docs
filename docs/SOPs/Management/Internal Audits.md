@@ -39,6 +39,18 @@ The goal of this procedure is to provide understand and guidance on performing, 
 
 ## Terms and Definitions
 
+###### Audit
+
+>A systematic, independent and documented process for obtaining [objective evidence](#objective-evidence) and evaluating it objectively to determine the extent to which the [audit criteria](#audit-criteria) are fulfilled.  
+
+> see: [QSP - Audits; Definition: 'Audit'](../../QSPs/Audits.md#audit)
+
+###### Internal Audit
+
+>An [audit](#audit) conducted by NAL on behalf of itself. Also known as a 'First Party Audit'.  
+
+> see: [QSP - Audits; Defintion: 'Internal Audit'](../../QSPs/Audits.md#internal-audit)
+
 ###### Internal Audit Program
 
 > The list of all planned internal audits for NAL.
@@ -75,12 +87,37 @@ While [Issues](../Software and Computers/GitHub.md#issue) are not directly store
 
 #### Updating the Internal Audit Program
 
-Updates to the Internal Audit Program are made directly by the [Quality Mangement Team](../../index.md#quality-management-team), or someone else with [authorization to update the internal audit program](#training-and-authorization). Updates should be made promptly in response to [Nonconformities](../../QSPs/Audits.md#nonconformity), as a result of [Management Reviews](../../QSPs/Management Review.md), or based on newly identified [Risk](../../QSPs/Audits.md#risk) and opportunities for improvement.
+Updates to the [Internal Audit Program](#internal-audit-program) are made directly by the [Quality Mangement Team](../../index.md#quality-management-team), or someone else with [authorization to update the internal audit program](#training-and-authorization). Updates should be made promptly in response to [Nonconformities](../../QSPs/Audits.md#nonconformity), as a result of [Management Reviews](../../QSPs/Management Review.md), or based on newly identified [Risk](../../QSPs/Audits.md#risk) and opportunities for improvement.
 
-## Completing an Internal Audit Report
+#### Internal Audit Program Review
 
+The [Internal Audit Program](#internal-audit-program) is reviewed by the [Quality Mangement Team](../../index.md#quality-management-team) and any other internal auditors to ensure the Internal Audit Program is being monitored and controlled to evolve with changing needs, methods, risks, opportunities, confidentiality, and objectives. This review is done periodically, and records are documented in accordance with [QSP - Technical Records](../../QSPs/Technical Records.md).
 
+## Conducting an Internal Audit  
 
-## Training and Authorization
+### Initiating Internal Audit  
 
-## Additional Information
+### Preparing Internal Audit  
+
+### Conducting Internal Audit  
+
+### Completing Internal Audit Report  
+
+###### Audit Date  
+###### Audit Criteria  
+###### Audit Client  
+###### Auditors and Team Leader  
+###### Source of Information  
+###### Sampling  
+###### Evidence  
+###### Findings  
+###### Reviewing  
+###### Conclusions  
+###### Follow-Up  
+###### Report  
+
+### Finalizing Internal Audit  
+
+## Training and Authorization  
+
+## Additional Information  
