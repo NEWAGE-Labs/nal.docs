@@ -51,9 +51,29 @@ The goal of this procedure is to provide understand and guidance on performing, 
 
 > see: [QSP - Audits; Defintion: 'Internal Audit'](../../QSPs/Audits.md#internal-audit)
 
+###### Internal Audit Plan
+
+>A description of the activities and arrangements for an individual [internal audit](#internal-audit), including details such as attending personnel, itineraries, and technical considerations.  
+
 ###### Internal Audit Program
 
-> The list of all planned internal audits for NAL.
+> The list of all planned [internal audits](#internal-audit) for NAL.
+
+###### Internal Audit Team
+
+>One or more persons conducting an [internal audit](#internal-audit), supported if needed by [technical experts](#technical-expert). One [internal auditor](#internal-auditor) of the internal audit team is appointed as the [internal audit team leader](#internal-audit-team-leader).
+
+###### Internal Auditor
+
+>A person who conducts an [internal audit](#internal-audit) on the [internal audit team](#internal-audit-team).
+
+###### Technical Expert
+
+>A person who provides specific knowledge or expertise to the [internal audit team](#internal-audit-team), but is not themselves an [internal-auditor](#internal-auditor). This knowledge or expertise can relate to the organization, an activity, a process, a product, a service, a discipline, a language, or a culture.
+
+###### Internal Audit Team Leader
+
+>The [internal auditor](#internal-auditor) holding responsibility and leadership of the [internal audit](#internal-audit). The internal audit team leader is accountable for the accomplishment of the [internal audit plan](#internal-audit-plan) and the completion of the [internal audit report](#internal-audit-report).
 
 ## Internal Audit Program Details
 
@@ -119,5 +139,14 @@ The [Internal Audit Program](#internal-audit-program) is reviewed by the [Qualit
 ### Finalizing Internal Audit  
 
 ## Training and Authorization  
+
+Confidence in the internal audit process depends on the competence of those involved in performing internal audits. [Internal Auditors](#internal-auditor) and [Internal Audit Team Leaders](#internal-audit-team-leader) should be evaluated for competence via a process that is planned, implemented, and documented to provide and outcome that is objective, consistent, fair, and reliable. The four main steps of the evaluation process are as follows:
+
+1. Determine the required competence
+2. Establish the evaluation criteria
+3. Select the appropriate evaluation method
+4. Conduct the evaluation
+
+
 
 ## Additional Information  
