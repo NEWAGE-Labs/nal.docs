@@ -118,7 +118,7 @@ There is also a dedicated [SOP for Internal Audits](../SOPs/Management/Internal 
 
 ###### Audit Team
 
->One or more persons conducting an [audit](#audit), supported if needed by [technical experts](#technical-experts). One [auditor](#auditor) of the audit team is appointed as the [audit team leader](#audit-team-leader).
+>One or more persons conducting an [audit](#audit), supported if needed by [technical experts](#technical-expert). One [auditor](#auditor) of the audit team is appointed as the [audit team leader](#audit-team-leader).
 
 ###### Auditor
 
