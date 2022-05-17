@@ -18,6 +18,10 @@
 
 ## Terms and Definitions
 
+## Domain Controllers
+
+## File Servers
+
 ## Training and Authorization
 
 ## Additional Information
