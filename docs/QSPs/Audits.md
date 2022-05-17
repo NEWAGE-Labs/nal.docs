@@ -146,6 +146,10 @@ There is also a dedicated [SOP for Internal Audits](../SOPs/Management/Internal 
 *the consequences of an event
 *the likelihood of it occurring.
 
+###### Opportunity
+
+>A set of circumstances that makes it possible to do something, particularly something with a positive effect on the quality and success of a person or organization.  
+
 ###### Conformity
 
 >Fulfilment of a [requirement](#requirement).
