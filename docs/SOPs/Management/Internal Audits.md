@@ -1,7 +1,7 @@
 # Standard Operation Procedure - Internal Audits
 
 >Most recently edited by: *Paul VanderWeele*  
->Most recent edit date: *Feb 25, 2022*  
+>Most recent edit date: *May 20, 2022*  
 >Edits were authorized by: *Paul VanderWeele*
 
 ## Table of Contents
@@ -241,7 +241,7 @@ The [internal audit team leader](#internal-audit-team-leader) should periodicall
 
 #### Reviewing Internal Audit Documents
 
-Relevant documented information should be reviewed to determine the [conformity](../../QSPs/Audits.md#conformity) of the system with the internal [audit criteria](../../QSPs/Audits.md#audit-criteria).
+Relevant documented information should be reviewed to determine the [conformity](../../QSPs/Audits.md#conformity) of the system with the internal [audit criteria](../../QSPs/Audits.md#audit-criteria). Gaps in expected documented should be noted for the [Internal Audit Report](#completing-internal-audit-report).
 
 ### Completing Internal Audit Report  
 
