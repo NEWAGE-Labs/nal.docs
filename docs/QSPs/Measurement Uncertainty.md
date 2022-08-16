@@ -1,8 +1,8 @@
 # Quality System Procedure - Measurement Uncertainty
 
 >Most recently edited by: *Paul VanderWeele*  
->Most recent edit date: *Jan 2nd, 2021*  
->Edits were authorized by:  
+>Most recent edit date: *Jan 5, 2021*  
+>Edits were authorized by: *Paul VanderWeele*   
 
 ## Purpose
 
