@@ -2,7 +2,7 @@
 
 >Most recently edited by: *Paul VanderWeele*  
 >Most recent edit date: *Jan 13, 2021*  
->Edits were authorized by:  
+>Edits were authorized by:  *Paul VanderWeele*  
 
 ## Scope and Purpose
 
