@@ -1237,7 +1237,7 @@ Test items are systematically identified as they arrive at the laboratory. The i
 
 Upon receipt of the test item, any abnormalities or departures from normal or specified conditions, as described in the relevant test or calibration method, are recorded. When there is any doubt as to the suitability of an item for test, or when an item does not conform to the description provided, or the test required is not specified in sufficient detail, the laboratory consults the customer for further instructions before proceeding and keeps a record of the discussion. When chain of custody information is incomplete, improperly recorded, or illogical the sample shall be considered invalidated unless the laboratory consults the customer to correct the issue noted, records the date and time of contact, laboratory individual making contact, and person contacted. Chain of custody changes shall be one lined to ensure the original documentation remains legible.
 
-In particular, the following sample condition deficiencies require sample results to be invalidated:
+The following sample condition deficiencies require sample results to be invalidated:
 
 1. Required time between sample collection and receipt by laboratory has been exceeded.
 2. Presence of disinfectant in the sample is noticed (e.g., odor)
