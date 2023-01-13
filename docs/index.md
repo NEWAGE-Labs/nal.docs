@@ -916,6 +916,8 @@ Measurement uncertainty contributions are addressed in the referenced document [
 
 Measuring equipment is calibrated when the measurement accuracy or uncertainty affect the reported results, and is calibrated when calibration of the equipment is required to establish metrological traceability of the reported result.
 
+All equipment calibration's correlation coefficient (R²) shall be >0.995 to be deemed satisfactory unless otherwise specified in the SOP. Equipment calibrations to be used for the analysis of drinking water shall also have each calibration point's response data evaluated to be within 10% of the expected value using the calibration curve developed to be deemed satisfactory.
+
 Additional information on metrological traceability of equipment results can be found in the referenced document [*Quality System Procedure - Metrological Traceability*](QSPs/Metrological Traceability.md).
 
 #### 6.4.7 Calibration Program ####
@@ -1233,9 +1235,21 @@ Test items are systematically identified as they arrive at the laboratory. The i
 
 #### 7.4.3 Abnormal Sample Conditions ####
 
-Upon receipt of the test item, any abnormalities or departures from normal or specified conditions, as described in the relevant test or calibration method, are recorded. When there is any doubt as to the suitability of an item for test, or when an item does not conform to the description provided, or the test required is not specified in sufficient detail, the laboratory consults the customer for further instructions before proceeding and keeps a record of the discussion.
+Upon receipt of the test item, any abnormalities or departures from normal or specified conditions, as described in the relevant test or calibration method, are recorded. When there is any doubt as to the suitability of an item for test, or when an item does not conform to the description provided, or the test required is not specified in sufficient detail, the laboratory consults the customer for further instructions before proceeding and keeps a record of the discussion. When chain of custody information is incomplete, improperly recorded, or illogical the sample shall be considered invalidated unless the laboratory consults the customer to correct the issue noted, records the date and time of contact, laboratory individual making contact, and person contacted. Chain of custody changes shall be one lined to ensure the original documentation remains legible.
 
-When the customer requires the item to be tested or calibrated acknowledging a deviation from specified conditions, the laboratory shall include a disclaimer in the report indicating which results may be affected by the deviation.
+In particular, the following sample condition deficiencies require sample results to be invalidated:
+
+1. Required time between sample collection and receipt by laboratory has been exceeded.
+2. Presence of disinfectant in the sample is noticed (e.g., odor)
+3. Evidence of freezing
+4. Use of a container not approved by the laboratory for the purpose intended.
+5. Insufficient sample voolume (e.g., <100 mL)
+6. Presence of interfering contaminants (e.g., hydrocarbons, cleansers, heavy metals, etc.)
+7. Sample temperature exceeds the maximum allowable
+
+If a sample is overfilled, no headspace for mixing, the sample volume shall either be drawn down using an aseptic technique (e.g., sterile pipette) or the sample shall be invalidated if drawdown is not feasible. 
+
+When the customer requires the item to be tested or calibrated acknowledging a deviation from specified conditions, the laboratory shall include a disclaimer in the report indicating which results may be affected or invalidated by the deviation.
 
 #### 7.4.4 Specified Environmental Conditions for Samples ####
 
@@ -1311,6 +1325,8 @@ Results are reviewed and authorized prior to release. The personnel authorized t
 ###### 7.8.1.2 Reporting Results ######
 
 Results are provided accurately, clearly, unambiguously, and objectively, usually in the form of a report. Included is all the information agreed with the customer, necessary for the interpretation of the results, and required by the method used. All issued reports are retained as technical records. Additional information on the reporting of results can be found in the [*Quality System Procedure - Technical Records*](QSPs/Technical Records.md). Additional information on customer agreements can be found in the [*Quality System Procedure - Contract Review*](QSPs/Contract Review.md).
+
+All drinking water microbiological postive samples and chemistry MCL or AL violations shall be promptly reported to the customer. This notification shall be documented to include the date and time of notification, the method of notification (e.g., sent report, phone call, email, fax), the persone making the notification, and the person notified.
 
 ###### 7.8.1.3 Simplified Reporting ######
 
