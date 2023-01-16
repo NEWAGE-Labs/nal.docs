@@ -15,6 +15,12 @@
 [Equipment Safeguards](#Equipment-Safeguards)  
 [Specific Equipment Requirements](#Specific-Equipment-Requirements)  
 
+## References
+EPA 815-R-05-004, Manual for the Certification of Laboratories Analyzing Drinking Water, Criteria and Procedures Quality Assurance, 5th Ed., U.S. Environmental Protection Agency, January 2005
+EPA 815-F-08-006, Supplement 1 to the Fifth Edition of the Manual for the Certification of Laboratories Analyzing Drinking Water, Supplement 1 to EPA 815-R-05-004, U.S. Environmental Protection Agency, June 2008
+AOAC International, Guidelines for Laboratories Performing Microbiological and Chemical Analyses of Food, Dietary Supplements, and Pharmaceuticals, An Aid to Interpretation of ISO/IEC 17025:2017, AOAC International, August 2018
+ISO/IEC 17025(E), General requirements for the competence of testing and calibration laboratories, 3rd Ed., November, 2017.
+
 ## Scope and Purpose
 
 The purpose of this procedure is to define proper laboratory equipment management by defining the requirements for handling, transport, storage, calibration, verification, maintenance, and safeguards for onsite equipment. Additionally, equipment outside the laboratory's permanent control that is used to produce results that will be reported by the laboratory shall be managed with a program commensurate to the program detailed herein. 
@@ -50,3 +56,20 @@ New equipment calibrations should not be used unless all method specific quality
 
 ## Specific Equipment Requirements
 ### pH Meter
+Accuracy and scale graduations should be within +/-0.1 pH units
+
+pH buffer aliquots should be used only once for drinking water analyses
+
+Electrodes should be maintained according to manufacturer recommendations
+
+Standardization should be performed daily prior to use with buffers bracketing the expected range of sample analysis. The date, analyst, and buffers used should be recorded and maintained as a record.
+
+pH meter slope should be recorded post-calibration. If the pH slope is outside 95% to 105% the electrode may need maintenance. Follow manufacturer's instructions.
+
+Commercial buffer solution containers should be dated upon receipt and when opened. Bufferes shoudl be discarded by the expiration date.
+### Balance
+Balances should have readability of 0.1g if used for drinking water analysis.
+
+Balances should be calibrated at least monthly using at least 3 ASTM Class 1, 2, or 3 non-reference weights. During calibration a sensitivity check should be performed by adding a 0.1g weight to the upper check point. Non-reference weights should be validated at least every 6 months with reference weights. Correction values should be on file and used. A reference weight should be recertified at least every 5 years. Damaged or corroded weights should be replaced.
+
+
