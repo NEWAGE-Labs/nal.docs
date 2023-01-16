@@ -567,6 +567,24 @@ HPLC.
 
 Laboratory activities shall be undertaken impartially and are structured and managed so as to safeguard impartiality.
 
+Laboratory activities include data validation and verification techniques and records of manual results modification including analyst identifier as a fraud detection and deterrence program. The four major areas of concern are:
+
+1. Inappropriate procedure: A scientifically unsound or technically unjustified omission, manipulation, or alteration of procedures or data that bypasses the required quality control parameters, making the results appear acceptable.
+2. Laboratory fraud: The deliberate falsification during reporting of analytical and quality assurance results that failed method and contractual requirements to make them appear to have passed requirements.
+3. Data quality: The degree of acceptability or utility of data for a particular purpose such as drinking water sample information.
+4. Laboratory integrity: The laboratory's meeting general standards of objectivity, data quality, and ethical behavior, thus reporting accurate, complete, and valid information.
+
+Some examples of unethical behavior include:
+
+1. Fabrication, falsification, or misrepresentation of data
+2. Improper clock setting (time traveling) or improper date/time recording
+3. Unwarranted manipulation of samples, software, or analytical conditions
+4. Misrepresenting or misreporting QC samples
+5. Improper calibrations
+6. Concealing a known analytical or sample problem
+7. Concealing a known improper or unethical behavior or action
+8. Failing to report the occurrence of a prohibited practice or known improper or unethical act to the appropriate laboratory or contract representative, or to an appropriate government official
+
 #### 4.1.2 Management Impartiality ####
 
 The laboratory's [quality management team](#quality-management-team) shall be committed to impartiality. They are responsible for designing the [quality management system](#quality-management-system) to effectively ensure impartiality of laboratory activity by all management, personnel, and external providers. Laboratory management is responsible for the communication and training of employees on impartially including the policy, details, and consequences. Employees will be made aware of the need for impartiality, and any conflicts of interest or concerns shall be brought to the attention of the employee’s direct supervisor immediately.
