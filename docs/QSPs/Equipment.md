@@ -70,7 +70,7 @@ Standardization should be performed daily prior to use with buffers bracketing t
 
 pH meter slope should be recorded post-calibration. If the pH slope is outside 95% to 105% the electrode may need maintenance. Follow manufacturer's instructions.
 
-Commercial buffer solution containers should be dated upon receipt and when opened. Bufferes shoudl be discarded by the expiration date.
+Commercial buffer solution containers should be dated upon receipt and when opened. Bufferes should be discarded by the expiration date.
 ### Balance
 Balances should have readability of 0.1g if used for drinking water analysis.
 
