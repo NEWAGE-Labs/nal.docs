@@ -20,14 +20,14 @@ The purpose of this procedure is to define proper laboratory equipment managemen
 
 ## Terms and Definitions
 
-##Equipment Handling
+## Equipment Handling
 
-##Equipment Storage and Transport
+## Equipment Storage and Transport
 
-##Equipment Calibration
+## Equipment Calibration
 
-##Equipment Verification
+## Equipment Verification
 
-##Equipment Maintenance
+## Equipment Maintenance
 
-##Equipment Safeguards
+## Equipment Safeguards
