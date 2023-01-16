@@ -55,6 +55,11 @@ New equipment calibrations should not be used unless all method specific quality
 ## Equipment Verification
 
 ## Equipment Maintenance
+Equipment maintenance should be performed at the manufacturer's recommended periodicity or regulatory document's recommended periodicity whichever is shorter unless technical justification is documented.
+
+More...table for maintenance periodicity here...
+
+Equipment maintenance, both preventative and corrective, shall be documented in an equipment specific maintenance log. The maintenance log should detail the maintenance performed, date, and individual performing the maintenance. This log should contain both maintenance performed by laboratory personnel and visitors performing maintenance.
 
 ## Equipment Safeguards
 
@@ -74,6 +79,8 @@ Commercial buffer solution containers should be dated upon receipt and when open
 ### Balance
 Balances should have readability of 0.1g if used for drinking water analysis.
 
-Balances should be calibrated at least monthly using at least 3 ASTM Class 1, 2, or 3 non-reference weights. During calibration a sensitivity check should be performed by adding a 0.1g weight to the upper check point. Non-reference weights should be validated at least every 6 months with reference weights. Correction values should be on file and used. A reference weight should be recertified at least every 5 years. Damaged or corroded weights should be replaced.
+Balances should be checked at least once every 31 days using at least three ASTM Class 1, 2, or 3 non-reference weights. During calibration a sensitivity check should be performed by adding a 0.1g weight to the upper check point. Non-reference weights should be validated at least every 6 months with reference weights. Correction values should be on file and used. A reference weight should be recertified at least every 5 years. Damaged or corroded weights should be replaced.
+
+Balances should be calibrated at least annually...(section 7 of EPA GL's)
 
 
