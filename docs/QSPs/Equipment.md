@@ -2,7 +2,7 @@
 
 >Most recently edited by: *Ryan Smothers*  
 >Most recent edit date: *Jan 16th, 2023*  
->Edits were authorized by: *Scott Wall*
+>Edits were authorized by: 
 
 ## Table of Contents
 [Scope and Purpose](#Scope-and-Purpose)  
@@ -13,6 +13,7 @@
 [Equipment Verification](#Equipment-Verification)  
 [Equipment Maintenance](#Equipment-Maintenance)  
 [Equipment Safeguards](#Equipment-Safeguards)  
+[Specific Equipment Requirements](#Specific-Equipment-Requirements)  
 
 ## Scope and Purpose
 
@@ -46,3 +47,6 @@ New equipment calibrations should not be used unless all method specific quality
 ## Equipment Maintenance
 
 ## Equipment Safeguards
+
+## Specific Equipment Requirements
+### pH Meter
