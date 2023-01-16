@@ -707,6 +707,8 @@ The laboratory, including all permanent, temporary, mobile, and client locations
 
 The organization and management structure of the laboratory, and the relationships between management, technical operations, support services, and the quality management system is defined through the enforced schema of role groups. Individuals are placed into different role groups, and each group has a different set of roles that define their place within the laboratory organizational structure.
 
+![Organizationl Chart](/posts/path/to/img.jpg "Organizational Chart")
+
 ##### (b) #####
 ###### President/CEO ######
 
