@@ -1374,6 +1374,11 @@ Unless there is a valid reason for not doing so, each report issued shall includ
 * Clearly marked results from external providers
 * A statement that the report shall not be reproduced except in full without the approval of the lab.
 
+Additionally, reports for EGLE certified analyses shall include:
+
+* Name of sample collector
+* Water System Serial Number (WSSN)
+
 ###### 7.8.2.2 Report Data Provided by Customer ######
 
 All the information provided in the report is the responsibility of the laboratory, except when information is provided by the customer. Data provided by a customer is clearly identified on reports. In addition, a disclaimer shall be put on the report when the information is supplied by the customer and can affect the validity of results. Where the laboratory has not been responsible for the sampling stage (e.g. the sample has been provided by the customer), it shall state in the report that the results apply to the sample as received. Additional information on the use of disclaimers can be found in the [*Quality System Procedure - Reports*](QSPs/Reports.md).
