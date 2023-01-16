@@ -6,7 +6,10 @@
 
 ## Table of Contents
 [Scope and Purpose](#Scope-and-Purpose)
+[Terms and Definitions](#Terms-and-Definitions)
 
 ## Scope and Purpose
 
+
 ## Terms and Definitions
+
