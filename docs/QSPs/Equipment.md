@@ -1,8 +1,8 @@
 # Quality System Procedure - Equipment
 
->Most recently edited by: *Paul VanderWeele*  
->Most recent edit date: *Jan 2nd, 2021*  
->Edits were authorized by:  
+>Most recently edited by: *Ryan Smothers*  
+>Most recent edit date: *Jan 16th, 2023*  
+>Edits were authorized by: *Scott Wall*
 
 ## Table of Contents
 [Scope and Purpose](#Scope-and-Purpose)  
@@ -20,3 +20,14 @@ The purpose of this procedure is to define proper laboratory equipment managemen
 
 ## Terms and Definitions
 
+##Equipment Handling
+
+##Equipment Storage and Transport
+
+##Equipment Calibration
+
+##Equipment Verification
+
+##Equipment Maintenance
+
+##Equipment Safeguards
