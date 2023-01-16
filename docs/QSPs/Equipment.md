@@ -48,7 +48,7 @@ Equipment calibrations shall be conducted in accordance with the established met
 
 Typically, calibrations will include a minimum of at least 3 calibration points for linear calibrations and 5 calibration points for non-linear calibrations. The type of calibration and points used for calibration should align with the testing performed for method validation and the approved operating procedure for that method. 
 
-Calibrations shall be evaluated for accuracy upon completion. Unless otherwise justified in through the method validation process, satisfactory calibration will exhibit a correlation coefficient >= 0.995. Additionally, some method SOP's may require other post-calibration verifications such as back-calculating individual calibration response data to ensure the best-fit line is within acceptance criteria (e.g., <=10%)
+Calibrations shall be evaluated for accuracy upon completion. Unless otherwise justified through the method validation process, satisfactory calibration will exhibit a correlation coefficient >= 0.995. Additionally, some method SOP's may require other post-calibration verifications such as back-calculating individual calibration response data to ensure the best-fit line is within acceptance criteria (e.g., <=10%)
 
 New equipment calibrations should not be used unless all method specific quality control verifications are performed post-calibration and within acceptable limits (see [Equipment Verification](#Equipment-Verification)).
 
