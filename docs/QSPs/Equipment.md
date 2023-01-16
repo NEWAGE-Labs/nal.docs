@@ -5,6 +5,7 @@
 >Edits were authorized by: 
 
 ## Table of Contents
+[References](#References)
 [Scope and Purpose](#Scope-and-Purpose)  
 [Terms and Definitions](#Terms-and-Definitions)  
 [Equipment Handling](#Equipment-Handling)  
@@ -16,10 +17,13 @@
 [Specific Equipment Requirements](#Specific-Equipment-Requirements)  
 
 ## References
-EPA 815-R-05-004, Manual for the Certification of Laboratories Analyzing Drinking Water, Criteria and Procedures Quality Assurance, 5th Ed., U.S. Environmental Protection Agency, January 2005
-EPA 815-F-08-006, Supplement 1 to the Fifth Edition of the Manual for the Certification of Laboratories Analyzing Drinking Water, Supplement 1 to EPA 815-R-05-004, U.S. Environmental Protection Agency, June 2008
-AOAC International, Guidelines for Laboratories Performing Microbiological and Chemical Analyses of Food, Dietary Supplements, and Pharmaceuticals, An Aid to Interpretation of ISO/IEC 17025:2017, AOAC International, August 2018
-ISO/IEC 17025(E), General requirements for the competence of testing and calibration laboratories, 3rd Ed., November, 2017.
+1. EPA 815-R-05-004, Manual for the Certification of Laboratories Analyzing Drinking Water, Criteria and Procedures Quality Assurance, 5th Ed., U.S. Environmental Protection Agency, January 2005
+
+2. EPA 815-F-08-006, Supplement 1 to the Fifth Edition of the Manual for the Certification of Laboratories Analyzing Drinking Water, Supplement 1 to EPA 815-R-05-004, U.S. Environmental Protection Agency, June 2008
+
+3. AOAC International, Guidelines for Laboratories Performing Microbiological and Chemical Analyses of Food, Dietary Supplements, and Pharmaceuticals, An Aid to Interpretation of ISO/IEC 17025:2017, AOAC International, August 2018
+
+4. ISO/IEC 17025(E), General requirements for the competence of testing and calibration laboratories, 3rd Ed., November, 2017.
 
 ## Scope and Purpose
 
