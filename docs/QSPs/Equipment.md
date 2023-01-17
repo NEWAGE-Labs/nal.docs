@@ -57,9 +57,9 @@ New equipment calibrations should not be used unless all method specific quality
 ## Equipment Maintenance
 Equipment maintenance should be performed at the manufacturer's recommended periodicity or regulatory document's recommended periodicity whichever is shorter unless technical justification is documented.
 
-Equipment maintenance, both preventative and corrective, shall be documented in an equipment specific maintenance log. The maintenance log should detail the maintenance performed, date, and individual performing the maintenance. This log should contain both maintenance performed by laboratory personnel and visitors performing maintenance.
+Equipment maintenance, both preventative and corrective, shall be documented in an equipment specific maintenance log. The maintenance log should detail, at a minimum, the maintenance performed, date, and individual performing the maintenance. The maintenance log should include additional information as described in [Specific Equipment Requirements](#Specific-Equipment-Requirements). This log should contain both maintenance performed by laboratory personnel and visitors performing maintenance.
 
-See [Specific Equipment Requirement](#Specific-Equipment-Requirements) for details of required maintenance and frequency.
+See [Specific Equipment Requirements](#Specific-Equipment-Requirements) for details of required maintenance and frequency.
 
 ## Equipment Safeguards
 
@@ -83,9 +83,11 @@ Balances should have readability of 0.1g if used for microbiological drinking wa
 
 **Daily when in use:** Balances should be verified using at least three ASTM Class 1, 2, or 3 non-reference weights. For balances used for microbioligical drinking water analysis, a sensitivity check should be performed by adding a 0.1g weight to the upper check point. 
 
-Maintenance, calibration, and cleaning should be conducted at least annually by a qualified independent technician. Calibrations should be performed using ASTM Type 1, Class 1 or 2 weights. 
+**Annually, when moved to a new location, or after repair:** Maintenance, calibration, and cleaning should be conducted at least annually by a qualified independent technician. Calibrations should be performed using ASTM Type 1, Class 1 or 2 weights. 
 ### Colorimetric Devices
-Wavelength settings on spectrophotometers should be verified at least annually with color standards and records retained with the equipment's maintenance log and be available for inspection. 
+**Daily when in use:** Verify blank reading. Document results and any abnormalities noted.
+
+**Annually:** Wavelength settings on spectrophotometers should be verified at least annually with color standards and records retained with the equipment's maintenance log and be available for inspection. 
 ### Conductivity Meter
 Meter must be suitable for checking reagent-grade water and readable in units of µmho/cm or µS/cm.
 
@@ -106,36 +108,34 @@ Glassware used for microbiological analysis should be cleaned prior to use with 
 4. A pale blue color is a failing reading indicative of an alkaline residue
 5. A blue/green color is inidicative of a passing neutral pH
 6. A yellow color can be considered passing if the reagent water is pH 5.50-6.50 
+### Hydrometer
+**Annually:** Verify all working hydrometers against the NIST traceable reference hydrometer.
+
+**Every 2 years:** Recalibrate the NIST traceable reference hydrometer.
 ### Incubator Unit
 Incubator units must have an internal temperature monitoring device and maintain the temperature specified by the method used, usually 35+/-0.5°C and 44.5+/-0.2°C. For non-portable incubators, thermometers should be placed on the top and bottom shelves of the use area and immersed in liquid as directed by the manufacturer (except for electronic thermometers).
 
-Calibration-corrected temperature should be recorded daily (twice per day with at least 4 hours between readings for microbiological drinking water analysis) for each incubator in-use. Documentation must include the date, time, temperature, and technician's initials.
+**Daily or 2x/Day when in use:** Calibration-corrected temperature should be recorded daily (twice per day with at least 4 hours between readings for microbiological drinking water analysis) for each incubator in-use. Documentation must include the date, time, temperature, and technician's initials.
 ### pH Meter
-Accuracy and scale graduations should be within +/-0.10 pH units
-
-pH buffer aliquots should be used only once for drinking water analyses
-
-Electrodes should be maintained according to manufacturer recommendations
-
-Standardization should be performed daily prior to use with buffers bracketing the expected range of sample analysis. The date, analyst, and buffers used should be recorded in the equipment maintenance record.
-
-pH meter slope should be recorded in the equipment maintenance log post-calibration. If the pH slope is outside 95% to 105% the electrode may need maintenance. Follow manufacturer's instructions.
+Accuracy and scale graduations should be within +/-0.10 pH units. pH buffer aliquots should be used only once for drinking water analyses. Electrodes should be maintained according to manufacturer recommendations
 
 Commercial buffer solution containers should be dated upon receipt and when opened. Buffers should be discarded by the expiration date.
+
+**Daily prior to use:** Standardization should be performed daily prior to use with buffers bracketing the expected range of sample analysis. The date, analyst, buffers used, and pH meter slope should be recorded in the equipment maintenance log. If the pH slope is outside 95% to 105% the electrode may need maintenance. Follow manufacturer's instructions.
 ### Pipets
-To sterilize and maintain sterility of glass pipets, stainless steel or aluminum canisters shoudl be used, or individual pipets should be wrapped in char-resistant paper or aluminum foil.
+To sterilize and maintain sterility of glass pipets, stainless steel or aluminum canisters should be used, or individual pipets should be wrapped in char-resistant paper or aluminum foil. Opened packs of disposable sterile pipets should be resealed between use periods. Calibrated micropipetters may be used for microbiological drinking water analysis if tips are sterile. Pipets delivering volumes of 10 ml or less must be accurate to within a 2.5% tolerance if used for microbiological drinking water analysis.
 
-Pipets should have legible markings and should not be chipped or etched.
+Pipets should have legible markings and should not be chipped or etched. 
 
-Opened packs of disposable sterile pipets shoudl be resealed between use periods.
+**Every 6 months and upon receipt:** Verify accuracy using mass of water. Spectrophotometric method may be used for extremely low volumes. 
 
-Pipets delivering volumes of 10 ml or less must be accurate to within a 2.5% tolerance if used for microbiological drinking water analysis.
+**Annually:** If used, calibrated micropipetters should be calibrated annually and adjusted or replaced if the precision or accuracy is greater than 2.5%.
+### Refrigerator / Freezers
+Refrigerators should maintain a termperature of 1°C-5°C. Calibrated thermometers should be graduated in at least 1°C increments and the thermometer bulb immersed in liquid. 
 
-Calibrated micropipetters may be used for microbiological drinking water analysis if tips are sterile. These micropipetters should be calibrated annually and adjusted or replaced if the precision or accuracy is greater than 2.5%
-### Refrigerator
-Refrigerators should maintain a termperature of 1°C-5°C. Calibrated thermometers shoudl be graduated in at least 1°C increments and the thermometer bulb immersed in liquid. 
+**At Installation or after non-routine maintenance:** Validate uniformity of temperature by mapping the refrigerator / freezer chamber
 
-On days the refrigerator is in use and the laboratory is staffed the calibration-corrected temperature, date, time, and technician's initials should be recorded at least once per day.
+**Daily:** On days the refrigerator is in use and the laboratory is staffed record the calibration-corrected temperature, date, time, and technician's initials.
 ### Sample Containers
 Microbiological drinking water sample containers should be wide-mouth plastic or non-corrosive glass bottles with non-leaking ground glass stoppers or caps with non-toxic liners that should withstand repeated sterilization, or sterile plastic bags containing sodium thiosulfate. Other appropriate sample containers may be used. The capacity of sample containers should be at least 120 mL (4 oz.) to allow at least a 1-inch head space.
 
@@ -147,7 +147,13 @@ If chlorinated water is to be analyzed for microbiological parameters, sufficien
 ### Temperature Monitoring Device
 Glass, dial, or electronic thermometers used for microbiological drinking water analysis must be graduated to 0.5°C increments (0.2°C increments for tests which are incubated at 44.5°C) or less except as specifically noted for refrigerators. The fluid column in thermometers should not be separated.
 
-Liquid bearing thermometers such as mercury or alcohol thermometers need to be traceable to NIST calibration and verified at least annually and whenever the thermometer has been exposed to temperature extremes. The correction factor and date of calibration should be indicated on the thermometer and maintained as part of the equipment maintenance log. If a thermometer's correction factor is greater than 1°C then it should not be used for microbiological drinking water analysis. The NIST traceable thermometer should be recalibrated at least on per 5 years. Thermometer verification records must include:
+**Daily:** Each day of use a single check of any infrared thermometer in use should be made by checking the temperature of a bottle of water at the temperature of interest that contains a calibrated thermometer. Agreement between the two should be within 0.5°C or the device should be recalibrated.
+
+**Quarterly:** Digital thermometers, thermocoupes, and other similar electronic temperature measuring devices should be calibrated at least quarterly. The date the thermometer was calibrated and the calibration factor should be kept and be available for inspection.
+
+**Semi-Annually:** Infrared thermometers should be verified at least every six months using a NIST certified thermometer over the full temperature range that the IR thermometer will be used. 
+
+**Annually:** Liquid bearing thermometers such as mercury or alcohol thermometers need to be traceable to NIST calibration and verified at least annually and whenever the thermometer has been exposed to temperature extremes. The correction factor and date of calibration should be indicated on the thermometer and maintained as part of the equipment maintenance log. If a thermometer's correction factor is greater than 1°C then it should not be used for microbiological drinking water analysis. Thermometer verification records must include:
 
 1. Serial number of laboratory thermometer
 2. Serial number of NIST-traceable thermometer
@@ -157,11 +163,27 @@ Liquid bearing thermometers such as mercury or alcohol thermometers need to be t
 6. Date of check
 7. Analyst's initials
 
-Digital thermometers, thermocoupes, and other similar electronic temperature measuring devices should be calibrated at least quarterly. The date the thermometer was calibrated and the calibration factor shoudl be kept and be available for inspection.
+**Every 5 years:** The NIST traceable thermometer should be recalibrated at least on per 5 years.
 
-Infrared thermometers should be verified at least every six months using a NIST certified thermometer over the full temperature range that the IR thermometer will be used. Each day of use a single check of the IR should be made by cehcking the temperature of a bottle of water at the temperature of interest that contains a calibrated thermometer. Agreement between the two should be within 0.5°C or the device should be recalibrated.
 ### Ultraviolet Lamp
-The lamp should be disconnected monthly and cleaned.
+**Monthly:** The lamp should be disconnected monthly and cleaned.
+### Volumetric non-class A glassware
+This includes pipets, burets, and volumetric flasks obtained without class A certification.
+
+**Upon receipt:** Verify the accuracy using mass of water at a known temperature. Spectrophotometric method may be used for extremely low volumes. 
+### Water Activity Meter
+**Daily when in use:** Verify water activity of known solutions
+### Water used in all analyses
+**Monthly:** Verify water meets reagent grade water specifications. Reagent grade water requirements are as follows:
+ASTM type 1: Conductivity <0.056 µS/cm at 25°C, TOC <50ppb, Sodium <1ppb, Chloride <1ppb, Silica <3ppb
+ASTM type 2: Conductivity <1.0 µS/cm at 25°C, TOC <50ppb, Sodium <5ppb, Chloride <5ppb, Silica <3ppb
+ASTM type 3: Conductivity <0.25 µS/cm at 25°C, TOC <200ppb, Sodium <10ppb, Chloride <10ppb, Silica <500ppb
+ASTM type 4: Conductivity <5.0 µS/cm at 25°C, TOC no limit, Sodium <50ppb, Chloride <50ppb, Silica no limit
+### Water used in microbiological analysis
+**Monthly:** Verify acceptable levels of chlorine and aerobic plate count. Reagent grade water requirements are as follows:
+ASTM type A: Maximum Heterotrophic Bacteria Count <10/1000mL
+ASTM type B: Maximum Heterotrophic Bacteria Count <10/100mL
+ASTM type C: Maximum Heterotrophic Bacteria Count <100/10mL
 ### Weights
 **Semi-Annual:** Non-reference weights used for daily balance checks should be validated at least every 6 months with NIST traceable reference weights. Correction values should be on file and used. 
 
