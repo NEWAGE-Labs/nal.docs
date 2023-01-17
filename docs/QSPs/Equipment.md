@@ -30,7 +30,7 @@ The purpose of this procedure is to define proper laboratory equipment managemen
 The requirements included in this document are based upon the current laboratory certifying bodies, EGLE and AOAC, and represent minimum compliance to these certifications. Additional equipment / method controls may be established in equipment / method SOPs above and beyond these requirements to ensure validity of laboratory reported values but any decision to perform less than the requirements of this document should be considered a deviation. Deviations must be approved by either the Quality Assurance Officer or Technical Director and should be documented to include the nature of the deviation, justification, samples affected, approval, and date. Deviation documentation must be retained as a record for a period of time equivalent to any affected sample's record retention requirements. If the laboratory certifying bodies change this procedure should be revised to ensure compliance with the new certification requirements.
 ## Terms and Definitions
 
-See [Quality System Manual](index.md)
+See [Quality System Manual - Terms and Definitions](../index.md#3-terms-and-definitions)
 
 ## Equipment Handling Storage and Transport
 Equipment shall be handled in accordance with manufacturer instructions. Special handling instructions should be included in the equipment's related standard operating procedure.
