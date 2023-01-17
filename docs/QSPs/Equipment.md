@@ -181,15 +181,15 @@ Glass, dial, or electronic thermometers used for microbiological drinking water 
 **Daily when in use:** Verify water activity of known solutions
 ### Water used in all analyses
 **Monthly:** Verify water meets reagent grade water specifications. Reagent grade water requirements are as follows:
->ASTM type 1: Conductivity <0.056 µS/cm at 25°C, TOC <50ppb, Sodium <1ppb, Chloride <1ppb, Silica <3ppb
->ASTM type 2: Conductivity <1.0 µS/cm at 25°C, TOC <50ppb, Sodium <5ppb, Chloride <5ppb, Silica <3ppb
->ASTM type 3: Conductivity <0.25 µS/cm at 25°C, TOC <200ppb, Sodium <10ppb, Chloride <10ppb, Silica <500ppb
->ASTM type 4: Conductivity <5.0 µS/cm at 25°C, TOC no limit, Sodium <50ppb, Chloride <50ppb, Silica no limit
+>ASTM type 1: Conductivity <0.056 µS/cm at 25°C, TOC <50ppb, Sodium <1ppb, Chloride <1ppb, Silica <3ppb  
+>ASTM type 2: Conductivity <1.0 µS/cm at 25°C, TOC <50ppb, Sodium <5ppb, Chloride <5ppb, Silica <3ppb  
+>ASTM type 3: Conductivity <0.25 µS/cm at 25°C, TOC <200ppb, Sodium <10ppb, Chloride <10ppb, Silica <500ppb  
+>ASTM type 4: Conductivity <5.0 µS/cm at 25°C, TOC no limit, Sodium <50ppb, Chloride <50ppb, Silica no limit  
 ### Water used in microbiological analysis
 **Monthly:** Verify acceptable levels of chlorine and aerobic plate count. Reagent grade water requirements are as follows:
->ASTM type A: Maximum Heterotrophic Bacteria Count <10/1000mL
->ASTM type B: Maximum Heterotrophic Bacteria Count <10/100mL
->ASTM type C: Maximum Heterotrophic Bacteria Count <100/10mL
+>ASTM type A: Maximum Heterotrophic Bacteria Count <10/1000mL  
+>ASTM type B: Maximum Heterotrophic Bacteria Count <10/100mL  
+>ASTM type C: Maximum Heterotrophic Bacteria Count <100/10mL  
 ### Weights
 **Semi-Annual:** Non-reference weights used for daily balance checks should be validated at least every 6 months with NIST traceable reference weights. Correction values should be on file and used. 
 
