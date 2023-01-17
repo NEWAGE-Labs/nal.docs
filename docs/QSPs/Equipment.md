@@ -8,8 +8,7 @@
 [References](#References)
 [Scope and Purpose](#Scope-and-Purpose)  
 [Terms and Definitions](#Terms-and-Definitions)  
-[Equipment Handling](#Equipment-Handling)  
-[Equipment Storage and Transport](#Equipment-Storage-and-Transport)  
+[Equipment Handling, Storage, and Transport](#Equipment-Handling,-Storage,-and-Transport)  
 [Equipment Calibration](#Equipment-Calibration)  
 [Equipment Verification](#Equipment-Verification)  
 [Equipment Maintenance](#Equipment-Maintenance)  
@@ -35,11 +34,10 @@ Deviation to the requirements of this document must be approved by either the Qu
 
 Equipment: any tool or device used by laboratory personnel to produce laboratory reported values, or values that may impact laboratory reported values.
 
-## Equipment Handling
-Equipment shall be handled in accordance with manufacturer instructions. Special handling instructions should be included in the equipment's related standard operating procedure which may include environmental requirements (e.g., temperature, humidity), support system requirements (e.g., ventilation), or storage requirements.
+## Equipment Handling, Storage, and Transport
+Equipment shall be handled in accordance with manufacturer instructions. Special handling instructions should be included in the equipment's related standard operating procedure.
 
-## Equipment Storage and Transport
-Equipment shall be stored in the proper working environment as defined by equipment vendor manuals. When new equipment is placed in service, equipment vendor manuals shall be reviewed for storage requirements. These storage requirements shall be added to the equipment SOP and adhered to unless technical justification is documented.
+Equipment should be stored in the proper working environment as defined by equipment vendor manuals. When new equipment is placed in service, equipment vendor manuals should be reviewed for storage requirements. These storage requirements should be added to the equipment SOP and adhered to unless technical justification is documented.
 
 Equipment calibration / function may be affected by equipment transport. Sensitive equipment (e.g., balances) should not be moved from their place of calibration. When transporting equipment, ensure care is taken to minimize potential for equipment damage and personnel injury. Post-transport, equipment should not be used unless all method specific quality control verifications are performed and within acceptable limits (see [Equipment Verification](#Equipment-Verification)).
 
