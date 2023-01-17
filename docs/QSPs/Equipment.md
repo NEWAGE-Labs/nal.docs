@@ -62,7 +62,11 @@ Equipment maintenance, both preventative and corrective, shall be documented in 
 See [Specific Equipment Requirements](#Specific-Equipment-Requirements) for details of required maintenance and frequency.
 
 ## Equipment Safeguards
+Equipment used to produce analytical results undergo validation testing to ensure method performance meets business and customer needs. The process of validation testing determines optimal settings for equipment operation. Modification of equipment settings and operation of equipment outside validated parameters may cause degraded equipment performance that no longer meets business and customer needs. To prevent such occurrences, equipment settings should not usually be modified and equipment should not be used to produce results outside of the established method validation parameters. Minor adjustments to equipment parameters as correction to component wear are permitted. 
 
+The main safeguard against equipment modification is the use of standard operating procedures (SOPs). SOPs describe how to operate equipment and will describe parameters that may be adjusted, any quality control validations post-adjustment, and acceptance criteria. Based on observations during method validation, SOPs are written to prevent equipment adjustments that will negatively impact sample results or such that adjustments are validated to not negatively impact sample results prior to reporting. Generally, when SOPs are adhred to, equipment and method performance will continue to meet business and customer needs without the need to perform additional in-depth validation testing.
+
+Major equipment maintenance / repair should be evaluated for potential to invalidate method validation testing. Any initial tests that may have been affected should be retested in accordance with 
 ## Specific Equipment Requirements
 ### Autoclave
 The autoclave should have an internal heat source, a temperature gauge with a sensor on the exhaust, a pressure gauge, and an operational safety valve. The autoclave should maintain a sterilization temperature during the sterilizing cycle and complete an entire cycle within 45 minutes when a 12-15 minute sterilization period is used. The autoclave should depressurize slowly enough to ensure that media will not boil over and bubbles will not form in inverted tubes.
@@ -184,6 +188,6 @@ ASTM type C: Maximum Heterotrophic Bacteria Count <100/10mL
 ### Weights
 **Semi-Annual:** Non-reference weights used for daily balance checks should be validated at least every 6 months with NIST traceable reference weights. Correction values should be on file and used. 
 
-**Every 5 years:** Reference weights should be recertified at least every 5 years. Damaged or corroded weights should be replaced.
+**Every 5 years:** Reference weights should be recertified at least every 5 years. Damaged or corroded weights should be replaced. Maintain NIST traceable documentation as a record
 
 
