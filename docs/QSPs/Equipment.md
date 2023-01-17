@@ -8,7 +8,7 @@
 [References](#References)
 [Scope and Purpose](#Scope-and-Purpose)  
 [Terms and Definitions](#Terms-and-Definitions)  
-[Equipment Handling, Storage, and Transport](#Equipment-Handling,-Storage,-and-Transport)  
+[Equipment Handling, Storage, and Transport](#Equipment-Handling-Storage-and-Transport)  
 [Equipment Calibration](#Equipment-Calibration)  
 [Equipment Verification](#Equipment-Verification)  
 [Equipment Maintenance](#Equipment-Maintenance)  
@@ -34,7 +34,7 @@ Deviation to the requirements of this document must be approved by either the Qu
 
 Equipment: any tool or device used by laboratory personnel to produce laboratory reported values, or values that may impact laboratory reported values.
 
-## Equipment Handling, Storage, and Transport
+## Equipment Handling Storage and Transport
 Equipment shall be handled in accordance with manufacturer instructions. Special handling instructions should be included in the equipment's related standard operating procedure.
 
 Equipment should be stored in the proper working environment as defined by equipment vendor manuals. When new equipment is placed in service, equipment vendor manuals should be reviewed for storage requirements. These storage requirements should be added to the equipment SOP and adhered to unless technical justification is documented.
