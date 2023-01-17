@@ -135,9 +135,27 @@ Pipets delivering volumes of 10 ml or less must be accurate to within a 2.5% tol
 
 Calibrated micropipetters may be used for microbiological drinking water analysis if tips are sterile. These micropipetters should be calibrated annually and adjusted or replaced if the precision or accuracy is greater than 2.5%
 ### Glassware / Plasticware
+Glassware used for microbiological drinking water analyses should be borosilicate glass or other corrosion-resistant glass and free of chips and cracks. Markings on graduated cylinders and pipets must be legible. Plastic items should be clear and non-toxic to microorganisms.
 
+Graduated cylinders for measurement of sample volumes must be accurate to within a 2.5% tolerance. In lieu of graduated cylinders, precalibrated containers that have clearly marked volumes accurate to within a 2.5% tolerance may be used.
+
+Culture tubes and containers containing fermentation medium should be of sufficient size to contain medium plus sample without being more than three quarters full.
+
+Glassware used for microbiological analysis should be cleaned prior to use with a cleaning agent such as Alconox or equivalent. pH should be verified post-cleaning with 0.04% Bromothymol Blue and reagent grade water as follows:
+1. Fill glassware 1/2 full with reagent grade water.
+2. Swich water around the glassware to extract any residues off the sides
+3. add 2-3 drops of 0.04% Bromothymol Blue and observe the color.
+4. A pale blue color is a failing reading indicative of an alkaline residue
+5. A blue/green color is inidicative of a passing neutral pH
+6. A yellow color can be considered passing if the reagent water is pH 5.50-6.50 
 ### Sample Containers
+Microbiological drinking water sample containers should be wide-mouth plastic or non-corrosive glass bottles with non-leaking ground glass stoppers or caps with non-toxic liners that should withstand repeated sterilization, or sterile plastic bags containing sodium thiosulfate. Other appropriate sample containers may be used. The capacity of sample containers should be at least 120 mL (4 oz.) to allow at least a 1-inch head space.
 
+Glass stoppers must be covered with aluminum foil or char-resistance paper for sterilization.
+
+Glass and plastic bottles used for microbiological analysis of drinking water that have not been presterilized should be sterilized by autoclaving. Glass bottles may also be sterilized by dry heat. Empty containers should be moistened with several drops of water before autoclaving to prevent an "air lock" sterilization failure.
+
+If chlorinated water is to be analyzed for microbiological parameters, sufficient sodium thiosulfate must be added to the sample bottle before sterilization to neutralize any residueal chlorine in the water sample. Dechlorination is addressed in Standard Methods 9060A
 ### Ultraviolet Lamp
 The lamp should be disconnected monthly and cleaned.
 ### Color Standards
