@@ -36,7 +36,7 @@ Deviation to the requirements of this document must be approved by either the Qu
 Equipment: any tool or device used by laboratory personnel to produce laboratory reported values, or values that may impact laboratory reported values.
 
 ## Equipment Handling
-
+Equipment shall be handled in accordance with manufacturer instructions. Special handling instructions should be included in the equipment's related standard operating procedure which may include, environmental requirements (e.g., temperature, humidity), support system requirements (e.g., ventilation), or storage requirements.
 
 ## Equipment Storage and Transport
 Equipment shall be stored in the proper working environment as defined by equipment vendor manuals. When new equipment is placed in service, equipment vendor manuals shall be reviewed for storage requirements. These storage requirements shall be added to the equipment SOP and adhered to unless technical justification is documented.
@@ -53,6 +53,11 @@ Calibrations shall be evaluated for accuracy upon completion. Unless otherwise j
 New equipment calibrations should not be used unless all method specific quality control verifications are performed post-calibration and within acceptable limits (see [Equipment Verification](#Equipment-Verification)).
 
 ## Equipment Verification
+Equipment verification received upon receipt of new equipment should be saved as part of, or the start of, the equipment history log. Ongoing equipment verification performed by the vendor should also be documented in the equipment history log.
+
+Complex equipment is not typically verified by laboratory personnel. Rather, individual methods on complex equipment are validated separately. Initial and ongoing method validation requirements are described in [QSP-Methods](../QSPs/Methods.md)
+
+Other equipment verifications performed by laboratory personnel are described in [Specific Equipment Requirements](#Specific-Equipment-Requirements) 
 
 ## Equipment Maintenance
 Equipment maintenance should be performed at the manufacturer's recommended periodicity or regulatory document's recommended periodicity whichever is shorter unless technical justification is documented.
