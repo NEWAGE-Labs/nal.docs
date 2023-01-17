@@ -89,6 +89,8 @@ Balances should have readability of 0.1g if used for microbiological drinking wa
 
 **Annually, when moved to a new location, or after repair:** Maintenance, calibration, and cleaning should be conducted at least annually by a qualified independent technician. Calibrations should be performed using ASTM Type 1, Class 1 or 2 weights. 
 ### Colorimetric Devices
+Colorimetric devices include spectrophotometers or any piece of equipment using a spectrophotometer detector (e.g., Thermoscientific Gallery Plus)
+
 **Daily when in use:** Verify blank reading. Document results and any abnormalities noted.
 
 **Annually:** Wavelength settings on spectrophotometers should be verified at least annually with color standards and records retained with the equipment's maintenance log and be available for inspection. 
