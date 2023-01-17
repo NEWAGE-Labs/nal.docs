@@ -936,7 +936,7 @@ Measurement uncertainty contributions are addressed in the referenced document [
 
 Measuring equipment is calibrated when the measurement accuracy or uncertainty affect the reported results, and is calibrated when calibration of the equipment is required to establish metrological traceability of the reported result.
 
-All equipment calibration's correlation coefficient (R²) shall be >0.995 to be deemed satisfactory unless otherwise specified in the SOP. Equipment calibrations to be used for the analysis of drinking water shall also have each calibration point's response data evaluated to be within 10% of the expected value using the calibration curve developed to be deemed satisfactory.
+All equipment calibration's shall meet the requirements of [*Quality System Procedure - Equipment*](QSPs/Equipment.md)
 
 Additional information on metrological traceability of equipment results can be found in the referenced document [*Quality System Procedure - Metrological Traceability*](QSPs/Metrological Traceability.md).
 
