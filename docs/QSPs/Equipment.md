@@ -25,11 +25,9 @@
 4. ISO/IEC 17025(E), General requirements for the competence of testing and calibration laboratories, 3rd Ed., November, 2017.
 
 ## Scope and Purpose
-
 The purpose of this procedure is to define proper laboratory equipment management by defining the requirements for handling, transport, storage, calibration, verification, maintenance, and safeguards for onsite equipment. Additionally, equipment outside the laboratory's permanent control that is used to produce results that will be reported by the laboratory shall be managed with a program commensurate to the program detailed herein. 
 
-Deviation to the requirements of this document must be approved by either the Quality Assurance Officer or Technical Director and should be documented to include the nature of the deviation, justification, samples affected, approval, and date. Deviation documentation must be retained as a record for a period of time equivalent to any affected sample's record retention requirements.
-
+The requirements included in this document are based upon the current laboratory certifying bodies, EGLE and AOAC, and represent minimum compliance to these certifications. Additional equipment / method controls may be established in equipment / method SOPs above and beyond these requirements to ensure validity of laboratory reported values but any decision to perform less than the requirements of this document should be considered a deviation. Deviations must be approved by either the Quality Assurance Officer or Technical Director and should be documented to include the nature of the deviation, justification, samples affected, approval, and date. Deviation documentation must be retained as a record for a period of time equivalent to any affected sample's record retention requirements. If the laboratory certifying bodies change this procedure should be revised to ensure compliance with the new certification requirements.
 ## Terms and Definitions
 
 Equipment: any tool or device used by laboratory personnel to produce laboratory reported values, or values that may impact laboratory reported values.
