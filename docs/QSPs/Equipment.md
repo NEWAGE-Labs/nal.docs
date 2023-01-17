@@ -66,7 +66,7 @@ Equipment used to produce analytical results undergo validation testing to ensur
 
 The main safeguard against equipment modification is the use of standard operating procedures (SOPs). SOPs describe how to operate equipment and will describe parameters that may be adjusted, any quality control validations post-adjustment, and acceptance criteria. Based on observations during method validation, SOPs are written to prevent equipment adjustments that will negatively impact sample results or such that adjustments are validated to not negatively impact sample results prior to reporting. Generally, when SOPs are adhred to, equipment and method performance will continue to meet business and customer needs without the need to perform additional in-depth validation testing.
 
-Major equipment maintenance / repair should be evaluated for potential to invalidate method validation testing. Any initial tests that may have been affected should be retested in accordance with [QSP-Methods](docs/QSPs/Methods.md)
+Major equipment maintenance / repair should be evaluated for potential to invalidate method validation testing. Any initial tests that may have been affected should be retested in accordance with [QSP-Methods](../docs/QSPs/Methods.md)
 ## Specific Equipment Requirements
 ### Autoclave
 The autoclave should have an internal heat source, a temperature gauge with a sensor on the exhaust, a pressure gauge, and an operational safety valve. The autoclave should maintain a sterilization temperature during the sterilizing cycle and complete an entire cycle within 45 minutes when a 12-15 minute sterilization period is used. The autoclave should depressurize slowly enough to ensure that media will not boil over and bubbles will not form in inverted tubes.
