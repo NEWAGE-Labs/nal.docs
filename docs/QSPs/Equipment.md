@@ -1,7 +1,7 @@
 # Quality System Procedure - Equipment
 
 >Most recently edited by: *Ryan Smothers*  
->Most recent edit date: *Jan 16th, 2023*  
+>Most recent edit date: *Jan 17th, 2023*  
 >Edits were authorized by: 
 
 ## Table of Contents
