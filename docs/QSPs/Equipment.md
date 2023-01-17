@@ -91,9 +91,7 @@ Balances should have readability of 0.1g if used for microbiological drinking wa
 ### Conductivity Meter
 Meter must be suitable for checking reagent-grade water and readable in units of µmho/cm or µS/cm.
 
-Meter shall be calibrated at least monthly following manufacturer's recommendations and using an appropriate certified and traceable low-level standard (<20µmho/cm). If the meter cannot be calibrated at least monthly then the cell constant should be determined monthly in accordance with Standard Methods 2510. Calibrations should be recorded in the equipment maintenance log.
-
-If an inline conductivity cell cannot be calibrated it should no be used to check reagent grade water.
+**Monthly:** Calibrate at least monthly following manufacturer's recommendations and using an appropriate certified and traceable low-level standard (<20µmho/cm). If the meter cannot be calibrated at least monthly then the cell constant should be determined monthly in accordance with Standard Methods 2510. Calibrations should be recorded in the equipment maintenance log. If an inline conductivity cell cannot be calibrated it should no be used to check reagent grade water.
 ### Glassware / Plasticware
 Glassware used for microbiological drinking water analyses should be borosilicate glass or other corrosion-resistant glass and free of chips and cracks. Markings on graduated cylinders and pipets must be legible. Plastic items should be clear and non-toxic to microorganisms.
 
@@ -101,13 +99,16 @@ Graduated cylinders for measurement of sample volumes must be accurate to within
 
 Culture tubes and containers containing fermentation medium should be of sufficient size to contain medium plus sample without being more than three quarters full.
 
-Glassware used for microbiological analysis should be cleaned prior to use with a cleaning agent such as Alconox or equivalent. pH should be verified post-cleaning with 0.04% Bromothymol Blue and reagent grade water as follows:
+**Upon receipt:** For pipets, burets, and volumetric flasks obtained without class A certification, verify the accuracy using mass of water at a known temperature. Spectrophotometric method may be used for extremely low volumes.
+
+**Prior to use:** Glassware used for microbiological analysis should be cleaned prior to use with a cleaning agent such as Alconox or equivalent. pH should be verified post-cleaning with 0.04% Bromothymol Blue and reagent grade water as follows:
 1. Fill glassware 1/2 full with reagent grade water.
 2. Swich water around the glassware to extract any residues off the sides
 3. add 2-3 drops of 0.04% Bromothymol Blue and observe the color.
 4. A pale blue color is a failing reading indicative of an alkaline residue
 5. A blue/green color is inidicative of a passing neutral pH
 6. A yellow color can be considered passing if the reagent water is pH 5.50-6.50 
+ 
 ### Hydrometer
 **Annually:** Verify all working hydrometers against the NIST traceable reference hydrometer.
 
@@ -167,10 +168,6 @@ Glass, dial, or electronic thermometers used for microbiological drinking water 
 
 ### Ultraviolet Lamp
 **Monthly:** The lamp should be disconnected monthly and cleaned.
-### Volumetric non-class A glassware
-This includes pipets, burets, and volumetric flasks obtained without class A certification.
-
-**Upon receipt:** Verify the accuracy using mass of water at a known temperature. Spectrophotometric method may be used for extremely low volumes. 
 ### Water Activity Meter
 **Daily when in use:** Verify water activity of known solutions
 ### Water used in all analyses
