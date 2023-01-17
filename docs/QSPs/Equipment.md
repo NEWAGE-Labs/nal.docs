@@ -36,7 +36,7 @@ Deviation to the requirements of this document must be approved by either the Qu
 Equipment: any tool or device used by laboratory personnel to produce laboratory reported values, or values that may impact laboratory reported values.
 
 ## Equipment Handling
-Equipment shall be handled in accordance with manufacturer instructions. Special handling instructions should be included in the equipment's related standard operating procedure which may include, environmental requirements (e.g., temperature, humidity), support system requirements (e.g., ventilation), or storage requirements.
+Equipment shall be handled in accordance with manufacturer instructions. Special handling instructions should be included in the equipment's related standard operating procedure which may include environmental requirements (e.g., temperature, humidity), support system requirements (e.g., ventilation), or storage requirements.
 
 ## Equipment Storage and Transport
 Equipment shall be stored in the proper working environment as defined by equipment vendor manuals. When new equipment is placed in service, equipment vendor manuals shall be reviewed for storage requirements. These storage requirements shall be added to the equipment SOP and adhered to unless technical justification is documented.
