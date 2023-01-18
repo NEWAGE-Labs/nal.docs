@@ -1263,7 +1263,7 @@ The following sample condition deficiencies require sample results to be invalid
 2. Presence of disinfectant in the sample is noticed (e.g., odor)
 3. Evidence of freezing
 4. Use of a container not approved by the laboratory for the purpose intended.
-5. Insufficient sample voolume (e.g., <100 mL)
+5. Insufficient sample volume (e.g., <100 mL)
 6. Presence of interfering contaminants (e.g., hydrocarbons, cleansers, heavy metals, etc.)
 7. Sample temperature exceeds the maximum allowable
 
