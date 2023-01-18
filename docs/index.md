@@ -1269,7 +1269,7 @@ The following sample condition deficiencies require sample results to be invalid
 
 If a sample is overfilled, no headspace for mixing, the sample volume shall either be drawn down using an aseptic technique (e.g., sterile pipette) or the sample shall be invalidated if drawdown is not feasible. 
 
-When the customer requires the item to be tested or calibrated acknowledging a deviation from specified conditions, the laboratory shall include a disclaimer in the report indicating which results may be affected or invalidated by the deviation.
+When the customer requires an invalidated sample to be tested acknowledging a deviation from required conditions, the laboratory shall include a disclaimer in the report comments indicating which results may be affected or invalidated by the deviation, and which, if any certification requirements were not be met. (e.g., "Requirements for EGLE Accredited analyses were not met on <affected parameters> parameters because...")
 
 #### 7.4.4 Specified Environmental Conditions for Samples ####
 
