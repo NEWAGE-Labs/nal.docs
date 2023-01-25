@@ -141,7 +141,7 @@ Pipets should have legible markings and should not be chipped or etched.
 
 **Annually:** If used, calibrated micropipetters should be calibrated annually and adjusted or replaced if the precision or accuracy is greater than 2.5%.
 ### Refrigerator / Freezers
-Refrigerators should maintain a termperature of 1°C-5°C. Calibrated thermometers should be graduated in at least 1°C increments and the thermometer bulb immersed in liquid. 
+Refrigerators should maintain a termperature of 1°C to 5°C. Calibrated thermometers should be graduated in at least 1°C increments and the thermometer bulb immersed in liquid. 
 
 **At Installation or after non-routine maintenance:** Validate uniformity of temperature by mapping the refrigerator / freezer chamber
 
