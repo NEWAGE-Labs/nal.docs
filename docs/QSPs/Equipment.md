@@ -94,7 +94,7 @@ Balances should have readability of 0.1g if used for microbiological drinking wa
 ### Colorimetric Devices
 Colorimetric devices include spectrophotometers or any piece of equipment using a spectrophotometer detector (e.g., Thermoscientific Gallery Plus)
 
-**Daily when in use:** Verify blank reading. Document results and any abnormalities noted.
+**Daily when in use:** Verify blank reading. Document results and any abnormalities noted. The Gallery Plus equipment is in essence an automated colorimetric device. The Gallery Plus performs an automatic blank subtraction but does not allow access to the observed blank value therefore the blank reading does not need to be documented daily for this device.
 
 **Annually:** Wavelength settings on spectrophotometers should be verified at least annually with color standards and records retained with the equipment's maintenance log and be available for inspection. 
 ### Conductivity Meter
