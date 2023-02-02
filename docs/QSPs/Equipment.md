@@ -2,7 +2,7 @@
 
 >Most recently edited by: *Ryan Smothers*  
 >Most recent edit date: *Jan 17th, 2023*  
->Edits were authorized by: 
+>Edits were authorized by: *Paul VanderWeele*
 
 ## Table of Contents
 [References](#References)
@@ -194,5 +194,3 @@ Glass, dial, or electronic thermometers used for microbiological drinking water 
 **Semi-Annual:** Non-reference weights used for daily balance checks should be validated at least every 6 months with NIST traceable reference weights. Correction values should be on file and used. 
 
 **Every 5 years:** Reference weights should be recertified at least every 5 years. Damaged or corroded weights should be replaced. Maintain NIST traceable documentation as a record
-
-

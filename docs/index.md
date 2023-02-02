@@ -245,7 +245,7 @@ This Quality System Manual facilitates:
 * Inspection and product certification capabilities and services we provide;
 * Total quality for our administrative and technical systems;
 * Audits by clients, regulatory authorities, and accreditation bodies;
-* Meeting the requirements of ISO/IEC 17025:2017, AOAC International Guidelines for Laboratories Performing Microbiological and Chemical Analysis of Food and Pharmaceuticals – Revision March 2010, and NELAC: 2009;
+* Meeting the requirements of ISO/IEC 17025:2017 and AOAC International Guidelines for Laboratories Performing Microbiological and Chemical Analysis of Food and Pharmaceuticals – Revision March 2010;
 * Client satisfaction;
 * Company Sustainability
 
@@ -257,12 +257,12 @@ The following documents are referenced, and are considered required for fulfillm
 
 * ISO/IEC 17000, Conformity assessment – Vocabulary and general principles
 * [VIM, International vocabulary of basic and general terms in metrology](./parent_pdfs/VIM 2012.pdf), issued by BIPM, IEC, IFCC, ISO, IUPAC, IUPAP and OIML.
-* [ISO 9000:2015 – Quality Management Systems – Fundamentals and vocabulary](./parent_pdfs/ISO-9000-2015.pdf).
+* [ISO 9000:2015 – Quality Management Systems — Fundamentals and Vocabulary](./parent_pdfs/ISO-9000-2015.pdf).
 * [ISO 9001:2015 – Quality Management Systems – Requirements](./parent_pdfs/ISO-9001-2015.pdf).
 * [ISO/IEC 17025:2017 – General Requirements for the Competence of Testing and Calibration Laboratories](./parent_pdfs/ISO-17025-2017.pdf).
+* [ISO 19011:2018 - Guidelines for Auditing Management Systems](./parent_pdfs/ISO-19011-2018.pdf)
 * ISO/IEC 17025:2017-AOAC International Guidelines for Laboratories
 Performing Microbiological and Chemical Analysis of Food and Pharmaceuticals – Revision March 2010
-* TNI NELAC: 2009
 * All NAL [Quality System Procedures](#quality-system-procedures)
 * All NAL [Standard Operating Procedures](#standard-operating-procedure-sop)
 
@@ -285,7 +285,7 @@ The [Quality Management Team](#quality-management-team) maintains a distribution
 # 3 Terms and Definitions #
 
 ## Referenced Documents of Terminology ##
-For the purposes of this manual, the following documents and their corresponding definitions apply: ISO/IEC 17000; ISO/IEC Guide 30; ISO Council Committee on Conformity Assessment (CASCO); ISO 9000; ISO 5725-1; ISO/IEC 17025:2017; AOAC; International Vocabulary of Basic and General Terms in Metrology (VIM); and NELAC 2009.
+For the purposes of this manual, the following documents and their corresponding definitions apply: ISO/IEC 17000; ISO/IEC Guide 30; ISO Council Committee on Conformity Assessment (CASCO); ISO 9000; ISO 5725-1; ISO/IEC 17025:2017; AOAC; International Vocabulary of Basic and General Terms in Metrology (VIM).
 
 ## Defined Terms ##
 
@@ -476,7 +476,7 @@ HPLC.
 >A reference material is a homogeneous and well characterized substance used for standardization of equipment used in the testing process. Reference materials are traceable to national or international standard reference materials (SRMs), such as National Institute of Standards and Technology (NIST), or certified reference materials (CRMs) from competent suppliers of reference materials.
 
 ##### Quality Management System #####
->The collection of parts of the laboratory including, but not limited to, this manual, documents, records, procedures, and all LIMS components used for the implementation of a system compliant with ISO/IEC 17025, NELAC, and our company mission.
+>The collection of parts of the laboratory including, but not limited to, this manual, documents, records, procedures, and all LIMS components used for the implementation of a system compliant with ISO 17025 and our company mission.
 
 ##### Quality Management Team #####
 >The group of laboratory management responsible for oversight and implementation of the Quality Management System. This group consists of the:  
@@ -666,7 +666,7 @@ Additional details about the responsibilities of management are outline in their
 
 ## 5.3 Scope of Accredited Laboratory Activities ##
 
-The laboratory work units of New Age/Landmark (NAL) have been organized to satisfy the needs of the customer and regulatory authorities and to meet the international standards ISO/IEC 17025:2017, ISO 9001, and NELAC 2009. NAL is composed of the following laboratory work units:
+The laboratory work units of New Age/Landmark (NAL) have been organized to satisfy the needs of the customer and regulatory authorities and to meet the international standards ISO/IEC 17025:2017. NAL is composed of the following laboratory work units:
 
 * President’s Office
 * Administration/Sales/Marketing
@@ -699,7 +699,7 @@ The laboratory’s scope of tests is listed in the corporate offices at 160 Vete
 
 ## 5.4 Laboratory Requirements ##
 
-The laboratory, including all permanent, temporary, mobile, and client locations, performs chemical and microbiological testing services to meet, at minimum, the requirements of this document, ISO/IEC 17025-2017, NELAC 2009, and our clients.
+The laboratory, including all permanent, temporary, mobile, and client locations, performs chemical and microbiological testing services to meet, at minimum, the requirements of this document, ISO/IEC 17025-2017, and our clients.
 
 ## 5.5 Laboratory Organizational Structure and Procedures ##
 
