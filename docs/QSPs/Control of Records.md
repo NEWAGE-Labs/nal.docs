@@ -1,8 +1,8 @@
 # Quality System Procedure - Control of Records
 
 >Most recently edited by: *Paul VanderWeele*  
->Most recent edit date: *Jan 2nd, 2021*  
->Edits were authorized by:  
+>Most recent edit date: *Jan 14, 2021*  
+>Edits were authorized by: *Paul VanderWeele*  
 
 ## Purpose
 
@@ -83,4 +83,4 @@ Typical records maintained in the laboratory include:
 * Changed terminology to fit with new Quality Management Team
 * Updated information on off-site backups
 * Cleaned up obsolete policy
-* Renamed to ***QSP - Control of Records***
+* Renamed to ***QSP - Technical Records***

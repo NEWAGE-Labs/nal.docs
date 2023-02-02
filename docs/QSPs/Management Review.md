@@ -2,7 +2,7 @@
 
 >Most recently edited by: *Paul VanderWeele*  
 >Most recent edit date: *Feb 4, 2021*  
->Edits were authorized by: *Paul VanderWeele*  
+>Edits were authorized by: *Paul VanderWeele*
 
 ## Purpose
 To regularly review the quality management system, risk exposure, and impartiality by

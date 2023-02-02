@@ -31,6 +31,8 @@
 
 ## Purpose and Scope
 
+Like all NAL audits, this procedure is based upon [ISO 19011: 2018](../../parent_pdfs/ISO-19011-2018.pdf) and all guidance in that document applies as well.
+
 ## Terms and Definitions
 
 ## Training and Authorization
