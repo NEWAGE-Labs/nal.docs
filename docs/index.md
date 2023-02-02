@@ -4,8 +4,8 @@ summary: The root document for the NAL Quality Management System
 ---
 # NAL Quality System Manual
 
->Most recently edited by: *Paul VanderWeele*  
->Most recent edit date: *Feb 25, 2022*  
+>Most recently edited by: *Ryan Smothers*  
+>Most recent edit date: *Jan 17, 2023*  
 >Edits were authorized by: *Paul VanderWeele*  
 
 # Table of Contents
@@ -567,6 +567,24 @@ HPLC.
 
 Laboratory activities shall be undertaken impartially and are structured and managed so as to safeguard impartiality.
 
+Laboratory activities include data validation and verification techniques and records of manual results modification including analyst identifier as a fraud detection and deterrence program. The four major areas of concern are:
+
+1. Inappropriate procedure: A scientifically unsound or technically unjustified omission, manipulation, or alteration of procedures or data that bypasses the required quality control parameters, making the results appear acceptable.
+2. Laboratory fraud: The deliberate falsification during reporting of analytical and quality assurance results that failed method and contractual requirements to make them appear to have passed requirements.
+3. Data quality: The degree of acceptability or utility of data for a particular purpose such as drinking water sample information.
+4. Laboratory integrity: The laboratory's meeting general standards of objectivity, data quality, and ethical behavior, thus reporting accurate, complete, and valid information.
+
+Some examples of unethical behavior include:
+
+1. Fabrication, falsification, or misrepresentation of data
+2. Improper clock setting (time traveling) or improper date/time recording
+3. Unwarranted manipulation of samples, software, or analytical conditions
+4. Misrepresenting or misreporting QC samples
+5. Improper calibrations
+6. Concealing a known analytical or sample problem
+7. Concealing a known improper or unethical behavior or action
+8. Failing to report the occurrence of a prohibited practice or known improper or unethical act to the appropriate laboratory or contract representative, or to an appropriate government official
+
 #### 4.1.2 Management Impartiality ####
 
 The laboratory's [quality management team](#quality-management-team) shall be committed to impartiality. They are responsible for designing the [quality management system](#quality-management-system) to effectively ensure impartiality of laboratory activity by all management, personnel, and external providers. Laboratory management is responsible for the communication and training of employees on impartially including the policy, details, and consequences. Employees will be made aware of the need for impartiality, and any conflicts of interest or concerns shall be brought to the attention of the employee’s direct supervisor immediately.
@@ -688,6 +706,8 @@ The laboratory, including all permanent, temporary, mobile, and client locations
 ##### (a) #####
 
 The organization and management structure of the laboratory, and the relationships between management, technical operations, support services, and the quality management system is defined through the enforced schema of role groups. Individuals are placed into different role groups, and each group has a different set of roles that define their place within the laboratory organizational structure.
+
+![Organizational Chart](../docs/imgs/Organization_Chart_2023.PNG "Organizational Chart").
 
 ##### (b) #####
 ###### President/CEO ######
@@ -915,6 +935,8 @@ Measurement uncertainty contributions are addressed in the referenced document [
 #### 6.4.6 Equipment Calibration ####
 
 Measuring equipment is calibrated when the measurement accuracy or uncertainty affect the reported results, and is calibrated when calibration of the equipment is required to establish metrological traceability of the reported result.
+
+All equipment calibration's shall meet the requirements of [*Quality System Procedure - Equipment*](QSPs/Equipment.md)
 
 Additional information on metrological traceability of equipment results can be found in the referenced document [*Quality System Procedure - Metrological Traceability*](QSPs/Metrological Traceability.md).
 
@@ -1233,9 +1255,21 @@ Test items are systematically identified as they arrive at the laboratory. The i
 
 #### 7.4.3 Abnormal Sample Conditions ####
 
-Upon receipt of the test item, any abnormalities or departures from normal or specified conditions, as described in the relevant test or calibration method, are recorded. When there is any doubt as to the suitability of an item for test, or when an item does not conform to the description provided, or the test required is not specified in sufficient detail, the laboratory consults the customer for further instructions before proceeding and keeps a record of the discussion.
+Upon receipt of the test item, any abnormalities or departures from normal or specified conditions, as described in the relevant test or calibration method, are recorded. When there is any doubt as to the suitability of an item for test, or when an item does not conform to the description provided, or the test required is not specified in sufficient detail, the laboratory consults the customer for further instructions before proceeding and keeps a record of the discussion. When chain of custody information is incomplete, improperly recorded, or illogical the sample shall be considered invalidated unless the laboratory consults the customer to correct the issue noted, records the date and time of contact, laboratory individual making contact, and person contacted. Chain of custody changes shall be one lined to ensure the original documentation remains legible.
 
-When the customer requires the item to be tested or calibrated acknowledging a deviation from specified conditions, the laboratory shall include a disclaimer in the report indicating which results may be affected by the deviation.
+The following sample condition deficiencies require sample results to be invalidated:
+
+1. Required time between sample collection and receipt by laboratory has been exceeded.
+2. Presence of disinfectant in the sample is noticed (e.g., odor)
+3. Evidence of freezing
+4. Use of a container not approved by the laboratory for the purpose intended.
+5. Insufficient sample volume (e.g., <100 mL)
+6. Presence of interfering contaminants (e.g., hydrocarbons, cleansers, heavy metals, etc.)
+7. Sample temperature exceeds the maximum allowable
+
+If a sample is overfilled, no headspace for mixing, the sample volume shall either be drawn down using an aseptic technique (e.g., sterile pipette) or the sample shall be invalidated if drawdown is not feasible. 
+
+When the customer requires an invalidated sample to be tested acknowledging a deviation from required conditions, the laboratory shall include a disclaimer in the report comments indicating which results may be affected or invalidated by the deviation, and which, if any certification requirements were not be met. (e.g., "Requirements for EGLE Accredited analyses were not met on <affected parameters> parameters because...")
 
 #### 7.4.4 Specified Environmental Conditions for Samples ####
 
@@ -1312,6 +1346,8 @@ Results are reviewed and authorized prior to release. The personnel authorized t
 
 Results are provided accurately, clearly, unambiguously, and objectively, usually in the form of a report. Included is all the information agreed with the customer, necessary for the interpretation of the results, and required by the method used. All issued reports are retained as technical records. Additional information on the reporting of results can be found in the [*Quality System Procedure - Technical Records*](QSPs/Technical Records.md). Additional information on customer agreements can be found in the [*Quality System Procedure - Contract Review*](QSPs/Contract Review.md).
 
+All drinking water microbiological postive samples and chemistry MCL or AL violations shall be promptly reported to the customer. This notification shall be documented to include the date and time of notification, the method of notification (e.g., sent report, phone call, email, fax), the persone making the notification, and the person notified.
+
 ###### 7.8.1.3 Simplified Reporting ######
 
 When agreed with the customer, the results may be reported in a simplified way. Any information listed in *Sections [7.8.2](#782-common-requirements-for-reports-test-calibration-or-sampling) - [7.8.7](#787-reporting-opinions-and-interpretations)* that is not reported to the customer is readily available.
@@ -1339,6 +1375,11 @@ Unless there is a valid reason for not doing so, each report issued shall includ
 * ID of the person authorizing the report
 * Clearly marked results from external providers
 * A statement that the report shall not be reproduced except in full without the approval of the lab.
+
+Additionally, reports for EGLE certified analyses shall include:
+
+* Name of sample collector
+* Water System Serial Number (WSSN)
 
 ###### 7.8.2.2 Report Data Provided by Customer ######
 

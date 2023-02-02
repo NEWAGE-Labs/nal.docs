@@ -1,7 +1,7 @@
 # Quality System Procedure - Control of Records
 
->Most recently edited by: *Paul VanderWeele*  
->Most recent edit date: *Jan 14, 2021*  
+>Most recently edited by: *Ryan Smothers*  
+>Most recent edit date: *Jan 17, 2021*  
 >Edits were authorized by: *Paul VanderWeele*  
 
 ## Purpose
@@ -55,7 +55,7 @@ Filing is considered the location where active records are kept.  All records ar
 If electronic files are used, a backup system or other suitable measures to prevent record loss is implemented. Data may be stored on hard disk drives, flash drives, or network drives. All data storage drives are maintained for a minimum of 7 years after data is reported. Chemistry records are maintained for a minimum of 10 years, and Lead and Copper are maintained for a minimum of 12 years. Complete backups of on-site server files and LIMS are made each morning and evening, and off-site files are kept on two backup drives that rotate in the building weekly for updating. Daily backups of on-site data is retained for a minimum of two weeks. Two backups are maintained on-site, and at least one rotating backup drive is stored off-site to provide resistance to theft, fire, and flood damage. The LIMS production server and the development workstation are serviced by a same day 4 hour response time on-call employee. The software applications are supported by software maintenance contracts from software vendors. Parts of the servers and development workstations are protected by UPS systems to guard against power surges/outages. The hard disk drives are duplexed and mirrored.
 
 ### Retention
-A record’s “retention” time refers to how long it is kept before it is either discarded, destroyed, or encrypted and compressed for long-term storage. Records are retained on-site for the minimum retention time of 12 years for lead and copper, 10 years for all other chemistry, and 7 years for all other records. Records may be retained longer than the minimum retention time for the convenience of the laboratory. Retention times for work area-specific records are determined by the laboratory and stated in their quality management system documents.
+A record’s retention time refers to how long it is kept before it is either discarded, destroyed, or encrypted and compressed for long-term storage. Records are retained on-site for the minimum retention time of 12 years for drinking water lead and copper results, 10 years for all other drinking water chemistry results, 5 years for all drinking water microbiology results, and 7 years for all other records. Records may be retained longer than the minimum retention time for the convenience of the laboratory. Retention times for work area-specific records are determined by the laboratory and stated in their quality management system documents.
 
 ### Maintenance
 All records are filed and stored in an office or laboratory environment unless specific media and/or special environmental control is specified to prevent damage, deterioration, or loss.
