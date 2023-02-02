@@ -118,7 +118,7 @@ There is also a dedicated [SOP for Internal Audits](../SOPs/Management/Internal 
 
 ###### Audit Team
 
->One or more persons conducting an [audit](#audit), supported if needed by [technical experts](#technical-experts). One [auditor](#auditor) of the audit team is appointed as the [audit team leader](#audit-team-leader).
+>One or more persons conducting an [audit](#audit), supported if needed by [technical experts](#technical-expert). One [auditor](#auditor) of the audit team is appointed as the [audit team leader](#audit-team-leader).
 
 ###### Auditor
 
@@ -136,6 +136,10 @@ There is also a dedicated [SOP for Internal Audits](../SOPs/Management/Internal 
 
 >The [auditor](#auditor) holding responsibility and leadership of the [audit](#audit). The audit team leader is accountable for the accomplishment of the [audit plan](#audit-plan) and the completion of the [audit report](#audit-report).
 
+###### Audit Sampling
+
+> Audit sampling takes place when it is not practical or cost effective to examine all available information during an audit. When records are too numerous or too complexly dispersed to justify examining every item in the population, conventional sampling methods are utilized impartially to represent the population and to achieve [audit objectives](#audit-objective).
+
 ###### Management System
 
 >A set of interrelated or interacting elements of an organization to establish policies and objectives, as well as [processes](process) to achieve those objectives. A management system can address a single discipline or several disciplines, e.g. quality management, financial management or environmental management. The management system elements establish the organization’s structure, roles and responsibilities, planning, operation, policies, practices, rules, beliefs, objectives and processes to achieve those objectives. The scope of a management system can include the whole of the organization, specific and identified functions of the organization, specific and identified sections of the organization, or one or more functions across a group of organizations.
@@ -145,6 +149,10 @@ There is also a dedicated [SOP for Internal Audits](../SOPs/Management/Internal 
 >An effect of uncertainty deviating from the expected. Risk can be positive or negative, is often characterized by reference to potential events, and is often expressed in terms of a combination of:
 *the consequences of an event
 *the likelihood of it occurring.
+
+###### Opportunity
+
+>A set of circumstances that makes it possible to do something, particularly something with a positive effect on the quality and success of a person or organization.  
 
 ###### Conformity
 
