@@ -1,7 +1,7 @@
 # Quality System Procedure - Control of Records
 
->Most recently edited by: *Paul VanderWeele*  
->Most recent edit date: *Jan 14, 2021*  
+>Most recently edited by: *Ryan Smothers*  
+>Most recent edit date: *Jan 17, 2021*  
 >Edits were authorized by: *Paul VanderWeele*  
 
 ## Purpose
